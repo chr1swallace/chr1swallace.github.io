@@ -1,0 +1,177 @@
+/*******************************************************
+ * TITLE: Common Stylesheet for Gila                   *
+ * URI  : http://www.oswd.org/design/???/gila/gila.css *
+ * MODIF: 2003-02-03 1231 +0800                        *
+ *******************************************************/
+
+
+/* ###### Body Text ###### */
+
+/* body { */
+/*  background-color: #666666; */
+/*  color: #333333; */
+/*  font-family: Verdana, Arial, Helvetica, sans-serif; */
+/*  font-size: 12px; */
+/*  padding-top: 15px; */
+/* } */
+
+body {
+       font-family: verdana, tahoma, helvetica, arial, sans-serif;
+       font-size: small;
+       margin: 20pt;
+       color: #333333;
+       background-color: #ffffff; /* #f3f2eb; */
+}
+
+hr { border: 0;
+     width: 100%;
+     color: #000;
+     background-color: #000; }
+
+h2 {
+ border: 1px solid #333333;
+ margin-top: 26px;
+ margin-bottom: 6px;
+ margin-left: -12px;
+ padding: 1px 6px 1px 6px;
+/*  margin: 0px; */
+ background-color: #eeeeee; /* #660000; */
+ color: #000000;
+ font-weight:bold;
+ text-decoration:none;
+ font-size: 14px;
+}
+
+h3 {
+/* border: 1px solid #660000; /* #660000; */
+ margin-top: 18px;
+ margin-bottom: 6px;
+ margin-left: -12px;
+ padding: 1px 6px 1px 6px;
+/*  margin: 0px; */
+ background-color: #ffffff;
+ color: #000000; /* #660000; */
+ font-weight:bold;
+ text-decoration:none;
+ font-size: 12px;
+}
+
+/* h3 { font-weight: bold; */
+/*              padding-bottom: 0em; */
+/*              font-family: verdana, tahoma, helvetica, arial, sans-serif; */
+/*              color: #660000; */
+/* } */
+/* h3 { */
+/*      font-size: 110%; */
+/*      padding-top: 6pt; */
+/*      margin-bottom: 0em; */
+/* /\*      border-bottom-style: solid; *\/ */
+/* /\*      border-bottom-width: 1px; *\/ */
+/*      text-align: left; */
+/*      margin-right: 62%; */
+/*  } */
+
+/* h1 { */
+/*      font-size: 164%; */
+/*      padding-top: 0em; */
+/*      border-bottom-style: solid; */
+/*      border-bottom-width: 1px; */
+/*      padding-bottom: 0px; */
+/* } */
+
+/* h2 { */
+/*      font-size: 132%; */
+/*      padding-top: 6pt; */
+/*      margin-bottom: 0em; */
+/*      border-bottom-style: solid; */
+/*      border-bottom-width: 1px; */
+/*      text-align: left; */
+/*      margin-right: 38%; */
+/*  } */
+
+
+ul { padding-top: 0em;
+     padding-bottom: 0em;
+     list-style-type: square;
+}
+
+li { padding-bottom: 2pt; }
+
+/* a { */
+/*     color: #6666cc; */
+/*     text-decoration: none; */
+/*     } */
+/* a:hover { background-color: white; */
+/*           color: #0000ff; */
+/*           } */
+
+pre {        font-size: medium;
+ }
+
+div.address {
+              margin-top: 3em;
+              text-align: center;
+     border-bottom-style: solid;
+     border-bottom-width: 1px;
+     border-top-style: solid;
+     border-top-width: 1px;
+              font-size: smaller;
+              }
+
+.contentblock {
+ border: 1px solid #333333;
+ background-color: #ffffff;
+ vertical-align: top;
+ text-align:left;
+ padding: 2px 20px 20px 26px;
+ margin-top: 6px;
+ margin-bottom: 6px;
+ margin-left: 220px;
+ margin-right: 20px;
+}
+a {
+ color: #990000; /* #330000; */
+ text-decoration: underline;
+}
+a:hover {
+ color: #000099; /* #990000; */
+ text-decoration: underline;
+}
+.leftblock {
+/*  border: 1px solid #666666; */
+/*  padding: 2px 2px 2px 2px; */
+/*  margin: 5px 5px 1px 5px; */
+/*  background-color: #333333; */
+/*  color: #CCCCCC; */
+/*  font-weight:bold; */
+/*  text-decoration:none; */
+/*  font-size: 12px; */
+ float: left;
+ border: 1px solid #333333;
+ background-color: #CCCCCC;
+ text-align:left;
+ width: 200px;
+ margin-top: 0px;
+ margin-bottom: 6px;
+}
+
+#leftnav a:link, #leftnav a:visited, #leftnav a:active {
+ display: block;
+ color: #333333;
+ padding: 0px 5px 0px 5px;
+ border: 1px solid #CCCCCC;
+ text-decoration: none; /*lets remove the link underlines*/
+}
+
+#leftnav a:hover {
+ display: block;
+ padding: 0px 5px 0px 5px;
+ border: 1px solid #333333;
+ background: #660000; /* #990000; */
+ color: #CCCCCC;
+ text-decoration: none; /*lets remove the link underlines*/
+}
+
+#leftnav dd {
+              margin-left: 20px;
+ }
