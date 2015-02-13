@@ -90,8 +90,8 @@ h3 {
 /*  } */
 
 
-ul { padding-top: 0em;
-     padding-bottom: 0em;
+ul { margin-left: 10px;
+     padding-left: 15px;
      list-style-type: square;
 }
 
@@ -122,7 +122,7 @@ div.status {
 /* div.outline-2:hover{ */
 /* background: #ffffff; /\* make this whatever you want *\/ */
 /* } */
-div.outline-3:hover{
+div.outline-4:hover{
 background: #eeeeee; /* make this whatever you want */
 }
 .contentblock {
