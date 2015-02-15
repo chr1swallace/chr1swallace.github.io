@@ -9,7 +9,7 @@ please go to [[http://www-gene.cimr.cam.ac.uk/staff/wallace]].
 
 Otherwise see
 
-#+HTML: <a class="biglink" href="data.html">Data summary</a>
-#+HTML: <a class="biglink" href="http://orcid.org/0000-0001-9755-1703">ORCiD (all publications)</a>
-#+HTML: <a class="biglink" href="http://github.com/chr1swallace">github (all code)</a>
+#+HTML: <a href="data.html" class="biglink">Data summary</a>
+#+HTML: <a href="http://orcid.org/0000-0001-9755-1703" class="biglink">ORCiD (all publications)</a>
+#+HTML: <a href="http://github.com/chr1swallace" class="biglink">github (all code)</a>
 #+HTML: <div class=blank></div>
