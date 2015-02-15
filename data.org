@@ -25,7 +25,7 @@ Information that exists here falls under:
 
 # [[T1D ImmunoChip Data]]
 
-*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping" [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]]
+*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping" [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]].
 
 Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For detailed pipeline of steps to run GUESSFM, see the [[https://github.com/chr1swallace/GUESSFM/tree/master/vignettes][vignettes]].
 
@@ -33,18 +33,18 @@ Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For de
 
 MS data was accessed through application to the [[International Multiple Sclerosis Genetic Consortium][International Multiple Sclerosis Genetic Consortium (IMSGC)]].
 
-*** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"
+*** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis" [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][Nat Commun]].
 
 R script for fine mapping https://github.com/chr1swallace/finemap-psa 
 RA p values required for input were downloaded from [[http://www.immunobase.org][ImmunoBase]].
 
-*** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"
+*** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics" [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004926][PLOS Genet]].
 
 Data Availability: GWAS summary statistics (p values) were downloaded from the ImmunoBase website ([[http://www.immunobase.org]]). Also uses [[T1D ImmunoChip Data]] for simulations to examine properties of the method.
 
 James' code is on https://github.com/jamesliley/cFDR-common-controls.
 ** 2014
-*** Burren et al "VSEAMS: a pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes" [[http://europepmc.org/abstract/MED/25170024][ukpmc]]
+*** Burren et al "VSEAMS: a pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes" [[http://europepmc.org/abstract/MED/25170024][Bioinformatics]].
 
 Olly's pipeline is at [[http://github.com/ollyburren/vseams]].
 
