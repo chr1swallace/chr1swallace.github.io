@@ -18,7 +18,7 @@
 body {
        font-family: verdana, tahoma, helvetica, arial, sans-serif;
        font-size: small;
-       margin: 20pt;
+       margin: 40pt;
        color: #333333;
        background-color: #ffffff; /* #f3f2eb; */
 }
@@ -28,11 +28,13 @@ hr { border: 0;
      color: #000;
      background-color: #000; }
 
+/* h1, h2, h3 { margin-left: -24px } */
+
 h2 {
  border: 1px solid #333333;
  margin-top: 26px;
  margin-bottom: 6px;
- margin-left: -12px;
+ /* margin-left: -32px; */
  padding: 1px 6px 1px 6px;
 /*  margin: 0px; */
  background-color: #eeeeee; /* #660000; */
@@ -46,7 +48,7 @@ h3 {
 /* border: 1px solid #660000; /* #660000; */
 /*  margin-top: 18px; */
 /*  margin-bottom: 6px; */
-/*  margin-left: -12px; */
+ /* margin-left: -32px; */
 /*  padding: 1px 6px 1px 6px; */
 /* /\*  margin: 0px; *\/ */
 /*  background-color: #ffffff; */
@@ -55,6 +57,27 @@ h3 {
  /* text-decoration:none; */
  font-size: 12px;
 }
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.blank { float: none; clear: both; }
+.biglink { 
+           float: left/*  */;
+           margin: 10px;
+           padding: 10px;
+           border: 1px solid #333333;
+           text-align: center;
+           font-size: larger;
+           color: #111111;
+           font-weight:bold;
+           text-decoration:none;
+          }
 
 /* h3 { font-weight: bold; */
 /*              padding-bottom: 0em; */
@@ -90,20 +113,21 @@ h3 {
 /*  } */
 
 
-ul { margin-left: 10px;
+ul { margin-left: 5px;
      padding-left: 15px;
      list-style-type: square;
 }
 
 li { padding-bottom: 2pt; }
 
-/* a { */
-/*     color: #6666cc; */
-/*     text-decoration: none; */
-/*     } */
-/* a:hover { background-color: white; */
-/*           color: #0000ff; */
-/*           } */
+a, a:link, a:visited {
+         color: #6666cc;
+         text-decoration: none;
+         }
+a:hover { background-color: #eeeeee;
+          text-decoration: none;
+          color: #0000ff;
+          }
 
 pre {        font-size: medium;
  }
@@ -122,8 +146,10 @@ div.status {
 /* div.outline-2:hover{ */
 /* background: #ffffff; /\* make this whatever you want *\/ */
 /* } */
-div.outline-4:hover{
-background: #eeeeee; /* make this whatever you want */
+
+div.outline-4 { border-style: solid; border-width: 1px; margin: 10px; padding-left: 10px; padding-right: 10px; border-color: #999999; }
+div.outline-4:hover, div.biglink:hover{
+                                        background: #eeeeee; /* make this whatever you want */
 }
 .contentblock {
  border: 1px solid #333333;

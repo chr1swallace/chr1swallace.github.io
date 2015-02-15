@@ -7,89 +7,22 @@ used in statistical genetics papers from Chris Wallace's group.  For
 the university webpage with publications and details of group members,
 please go to [[http://www-gene.cimr.cam.ac.uk/staff/wallace]].
 
-Information that exists here falls under:
+Otherwise see
 
-#+TOC: headlines 3
+#+HTML: <div class="biglink">
+[[file:data.org][Data and code summary]] 
+#+HTML: </div>
 
-* Code and data organised by papers
+# #+HTML: <div class="biglink">
+# [[file:pubs.html][Publications]]
+# #+HTML: </div>
 
-** 2015
+#+HTML: <div class="biglink">
+[[http://orcid.org/0000-0001-9755-1703][ORCiD (all publications)]]
+#+HTML: </div>
 
-# *** T1D ImmunoChip paper (in press)
+#+HTML: <div class="biglink">
+[[http://github.com/chr1swallace][github (all code)]]
+#+HTML: </div>
 
-#  R code used to perform
-#   numerical calculations exploring the appropriate p value thresholds
-#   for calling genetic association in one disease given genomewide
-#   significant genetic association at the same SNP in a related
-#   disease. https://github.com/chr1swallace/condpp.  
-
-# [[T1D ImmunoChip Data]]
-
-*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping" [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]]
-
-Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For detailed pipeline of steps to run GUESSFM, see the [[https://github.com/chr1swallace/GUESSFM/tree/master/vignettes][vignettes]].
-
-[[T1D ImmunoChip Data]]
-
-MS data was accessed through application to the [[International Multiple Sclerosis Genetic Consortium][International Multiple Sclerosis Genetic Consortium (IMSGC)]].
-
-*** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"
-
-R script for fine mapping https://github.com/chr1swallace/finemap-psa 
-RA p values required for input were downloaded from [[http://www.immunobase.org][ImmunoBase]].
-
-*** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"
-
-Data Availability: GWAS summary statistics (p values) were downloaded from the ImmunoBase website ([[http://www.immunobase.org]]). Also uses [[T1D ImmunoChip Data]] for simulations to examine properties of the method.
-
-James' code is on https://github.com/jamesliley/cFDR-common-controls.
-** 2014
-*** Burren et al "VSEAMS: a pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes" [[http://europepmc.org/abstract/MED/25170024][ukpmc]]
-
-Olly's pipeline is at [[http://github.com/ollyburren/vseams]].
-
-We used data from [[Cusanovich][Cusanovich et al]]'s transcription factor knockdowns.  In fact, I think our paper was submitted only a month after theirs was published, because the preprint was shared on arXiv (and indexed on [[http://haldanessieve.org/2013/10/22/the-functional-consequences-of-variation-in-transcription-factor-binding][Haldane's Sieve]], which is where we saw it), and the authors readily shared their data pre-publication.  Open science working at its best.
-
-We also used [[T1D GWAS Data]].
-
-* Datasets we use
-
-** GWAS
-*** T1D ImmunoChip Data 
-
-from dbGaP ([[http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000180.v2.p2]])
-
-*** T1D GWAS Data
-
-There have been (at least) three T1D GWAS studies.  We used all three, the details of how to access these data are best found on [[http://www.t1dbase.org/poster/accessing-external-private-genotyping-data/][T1DBase]], and the publications they come from are summarised on the [[https://www-gene.cimr.cam.ac.uk/publications/human_data.shtml#gwas][DIL's]] website.  
-
-*** ImmunoBase
-
-Summary ImmunoChip datasets from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
-
-** expression data
-
-*** Fairfax eQTL data 
-
-Ben Fairfax has published eQTL papers on sorted cells (monocytes, stimulated monocytes, B cells) from close to 300 samples.  The expression data are freely available, but the genotype data require a data access agreement, available as detailed in either paper.
-
-/Fairfax et al. (2012) Genetics of gene expression in primary immune cells identifies cell type-specific master regulators and roles of HLA alleles. Nat. Genet. 44, 502-510/
-
-gene expression data: http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-945; genotyping data: http://www.ebi.ac.uk/ega/EGAD00010000144.
-
-/Fairfax et al. (2014) Innate immune activity conditions the effect of regulatory variants upon monocyte gene expression. Science 343, 1246949/
-
-gene expression data: http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232; genotyping data: http://www.ebi.ac.uk/ega/EGAD00010000144, http://www.ebi.ac.uk/ega/EGAD00010000520.
-
-*** Cusanovich et al's transcription factor knockdown 
-
-See [[http://europepmc.org/abstract/MED/24603674]] for the paper.  
-
-*** BABYDIET 
-
-PBMC gene expression from longitudinally sampled children at risk of type 1 diabetes
-http://www.ebi.ac.uk/arrayexpress, accession no. E-MTAB-1724
-
-* Larger repositories/software packages
-
-See [[https://github.com/chr1swallace?tab=repositories]] for everything else
+#+HTML: <div class=blank></div>
