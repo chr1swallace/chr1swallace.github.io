@@ -1,4 +1,4 @@
-#+TITLE: Statistics, genomics, immunology and autoimmune diseases
+#+TITLE: Statistics, genomics and autoimmune diseases
 #+options: toc:nil num:nil
 #+STYLE: <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 
