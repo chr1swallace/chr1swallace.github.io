@@ -13,3 +13,6 @@ Otherwise see
 #+HTML: <a href="http://orcid.org/0000-0001-9755-1703" class="biglink">ORCiD (all publications)</a>
 #+HTML: <a href="http://github.com/chr1swallace" class="biglink">github (all code)</a>
 #+HTML: <div class=blank></div>
+
+[[file:orcid.png]]
+
