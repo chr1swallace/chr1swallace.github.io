@@ -67,7 +67,7 @@ There have been (at least) three T1D GWAS studies.  We used all three, the detai
 
 Summary ImmunoChip datasets from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
 
-** expression data
+** Expression data
 
 *** Fairfax eQTL data 
 

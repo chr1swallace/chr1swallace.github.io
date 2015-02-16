@@ -5,8 +5,7 @@
 This is a set of pages to store information about datasets and code
 used in statistical genetics papers from Chris Wallace's group.  For
 more group details, please go to the 
-#+HTML: <a href="http://www-gene.cimr.cam.ac.uk/staff/wallace">university webpage</a>
-.
+[[http://www-gene.cimr.cam.ac.uk/staff/wallace][university webpage]].
 
 Otherwise see
 
