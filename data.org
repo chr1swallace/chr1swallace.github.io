@@ -40,7 +40,7 @@ RA p values required for input were downloaded from [[http://www.immunobase.org]
 
 *** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics" [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004926][PLOS Genet]].
 
-Data Availability: GWAS summary statistics (p values) were downloaded from the ImmunoBase website ([[http://www.immunobase.org]]). Also uses [[T1D ImmunoChip Data]] for simulations to examine properties of the method.
+Data Availability: GWAS summary statistics (p values) were downloaded from [[Immunobase]]. Also uses [[T1D ImmunoChip Data]] for simulations to examine properties of the method.
 
 James' code is on https://github.com/jamesliley/cFDR-common-controls.
 ** 2014
@@ -65,7 +65,7 @@ There have been (at least) three T1D GWAS studies.  We used all three, the detai
 
 *** ImmunoBase
 
-Summary ImmunoChip datasets from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
+ImmunoChip summary GWAS statistics from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
 
 ** Expression data
 
