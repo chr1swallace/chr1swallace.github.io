@@ -5,7 +5,9 @@
 This page holds information about datasets and code used in
 statistical genetics papers from Chris Wallace's group.  Our intention
 is to make the data and code we have used accessible.  If anything is
-unclear, please email =chris.wallace= at =cimr.cam.ac.uk=.
+unclear, please [[https://github.com/chr1swallace/chr1swallace.github.io/issues][report it as an issue]] so I (and you) can track it.  If
+you really don't want to use github, as a last resort, email
+=chris.wallace= at =cimr.cam.ac.uk=.
 
 Information that exists here falls under:
 
