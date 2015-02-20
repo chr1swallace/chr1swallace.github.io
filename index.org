@@ -14,5 +14,5 @@ Otherwise see
 #+HTML: <a href="http://github.com/chr1swallace" class="biglink">github (all code)</a>
 #+HTML: <div class=blank></div>
 
-[[file:orcid.png]]
+#+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data"></a>
 
