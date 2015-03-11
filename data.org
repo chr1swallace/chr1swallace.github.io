@@ -17,7 +17,7 @@ Information that exists here falls under:
 
 ** 2015
 
-*** Onengut-Gumuscu et al "T1D ImmunoChip paper (in press)
+*** Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers" [[http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3245.html][Nat Genet]] [[http://www-gene.cimr.cam.ac.uk/staff/wallace/ichip-preprint.pdf][preprint]]
 
 *Code*: R code used to perform
   numerical calculations exploring the appropriate p value thresholds
