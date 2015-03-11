@@ -35,6 +35,8 @@ Information that exists here falls under:
 
 *Paper*: [[http://dx.doi.org/10.1093/hmg/ddv077][Hum Mol Genet]]
 
+*Code*: Uses the R package [[https://github.com/chr1swallace/coloc/][coloc]] (available also from [[http://cran.r-project.org/web/packages/coloc/index.html][CRAN]]).
+
 *Data*: [[ImmunoChip summary statistics]] | [[Fairfax eQTL data]] | [[Cardiogenics eQTL data]]
 
 *** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"
