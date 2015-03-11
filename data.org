@@ -17,7 +17,9 @@ Information that exists here falls under:
 
 ** 2015
 
-*** Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers" [[http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3245.html][Nat Genet]] [[http://www-gene.cimr.cam.ac.uk/staff/wallace/ichip-preprint.pdf][preprint]]
+*** Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers"
+
+*Paper*: [[http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3245.html][Nat Genet]] | [[http://www-gene.cimr.cam.ac.uk/staff/wallace/ichip-preprint.pdf][preprint]]
 
 *Code*: R code used to perform
   numerical calculations exploring the appropriate p value thresholds
@@ -29,7 +31,9 @@ Information that exists here falls under:
 
 *Data*: [[T1D ImmunoChip Data]]
 
-*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping" [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]].
+*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"
+
+*Paper*: [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]].
 
 *Code*: Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For detailed pipeline of steps to run GUESSFM, see the [[https://github.com/chr1swallace/GUESSFM/tree/master/vignettes][vignettes]].
 
@@ -37,19 +41,22 @@ Information that exists here falls under:
 
 MS data was accessed through application to the [[International Multiple Sclerosis Genetic Consortium][International Multiple Sclerosis Genetic Consortium (IMSGC)]].
 
-*** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis" [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][Nat Commun]].
+*** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"
+*Paper*: [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][Nat Commun]].
 
 *Code*: R script for fine mapping https://github.com/chr1swallace/finemap-psa 
 *Data*: RA p values required for input were downloaded from [[http://www.immunobase.org][ImmunoBase]].
 
-*** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics" [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004926][PLOS Genet]].
+*** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"
+*Paper*: [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004926][PLOS Genet]].
 
 *Code*: James' code is on https://github.com/jamesliley/cFDR-common-controls.
 
 *Data*: GWAS summary statistics (p values) were downloaded from [[Immunobase]]. Also uses [[T1D ImmunoChip Data]] for simulations to examine properties of the method.
 
 ** 2014
-*** Burren et al "VSEAMS: a pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes" [[http://europepmc.org/abstract/MED/25170024][Bioinformatics]].
+*** Burren et al "VSEAMS: a pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes"
+*Paper*: [[http://europepmc.org/abstract/MED/25170024][Bioinformatics]].
 
 *Code*: Olly's pipeline is at [[http://github.com/ollyburren/vseams]].
 
