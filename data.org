@@ -1,6 +1,14 @@
 #+TITLE: Statistics, genomics and autoimmune diseases
 #+options: toc:nil num:nil
 #+STYLE: <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+# <script type="text/javascript">
+  # function show(id) {
+  #   document.getElementById(id).style.visibility = "visible";
+  # }
+  # function hide(id) {
+  #   document.getElementById(id).style.visibility = "hidden";
+  # }
+# </script>
 
 This page holds information about datasets and code used in
 statistical genetics papers from Chris Wallace's group.  Our intention
@@ -111,7 +119,7 @@ See [[http://europepmc.org/abstract/MED/24603674]] for the paper.
 PBMC gene expression from longitudinally sampled children at risk of type 1 diabetes
 http://www.ebi.ac.uk/arrayexpress, accession no. E-MTAB-1724
 
-* Cardiogenics eQTL data
+*** Cardiogenics eQTL data
 
 /Garnier S et al. (2013) Genome-wide haplotype analysis of cis expression quantitative trait Loci in monocytes. [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003240][PLoS Genet. 9(1):e1003240]]./
 

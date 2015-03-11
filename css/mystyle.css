@@ -68,13 +68,23 @@ td {
 }
 
 .blank { float: none; clear: both; }
+
+
 div.outline-4, .biglink { 
            margin: 10px;
            padding: 10px;
            border: 2px solid #cccccc;
            color: #111111;
            text-decoration:none;
-          }
+        /* float: left; */
+        /* width: 30%; */
+                          clear: both;
+   }
+/* div.outline-text-4 {     visibility: hidden;  */
+/*   float: right; */
+/*         width: 50%; */
+/*        } */
+
 div.outline-3 { 
            border-left: 1px dotted #336699;
            border-top: 1px dotted #336699;
