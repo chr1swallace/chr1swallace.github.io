@@ -31,6 +31,12 @@ Information that exists here falls under:
 
 *Data*: [[T1D ImmunoChip Data]]
 
+*** Guo et al "Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases"
+
+*Paper*: [[http://dx.doi.org/10.1093/hmg/ddv077][Hum Mol Genet]]
+
+*Data*: [[ImmunoChip summary statistics]] | [[Fairfax eQTL data]] | [[Cardiogenics eQTL data]]
+
 *** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"
 
 *Paper*: [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]].
@@ -45,6 +51,7 @@ MS data was accessed through application to the [[International Multiple Scleros
 *Paper*: [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][Nat Commun]].
 
 *Code*: R script for fine mapping https://github.com/chr1swallace/finemap-psa 
+
 *Data*: RA p values required for input were downloaded from [[http://www.immunobase.org][ImmunoBase]].
 
 *** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"
@@ -75,9 +82,9 @@ from dbGaP ([[http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_i
 
 There have been (at least) three T1D GWAS studies.  We used all three, the details of how to access these data are best found on [[http://www.t1dbase.org/poster/accessing-external-private-genotyping-data/][T1DBase]], and the publications they come from are summarised on the [[https://www-gene.cimr.cam.ac.uk/publications/human_data.shtml#gwas][DIL's]] website.  
 
-*** ImmunoBase
+*** ImmunoChip summary statistics
 
-ImmunoChip summary GWAS statistics from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
+*ImmunoBase*: ImmunoChip summary GWAS statistics from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
 
 ** Expression data
 
@@ -101,6 +108,14 @@ See [[http://europepmc.org/abstract/MED/24603674]] for the paper.
 
 PBMC gene expression from longitudinally sampled children at risk of type 1 diabetes
 http://www.ebi.ac.uk/arrayexpress, accession no. E-MTAB-1724
+
+* Cardiogenics eQTL data
+
+/Garnier S et al. (2013) Genome-wide haplotype analysis of cis expression quantitative trait Loci in monocytes. [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003240][PLoS Genet. 9(1):e1003240]]./
+
+Monocytes eQTL study available from EGA: [[https://www.ebi.ac.uk/ega/studies/EGAS00001000411]]
+
+
 
 * Larger repositories/software packages
 

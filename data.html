@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Statistics, genomics and autoimmune diseases</title>
-<!-- 2015-03-11 Wed 19:56 -->
+<!-- 2015-03-11 Wed 20:06 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="chris" />
@@ -81,9 +81,10 @@ Information that exists here falls under:
 <li><a href="#sec-1-1">2015</a>
 <ul>
 <li><a href="#sec-1-1-1">Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers"</a></li>
-<li><a href="#sec-1-1-2">Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"</a></li>
-<li><a href="#sec-1-1-3">Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"</a></li>
-<li><a href="#sec-1-1-4">Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"</a></li>
+<li><a href="#sec-1-1-2">Guo et al "Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases"</a></li>
+<li><a href="#sec-1-1-3">Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"</a></li>
+<li><a href="#sec-1-1-4">Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"</a></li>
+<li><a href="#sec-1-1-5">Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"</a></li>
 </ul>
 </li>
 <li><a href="#sec-1-2">2014</a>
@@ -99,7 +100,7 @@ Information that exists here falls under:
 <ul>
 <li><a href="#sec-2-1-1">T1D ImmunoChip Data</a></li>
 <li><a href="#sec-2-1-2">T1D GWAS Data</a></li>
-<li><a href="#sec-2-1-3">ImmunoBase</a></li>
+<li><a href="#sec-2-1-3">ImmunoChip summary statistics</a></li>
 </ul>
 </li>
 <li><a href="#sec-2-2">Expression data</a>
@@ -111,7 +112,8 @@ Information that exists here falls under:
 </li>
 </ul>
 </li>
-<li><a href="#sec-3">Larger repositories/software packages</a></li>
+<li><a href="#sec-3">Cardiogenics eQTL data</a></li>
+<li><a href="#sec-4">Larger repositories/software packages</a></li>
 </ul>
 </div>
 </div>
@@ -148,8 +150,21 @@ Information that exists here falls under:
 </div>
 
 <div id="outline-container-sec-1-1-2" class="outline-4">
-<h4 id="sec-1-1-2">Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"</h4>
+<h4 id="sec-1-1-2">Guo et al "Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases"</h4>
 <div class="outline-text-4" id="text-1-1-2">
+<p>
+<b>Paper</b>: <a href="http://dx.doi.org/10.1093/hmg/ddv077">Hum Mol Genet</a>
+</p>
+
+<p>
+<b>Data</b>: <a href="#sec-2-1-3">ImmunoChip summary statistics</a> | <a href="#sec-2-2-1">Fairfax eQTL data</a> | <a href="#sec-3">Cardiogenics eQTL data</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-1-3" class="outline-4">
+<h4 id="sec-1-1-3">Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"</h4>
+<div class="outline-text-4" id="text-1-1-3">
 <p>
 <b>Paper</b>: <a href="http://biorxiv.org/content/early/2015/02/12/015164">bioRxiv preprint</a>.
 </p>
@@ -168,23 +183,26 @@ MS data was accessed through application to the <i>International Multiple Sclero
 </div>
 </div>
 
-<div id="outline-container-sec-1-1-3" class="outline-4">
-<h4 id="sec-1-1-3">Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"</h4>
-<div class="outline-text-4" id="text-1-1-3">
+<div id="outline-container-sec-1-1-4" class="outline-4">
+<h4 id="sec-1-1-4">Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"</h4>
+<div class="outline-text-4" id="text-1-1-4">
 <p>
 <b>Paper</b>: <a href="http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html">Nat Commun</a>.
 </p>
 
 <p>
 <b>Code</b>: R script for fine mapping <a href="https://github.com/chr1swallace/finemap-psa">https://github.com/chr1swallace/finemap-psa</a> 
+</p>
+
+<p>
 <b>Data</b>: RA p values required for input were downloaded from <a href="http://www.immunobase.org">ImmunoBase</a>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-sec-1-1-4" class="outline-4">
-<h4 id="sec-1-1-4">Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"</h4>
-<div class="outline-text-4" id="text-1-1-4">
+<div id="outline-container-sec-1-1-5" class="outline-4">
+<h4 id="sec-1-1-5">Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"</h4>
+<div class="outline-text-4" id="text-1-1-5">
 <p>
 <b>Paper</b>: <a href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004926">PLOS Genet</a>.
 </p>
@@ -251,10 +269,10 @@ There have been (at least) three T1D GWAS studies.  We used all three, the detai
 </div>
 
 <div id="outline-container-sec-2-1-3" class="outline-4">
-<h4 id="sec-2-1-3">ImmunoBase</h4>
+<h4 id="sec-2-1-3">ImmunoChip summary statistics</h4>
 <div class="outline-text-4" id="text-2-1-3">
 <p>
-ImmunoChip summary GWAS statistics from multiple studies are nicely curated and available from <a href="http://www.immunobase.org">ImmunoBase</a> if you first register (free) then go to <code>Data..downloads</code> on the right, then click through to <code>data/immunochip/association_stats</code>.
+<b>ImmunoBase</b>: ImmunoChip summary GWAS statistics from multiple studies are nicely curated and available from <a href="http://www.immunobase.org">ImmunoBase</a> if you first register (free) then go to <code>Data..downloads</code> on the right, then click through to <code>data/immunochip/association_stats</code>.
 </p>
 </div>
 </div>
@@ -310,8 +328,23 @@ PBMC gene expression from longitudinally sampled children at risk of type 1 diab
 </div>
 
 <div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">Larger repositories/software packages</h2>
+<h2 id="sec-3">Cardiogenics eQTL data</h2>
 <div class="outline-text-2" id="text-3">
+<p>
+<i>Garnier S et al. (2013) Genome-wide haplotype analysis of cis expression quantitative trait Loci in monocytes. <a href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003240">PLoS Genet. 9(1):e1003240</a>.</i>
+</p>
+
+<p>
+Monocytes eQTL study available from EGA: <a href="https://www.ebi.ac.uk/ega/studies/EGAS00001000411">https://www.ebi.ac.uk/ega/studies/EGAS00001000411</a>
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Larger repositories/software packages</h2>
+<div class="outline-text-2" id="text-4">
 <p>
 See <a href="https://github.com/chr1swallace?tab=repositories">https://github.com/chr1swallace?tab=repositories</a> for everything else
 </p>
@@ -320,7 +353,7 @@ See <a href="https://github.com/chr1swallace?tab=repositories">https://github.co
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: chris</p>
-<p class="date">Created: 2015-03-11 Wed 19:56</p>
+<p class="date">Created: 2015-03-11 Wed 20:06</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
