@@ -1,6 +1,8 @@
-#+TITLE: Statistics, genomics and autoimmune diseases
-#+options: toc:nil num:nil
-#+STYLE: <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+#+TITLE: Chris Wallace: data
+#+SETUPFILE: ./setup.org
+
+#+INCLUDE: ./nav.org
+
 # <script type="text/javascript">
   # function show(id) {
   #   document.getElementById(id).style.visibility = "visible";
@@ -18,8 +20,6 @@ you really don't want to use github, as a last resort, email
 =chris.wallace= at =cimr.cam.ac.uk=.
 
 Information that exists here falls under:
-
-#+TOC: headlines 3
 
 * Code and data organised by papers
 

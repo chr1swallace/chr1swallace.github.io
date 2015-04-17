@@ -1,0 +1,3 @@
+#+HTML: <div id="nav">
+[ [[./index.org][~/]] | [[http://orcid.org/0000-0001-9755-1703][ORCiD (all publications)]] | [[./data.org][Data]] | [[./code.org][Software]] | [[./group.org][Group]] | [[./background.org][Background]] ]
+#+HTML: </div>

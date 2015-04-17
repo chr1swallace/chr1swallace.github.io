@@ -1,0 +1,16 @@
+#+TITLE: Chris Wallace: background
+#+SETUPFILE: ./setup.org
+
+#+INCLUDE: ./nav.org
+
+- Research Fellow working with
+	  the [[http://www.brightstudy.ac.uk/][BRIGHT]] study into
+	  the genetics of hypertension 2003-2008.
+- PhD: "Genetic Susceptibility to leprosy: methodological issues in a linkage
+	  analysis of extended pedigrees from Karonga District, Malawi",
+	  [[http://www.lshtm.ac.uk][LSHTM]], 2003 [[http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086][thesis]]
+	  (part of the
+	  [[http://www.lshtm.ac.uk/eph/ide/research/kps][Karonga Prevention Study]]).
+- Statistical
+	programmer, [[http://www.imperial.ac.uk][Imperial]],
+	1997-9

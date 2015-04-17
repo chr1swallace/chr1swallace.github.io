@@ -1,0 +1,13 @@
+#+TITLE: Chris Wallace: group
+#+SETUPFILE: ./setup.org
+
+#+INCLUDE: ./nav.org
+
+* Group members
+- [[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets.
+- James Liley is a PhD student working on multiple disease GWAS analysis.
+- Arcadio Rubio Garcia is a PhD student working with sequencing and expression data.
+* Alumni
+- [[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] (post doc 2010-2014) is now a lecturer in biostatistics at University of Manchester.
+- Xin Yang (PhD student 2011-2014) has moved to KCL.
+- Nikolas Pontikos (PhD student 2011-2014) has moved to UCL.

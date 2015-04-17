@@ -16,7 +16,7 @@
 /* } */
 
 body {
-       font-family: verdana, tahoma, helvetica, arial, sans-serif;
+       font-family: 'Inconsolata'; */, 'Inconsolata',  'open-sans', 'Source Sans Pro', sans-serif, 'open-sans', verdana, tahoma, helvetica, arial, sans-serif; */
        font-size: small;
        max-width: 800px;
        margin: 40pt;
@@ -73,13 +73,21 @@ td {
 div.outline-4, .biglink { 
            margin: 10px;
            padding: 10px;
-           border: 2px solid #cccccc;
+           /* border: 2px solid #cccccc; */
            color: #111111;
            text-decoration:none;
         /* float: left; */
         /* width: 30%; */
-                          clear: both;
    }
+
+.biglink {
+    border: 2px solid #cccccc;
+}
+
+div.outline-4 {
+                          clear: both;
+}
+
 /* div.outline-text-4 {     visibility: hidden;  */
 /*   float: right; */
 /*         width: 50%; */
@@ -163,6 +171,24 @@ div.status {
      color: #999999;
               font-size: smaller;
               }
+
+#nav { 
+    text-align: center; 
+    font-size: large;   
+    background-color: #fefefe;
+    margin-left: auto;    
+    margin-right: auto;
+    padding: 2px;
+    width: 90%;
+    /* border: 1px solid #333333; */
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+#nav a:link, #nav a:visited { 
+    color: #009900; 
+    font-size: large;
+}
 
 /* div.outline-2:hover{ */
 /* background: #ffffff; /\* make this whatever you want *\/ */
