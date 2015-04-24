@@ -28,7 +28,7 @@ code at my [[http://cwcode.wordpress.com][code blog]].
 
 These pages exist to store information about datasets and code used in
 papers from my group.  The aim is to make this information accessible,
-which it is not always in the published papers.
+which is not always possible in the published papers.
 
 # This is a set of pages to store information about datasets and code
 # used in statistical genetics papers from Chris Wallace's group.  For
