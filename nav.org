@@ -1,3 +1,10 @@
-#+HTML: <div id="nav">
-[ [[./index.org][~/]] | [[http://orcid.org/0000-0001-9755-1703][ORCiD (all publications)]] | [[./data.org][Data]] | [[./code.org][Software]] | [[./group.org][Group]] | [[./background.org][Background]] ]
-#+HTML: </div>
+#+BEGIN_HTML
+<div id="nav">
+[ 
+<a href="index.html">~/</a> | 
+<a href="./background.html">Background</a> | 
+<a href="./group.html">Group</a> | <a href="./data.html">Data</a> | 
+<a href="./code.html">Software</a> | 
+<a href="http://orcid.org/0000-0001-9755-1703">Publications (ORCiD)</a> ]
+</div>
+#+END_HTML

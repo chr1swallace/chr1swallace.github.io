@@ -81,7 +81,7 @@ MS data was accessed through application to the [[International Multiple Scleros
 
 We also used [[T1D GWAS Data]].
 
-* Datasets we use
+* Datasets we have used
 
 ** GWAS
 *** T1D ImmunoChip Data 
@@ -112,7 +112,12 @@ gene expression data: http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232;
 
 *** Cusanovich et al's transcription factor knockdown 
 
-See [[http://europepmc.org/abstract/MED/24603674]] for the paper.  
+See [[http://europepmc.org/abstract/MED/24603674]] for the paper.  This
+dataset has a special place in my heart, as we requested it after
+Cusanovich posted a preprint and it was shared quickly and freely.  As
+a result, I /think/ our paper using this data was actually submitted
+before the Cusanovich paper was formally published in a journal.  A
+true example of preprint publishing furthering research.
 
 *** BABYDIET 
 

@@ -26,6 +26,10 @@ I contribute to the [[http://dilstats.wordpress.com][DILstats blog]], where you 
 recent papers from our group, and keep notes about R and other
 code at my [[http://cwcode.wordpress.com][code blog]].
 
+These pages exist to store information about datasets and code used in
+papers from my group.  The aim is to make this information accessible,
+which it is not always in the published papers.
+
 # This is a set of pages to store information about datasets and code
 # used in statistical genetics papers from Chris Wallace's group.  For
 # more group details, please go to the 
@@ -44,4 +48,4 @@ code at my [[http://cwcode.wordpress.com][code blog]].
 
 *T* 01223 761093 *@* chris dot wallace at cimr.cam.ac.uk *t* [[https://twitter.com/chr1swallace][chr1swallace]]
 
-[ [[http://dilstats.wordpress.com][DIL stats blog]] | [[http://cwcode.wordpress.com][code blog]] | [[https://github.com/chr1swallace][github]] | [[http://orcid.org/0000-0001-9755-1703][ORCiD]] | [[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] ]
+[ [[http://dilstats.wordpress.com][DIL stats blog]] | [[http://cwcode.wordpress.com][code blog]] | [[https://github.com/chr1swallace][github]] | [[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] ]
