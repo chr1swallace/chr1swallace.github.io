@@ -47,6 +47,6 @@ which is not always possible in the published papers.
 *Links and contacts*
 
 # *T* 01223 761093 *@* chris dot wallace at cimr.cam.ac.uk 
-#+HTML: <i class="fa fa-phone"></i>01223 761093 &nbsp; <i class="fa fa-envelope"></i>chris dot wallace at cimr.cam.ac.uk &nbsp; <i class="fa fa-twitter"></i><a href="https://twitter.com/chr1swallace">chr1swallace</a>
+#+HTML: <i class="fa fa-phone"></i> 01223 761093 .. <i class="fa fa-envelope"></i> chris dot wallace at cimr.cam.ac.uk .. <i class="fa fa-twitter"></i> <a href="https://twitter.com/chr1swallace">chr1swallace</a>
 
 [ [[http://dilstats.wordpress.com][DIL stats blog]] | [[http://cwcode.wordpress.com][code blog]] | [[https://github.com/chr1swallace][github]] | [[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] ]
