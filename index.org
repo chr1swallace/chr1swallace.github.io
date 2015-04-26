@@ -4,23 +4,21 @@
 #+INCLUDE: ./nav.org
 
 #+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
-I am a [[http://www.wellcome.ac.uk][Wellcome Trust]]
-Research Career Development Fellow, and head of the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the 
-[[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation Laboratory]] at Cambridge.  I am also a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biostatistics Unit]].
 
-As a statistician, I work with biological datasets to understand the
-mechanisms underlying human disease and identify possible treatments.
-Such work is only possible with close collaboration with biologists,
-and I moved to the [[http://www.cimr.cam.ac.uk][CIMR]] in 2009 to pursue these collaborations.
-During the GWAS era, we, and others, identified many genetic
-polymorphisms that alter risk of human diseases such as type 1
-diabetes and hypertension.  My focus has now mostly shifted towards
-understanding the cell specific mechanism through which these variants
-affect risk of different immune mediated diseases and intermediate
-biological traits such as gene expression.  Statistically, my current
-work is focused on variable selection, Bayesian model averaging and
-empirical Bayes false discovery rates, applied to integrated analysis
-of multiple related datasets.
+I am a statistician who works with biological datasets to understand
+the mechanisms underlying human disease and identify possible
+treatments.  Such work is only possible with close collaboration with
+biologists, and I moved to the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical
+Research]] in 2009 to pursue these collaborations.  During the GWAS era,
+we, and others, identified many genetic polymorphisms that alter risk
+of human diseases such as type 1 diabetes and hypertension.  My focus
+has now mostly shifted towards understanding the cell specific
+mechanism through which these variants affect risk of different immune
+mediated diseases and intermediate biological traits such as gene
+expression.  Statistically, my current work is focused on variable
+selection, Bayesian model averaging and empirical Bayes false
+discovery rates, applied to integrated analysis of multiple related
+datasets.
 
 I contribute to the [[http://dilstats.wordpress.com][DILstats blog]], where you can find details of
 recent papers from our group, and keep notes about R and other
@@ -29,6 +27,11 @@ code at my [[http://cwcode.wordpress.com][code blog]].
 These pages exist to store information about datasets and code used in
 papers from my group.  The aim is to make this information accessible,
 which is not always possible in the published papers.
+
+*Institutes and Funding*
+I am a [[http://www.wellcome.ac.uk][Wellcome Trust]] Research Career Development Fellow, and head of
+the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation Laboratory]] at
+Cambridge.  I am also a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biostatistics Unit]].
 
 # This is a set of pages to store information about datasets and code
 # used in statistical genetics papers from Chris Wallace's group.  For
