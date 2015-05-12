@@ -1,3 +1,5 @@
+#+HTML: <div style="clear:both"></div>
+
 *Links and contacts*
 
 [ [[http://dilstats.wordpress.com][DIL stats blog]] | [[http://cwcode.wordpress.com][code blog]] | [[https://github.com/chr1swallace][github]] | [[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] ]

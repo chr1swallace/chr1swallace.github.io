@@ -64,4 +64,3 @@ Niko worked on automated analysis of flow cytometry data and applying clustering
 
 #+INCLUDE: ./contact.org
 
-#+HTML: <div></div>
