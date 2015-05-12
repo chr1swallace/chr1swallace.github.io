@@ -63,3 +63,5 @@ Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA seq, and b
 Niko worked on automated analysis of flow cytometry data and applying clustering methods to call and impute genotypes in the KIR locus.  He moved to UCL in 2014.
 
 #+INCLUDE: ./contact.org
+
+#+HTML: <div></div>
