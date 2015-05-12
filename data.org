@@ -1,7 +1,7 @@
 #+TITLE: Chris Wallace: data
-#+SETUPFILE: ./setup.org
+#+SETUPFILE: ./setup3.org
 
-#+INCLUDE: ./nav.org
+#+INCLUDE: ./nav2.org
 
 # <script type="text/javascript">
   # function show(id) {
@@ -38,6 +38,7 @@ Information that exists here falls under:
 *Results*: Detailed results are curated at the [[http://www.immunobase.org/poster/type-1-diabetes-immunochip-study-onengut-gumuscu/][ImmunoBase poster page]], including interactive figures, T1D regions studied and identified, and a full list of the T1D credible SNP set.
 
 *Data*: [[T1D ImmunoChip Data]]
+
 
 *** Guo et al "Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases"
 

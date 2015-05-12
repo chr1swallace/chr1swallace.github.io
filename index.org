@@ -1,37 +1,27 @@
-#+TITLE: Chris Wallace: statistics, genomics and autoimmune diseases
-#+SETUPFILE: ./setup.org
 
-#+INCLUDE: ./nav.org
+
+#+TITLE: Chris Wallace group: statistics, genomics and autoimmune diseases
+#+SETUPFILE: ./setup3.org
+
+#+INCLUDE: ./nav2.org
 
 #+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
 
-I am a statistician who works with biological datasets to understand
-the mechanisms underlying human disease and identify possible
-treatments.  Such work is only possible with close collaboration with
-biologists, and I moved to the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical
-Research]] in 2009 to pursue these collaborations.  During the GWAS era,
-we, and others, identified many genetic polymorphisms that alter risk
-of human diseases such as type 1 diabetes and hypertension.  My focus
-has now mostly shifted towards understanding the cell specific
-mechanism through which these variants affect risk of different immune
-mediated diseases and intermediate biological traits such as gene
-expression.  Statistically, my current work is focused on variable
-selection, Bayesian model averaging and empirical Bayes false
-discovery rates, applied to integrated analysis of multiple related
-datasets.
+Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Research Career Development Fellow,
+ head of the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the Wellcome Trust/JDRF [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation
+ Laboratory]] at Cambridge, and a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biostatistics Unit]].
+Our group is based in the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical Research]].
 
-I contribute to the [[http://dilstats.wordpress.com][DILstats blog]], where you can find details of
-recent papers from our group, and keep notes about R and other
-code at my [[http://cwcode.wordpress.com][code blog]].
+Our immune system protects us against infectious disease, but
+sometimes attacks our own cells, causing autoimmune disease.  We use
+statistical analysis of genetic and genomic datasets to understand the
+genes, cells and pathways involved in the aetiology of autoimmune
+diseases such as type 1 diabetes and the relationships between
+different autoimmune diseases.
 
 These pages exist to store information about datasets and code used in
-papers from my group.  The aim is to make this information accessible,
+papers from our group.  The aim is to make this information accessible,
 which is not always possible in the published papers.
-
-*Institutes and Funding*
-I am a [[http://www.wellcome.ac.uk][Wellcome Trust]] Research Career Development Fellow, and head of
-the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation Laboratory]] at
-Cambridge.  I am also a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biostatistics Unit]].
 
 # This is a set of pages to store information about datasets and code
 # used in statistical genetics papers from Chris Wallace's group.  For
@@ -47,9 +37,4 @@ Cambridge.  I am also a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biost
 #+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="display: block;    margin-left: auto;    margin-right: auto;"></a>
 #+HTML: <div class="blank"></div>
 
-*Links and contacts*
-
-# *T* 01223 761093 *@* chris dot wallace at cimr.cam.ac.uk 
-#+HTML: <i class="fa fa-phone"></i> 01223 761093 .. <i class="fa fa-envelope"></i> chris dot wallace at cimr.cam.ac.uk .. <i class="fa fa-twitter"></i> <a href="https://twitter.com/chr1swallace">chr1swallace</a>
-
-[ [[http://dilstats.wordpress.com][DIL stats blog]] | [[http://cwcode.wordpress.com][code blog]] | [[https://github.com/chr1swallace][github]] | [[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] ]
+#+INCLUDE: ./contact.org

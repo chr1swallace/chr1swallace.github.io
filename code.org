@@ -1,7 +1,7 @@
 #+TITLE: Chris Wallace: code
-#+SETUPFILE: ./setup.org
+#+SETUPFILE: ./setup3.org
 
-#+INCLUDE: ./nav.org
+#+INCLUDE: ./nav2.org
 
 # Most of my current software is distributed in the form of R packages.
 # Published and maintained packages are available
@@ -72,8 +72,8 @@ install_github("chr1swallace/package.name", "chr1swallace")
        functions I use for finding duplicate samples, applying QC, and
        aligning alleles between different datasets.  It seems to work,
        and I intend to push it to CRAN in the future.</li>
-*** [[https://github.com/chr1swallace/origin][origin]] implements an
-  extension to the Weinberg method for testing for parent of origin
+*** [[https://github.com/chr1swallace/origin][origin]] 
+implements an   extension to the Weinberg method for testing for parent of origin
   effects to allow for multiple affected offspring in a nuclear
   family.  I haven't used it in a while, and it requires some checking
   just to get it to pass the CRAN tests.  Unless I need to revisit it
@@ -93,7 +93,9 @@ install_github("chr1swallace/package.name", "chr1swallace")
 #+END_QUOTE
 
 * Older software
-*** IBDSCORE [[[soft/ibdscore.tgz][download]]] implements a score test for the Rice-Holmans IBD
+*** IBDSCORE 
+
+implements a score test for the Rice-Holmans IBD
 	regression model.
 	The model is described by
 
@@ -108,6 +110,7 @@ and this score test by
 Wallace et al. /Am J Hum Genet/ 2006. 79:323-31 [ [[http://europepmc.org/abstract/MED/16826522][Europe PMC]] ]
 #+END_QUOTE
 
+ [ [[soft/ibdscore.tgz][download]] ]
 
 * See also...
 

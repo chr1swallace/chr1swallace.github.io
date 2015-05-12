@@ -1,13 +1,65 @@
-#+TITLE: Chris Wallace: group
-#+SETUPFILE: ./setup.org
+#+TITLE: Chris Wallace: group members
 
-#+INCLUDE: ./nav.org
+#+SETUPFILE: ./setup3.org
 
-* Group members
-- [[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets.
-- James Liley is a PhD student working on multiple disease GWAS analysis.
-- Arcadio Rubio Garcia is a PhD student working with sequencing and expression data.
-* Alumni
-- [[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] (post doc 2010-2014) is now a lecturer in biostatistics at University of Manchester.
-- Xin Yang (PhD student 2011-2014) has moved to KCL.
-- Nikolas Pontikos (PhD student 2011-2014) has moved to UCL.
+#+INCLUDE: ./nav2.org
+
+** Current members
+*** Chris Wallace
+
+#+HTML: <img src="pic_200.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+I am a statistician who works with biological datasets to understand
+the mechanisms underlying human disease and identify possible
+treatments.  Such work is only possible with close collaboration with
+biologists, and I moved to the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical
+Research]] in 2009 to pursue these collaborations.  During the GWAS era,
+we, and others, identified many genetic polymorphisms that alter risk
+of human diseases such as type 1 diabetes and hypertension.  My focus
+has now mostly shifted towards understanding the cell specific
+mechanism through which these variants affect risk of different immune
+mediated diseases and intermediate biological traits such as gene
+expression.  Statistically, my current work is focused on variable
+selection, Bayesian model averaging and empirical Bayes false
+discovery rates, applied to integrated analysis of multiple related
+datasets.
+
+Previously:
+
+
+- 2003-2008: Research Fellow working with
+	  the [[http://www.brightstudy.ac.uk/][BRIGHT]] study into
+	  the genetics of hypertension.
+- 1999-2003: PhD: "Genetic Susceptibility to leprosy: methodological issues in a linkage
+	  analysis of extended pedigrees from Karonga District, Malawi",
+	  [[http://www.lshtm.ac.uk][LSHTM]], [[http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086][thesis]]
+	  (part of the
+	  [[http://www.lshtm.ac.uk/eph/ide/research/kps][Karonga Prevention Study]]).
+- 1997-1999: Statistical
+	programmer, [[http://www.imperial.ac.uk][Imperial]].
+
+I contribute to the [[http://dilstats.wordpress.com][DILstats blog]], where you can find details of
+recent papers from our group, and keep notes about R and other
+code at my [[http://cwcode.wordpress.com][code blog]].
+
+*** Mary Fortune (PhD student)
+
+#+HTML: <img src="pics/mary.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+[[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data.
+
+*** James Liley (PhD student)
+James Liley is a PhD student working on multiple disease GWAS analysis.
+# *** Arcadio Rubio Garcia (PhD student, primary supervisor John Todd)
+# Arcadio Rubio Garcia is a PhD student working with sequencing and expression data.
+
+** Alumni
+*** Hui Guo (post doc 2010-2014)
+#+HTML: <img src="pics/hui.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+[[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] worked on gene expression data, and led the analysis of our study relating gene expression in PBMCs children at risk of type 1 diabetes is now a lecturer in biostatistics at University of Manchester.
+*** Xin Yang (PhD student 2011-2014)
+#+HTML: <img src="pics/xin.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA seq, and bisulfite seq - focusing particularly on the extra binomial variation induced by pooling.  She moved to KCL in 2014.
+*** Nikolas Pontikos (PhD student 2011-2014) 
+#+HTML: <img src="pics/niko.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Niko worked on automated analysis of flow cytometry data and applying clustering methods to call and impute genotypes in the KIR locus.  He moved to UCL in 2014.
+
+#+INCLUDE: ./contact.org
