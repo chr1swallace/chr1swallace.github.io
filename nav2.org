@@ -1,0 +1,11 @@
+#+BEGIN_HTML
+<div id="nav">
+<a class="navbar-link" href="index.html">~/</a> |
+<!-- <a href="./background.html">Background</a> |  -->
+<a class="navbar-link" href="./data.html">Data</a> |
+<a class="navbar-link" href="./group.html">Group</a> |
+<a class="navbar-link" href="./code.html">Software</a> |
+<a class="navbar-link" href="http://orcid.org/0000-0001-9755-1703">Publications (ORCiD)</a>
+</div>
+
+#+END_HTML
