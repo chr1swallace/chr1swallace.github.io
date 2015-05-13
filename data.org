@@ -19,11 +19,15 @@ unclear, please [[https://github.com/chr1swallace/chr1swallace.github.io/issues]
 you really don't want to use github, as a last resort, email
 =chris.wallace= at =cimr.cam.ac.uk=.
 
-Information that exists here falls under:
-
 * Code and data organised by papers
 
 ** 2015
+
+*** Castro Dopico et al "Widespread seasonal gene expression reveals annual differences in human immunity and physiology" 
+
+*Paper*: [[http://www.nature.com/ncomms/2015/150512/ncomms8000/full/ncomms8000.html][Nat Commun]]
+
+*Data*: [[BABYDIET gene expression]] | [[T1D gene expression]]
 
 *** Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers"
 
@@ -120,10 +124,22 @@ a result, I /think/ our paper using this data was actually submitted
 before the Cusanovich paper was formally published in a journal.  A
 true example of preprint publishing furthering research.
 
-*** BABYDIET 
+*** BABYDIET gene expression
 
-PBMC gene expression from longitudinally sampled children at risk of type 1 diabetes
+PBMC gene expression from longitudinally sampled children at risk of type 1 diabetes, described by [[http://www.ncbi.nlm.nih.gov/pubmed/24561305][Ferreira et al. (2014)]].
 http://www.ebi.ac.uk/arrayexpress, accession no. E-MTAB-1724
+
+*** T1D gene expression
+
+The T1D PBMCs were collected as part of the Genetic Resource
+Investigating Diabetes (GRID) cohort collection
+([[http://www.childhood-diabetes.org.uk/grid.shtml]]).  Expression data at
+http://www.ebi.ac.uk/arrayexpress, accession no. E-MTAB-1724
+
+*** Asthma gene expression
+
+Asthma cohort described by [[http://www.ncbi.nlm.nih.gov/pubmed/21779351][Bjornsdottir et al. (2011)]]. Raw and normalized data are deposited with ArrayExpress ( http://www.ebi.ac.uk/arrayexpress/, E-GEOD-19301).
+
 
 *** Cardiogenics eQTL data
 
@@ -133,6 +149,6 @@ Monocytes eQTL study available from EGA: [[https://www.ebi.ac.uk/ega/studies/EGA
 
 
 
-* Larger repositories/software packages
+# * Larger repositories/software packages
 
-See [[https://github.com/chr1swallace?tab=repositories]] for everything else
+# See [[https://github.com/chr1swallace?tab=repositories]] for everything else

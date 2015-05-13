@@ -8,18 +8,20 @@ div { clear: both; }
     cursor: pointer;
     font-family: verdana;
     font-size: 11px;
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
+    /* padding: 5px; */
     position: absolute;                    /* this is the magic */
-    left: 11px;
-       margin-right: 10px;
-    text-align: left;
+       /* left: 11px; */
+       /* margin-right: 10px; */
+     max-width: 810px;
+   text-align: left;
     /* width: 100%; */
     z-index: 999;
 }
 
-    #nav:hover {
-        text-decoration: underline;
-    }
+    /* #nav:hover { */
+    /*     text-decoration: underline; */
+    /* } */
 
 /* #nav div { width: 100%;   background-color: #13679D; /\* #fefefe; *\/ */
 /*      } */
@@ -43,12 +45,33 @@ div { clear: both; }
 /*        margin-top: 2px; */
 /*        margin-bottom: 0px; */
 /* } */
-/* #nav a:link, #nav a:visited {  */
-/*     color: #ffffff; */
-/*        /\* color: #000000;  *\/ */
-/*     font-size: small; */
-/* } */
-/* #nav a:hover {  */
-/*     color: #13679D; */
-/*     font-size: small; */
-/* } */
+#nav a:link, #nav a:visited {
+       color: #000000;
+    /* font-size: small; */
+}
+#nav a:hover {
+    color: #13679D;
+    /* font-size: small; */
+}
+
+div.links, div.contact { text-align:left; 
+                         width: 100%;
+                         margin-left: -50px; 
+ }
+
+#links {
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;                          /* together with this to put the div at the top */
+    color: #333333;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 5px;
+         position: absolute;                    /* this is the magic */
+         left: 11px;
+         margin-right: 10px;
+    text-align: left;
+    /* width: 100%; */
+    z-index: 999;
+}

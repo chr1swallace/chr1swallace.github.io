@@ -1,15 +1,28 @@
-#+HTML: <div style="clear:both"></div>
+#+TITLE: Chris Wallace: links and contacts
 
-*Links and contacts*
+#+SETUPFILE: ./setup3.org
 
-[ [[http://dilstats.wordpress.com][DIL stats blog]] | [[http://cwcode.wordpress.com][code blog]] | [[https://github.com/chr1swallace][github]] | [[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] ]
+#+INCLUDE: ./nav2.org
+
+
+* Links and contacts
+
 
 #+BEGIN_HTML
 <div class="contact">
-<i class="fa fa-phone"></i>01223 761093
- .. 
+<b>Contact</b><br><i class="fa fa-phone"></i>01223 761093
+ |
 <i class="fa fa-envelope"></i>chris dot wallace at cimr.cam.ac.uk
- ..
+ |
 <a href="https://twitter.com/chr1swallace"><i class="fa fa-twitter"></i>chr1swallace</a>
 </div>                  
+<div class="links">
 #+END_HTML
+
+*Online*\\
+[[http://cwcode.wordpress.com][Wallace blog]] | [[http://dilstats.wordpress.com][DIL stats blog]] | [[https://github.com/chr1swallace][github]] 
+
+*Publications*\\
+[[http://scholar.google.co.uk/citations?sortby=pubdate&user=PB2gO4MAAAAJ][Google scholar]] | [[http://orcid.org/0000-0001-9755-1703][ORCiD]] | [[http://arxiv.org/a/wallace_c_1][arXiv]] | [[http://www.biorxiv.org/search/author1%3AChris%2BWallace%2B][bioRXiv]] 
+
+#+HTML: </div>

@@ -10,7 +10,7 @@
 Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Research Career Development Fellow,
  head of the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the Wellcome Trust/JDRF [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation
  Laboratory]] at Cambridge, and a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biostatistics Unit]].
-Our group is based in the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical Research]].
+My group is based in the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical Research]].
 
 Our immune system protects us against infectious disease, but
 sometimes attacks our own cells, causing autoimmune disease.  We use
@@ -36,5 +36,3 @@ which is not always possible in the published papers.
 
 #+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="display: block;    margin-left: auto;    margin-right: auto;"></a>
 #+HTML: <div class="blank"></div>
-
-#+INCLUDE: ./contact.org
