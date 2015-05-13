@@ -1,26 +1,54 @@
 div { clear: both; }
 
-#nav {  
-              z-index: 10;  
-       position: absolute;  
-       right: 0;  
-       top: 0;
-       text-align: right; 
-       font-size: small;   
-       /* padding: 9px 0px 10px 0px; */
-       text-transform: uppercase;
-       background-color: #fefefe;
-       /* padding: 2px; */
-    /* border: 1px solid #333333; */
-       margin-right: 9px;
-       margin-top: 2px;
-       margin-bottom: 24px;
+#nav {
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    top: 10px;                          /* together with this to put the div at the top */
+    color: #333333;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 5px;
+    position: absolute;                    /* this is the magic */
+    left: 11px;
+       margin-right: 10px;
+    text-align: left;
+    /* width: 100%; */
+    z-index: 999;
 }
-#nav a:link, #nav a:visited { 
-    color: #000000; 
-    font-size: small;
-}
-#nav a:hover { 
-    color: #13679D;
-    font-size: small;
-}
+
+    #nav:hover {
+        text-decoration: underline;
+    }
+
+/* #nav div { width: 100%;   background-color: #13679D; /\* #fefefe; *\/ */
+/*      } */
+
+/* #nav {   */
+/*        z-index: 10;   */
+/*       position: fixed;                    /\* this is the magic *\/ */
+/*      /\* position: absolute;   *\/ */
+/*        right: 0;   */
+/*        top: 0; */
+/*        text-align: right;  */
+/*        font-size: small;    */
+/*        /\* padding: 9px 0px 10px 0px; *\/ */
+/*        text-transform: uppercase; */
+/*        background-color: #13679D; /\* #fefefe; *\/ */
+/*        color: #ffffff; */
+/*        /\* padding: 2px; *\/ */
+/*     /\* border: 1px solid #333333; *\/ */
+/*        margin-right: 9px; */
+/*        margin-left: auto; */
+/*        margin-top: 2px; */
+/*        margin-bottom: 0px; */
+/* } */
+/* #nav a:link, #nav a:visited {  */
+/*     color: #ffffff; */
+/*        /\* color: #000000;  *\/ */
+/*     font-size: small; */
+/* } */
+/* #nav a:hover {  */
+/*     color: #13679D; */
+/*     font-size: small; */
+/* } */
