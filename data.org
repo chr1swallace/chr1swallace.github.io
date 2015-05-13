@@ -27,7 +27,7 @@ you really don't want to use github, as a last resort, email
 
 *Paper*: [[http://www.nature.com/ncomms/2015/150512/ncomms8000/full/ncomms8000.html][Nat Commun]]
 
-*Data*: [[BABYDIET gene expression]] | [[T1D gene expression]]
+*Data*: [[BABYDIET gene expression]] | [[T1D gene expression]] | [[Asthma gene expression]]
 
 *** Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers"
 
