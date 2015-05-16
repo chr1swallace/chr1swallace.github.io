@@ -47,7 +47,8 @@ code at my [[http://cwcode.wordpress.com][code blog]].
 [[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data.
 
 *** James Liley (PhD student)
-James Liley is a PhD student working on multiple disease GWAS analysis.
+#+HTML: <img src="pics/jamesliley_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He is working on analysis of GWAS and similar data across multiple diseases and in disease subtypes.
 # *** Arcadio Rubio Garcia (PhD student, primary supervisor John Todd)
 # Arcadio Rubio Garcia is a PhD student working with sequencing and expression data.
 
