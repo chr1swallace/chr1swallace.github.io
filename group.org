@@ -52,6 +52,10 @@ James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD pro
 # *** Arcadio Rubio Garcia (PhD student, primary supervisor John Todd)
 # Arcadio Rubio Garcia is a PhD student working with sequencing and expression data.
 
+*** Lucia Cilloni (MPhil student)
+#+HTML: <img src="pics/LuciaCilloni.png" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Lucia did her BSc in Mathematics at the University of Newcastle Upon Tyne and is now completing her MPhil in Computational Biology at Cambridge University. She is currently doing her summer project on eQTL-GWAS colocalisation analysis to identify causal genes for Type 1 Diabetes. Next year she hopes to start her PhD in Epidemiology at Imperial College London.
+
 ** Alumni
 *** Hui Guo (post doc 2010-2014)
 #+HTML: <img src="pics/hui.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
