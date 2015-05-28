@@ -5,7 +5,8 @@
 <a class="navbar-link" href="./data.html">Data</a> |
 <a class="navbar-link" href="./group.html">Group</a> |
 <a class="navbar-link" href="./code.html">Software</a> |
-<a class="navbar-link" href="http://orcid.org/0000-0001-9755-1703">Publications (ORCiD)</a> |
+<a class="navbar-link" href="http://europepmc.org/search?query=AUTHORID:%220000-0001-9755-1703%22&sortby=Date">Publications</a> |
+<a class="navbar-link" href="http://orcid.org/0000-0001-9755-1703">ORCiD</a> |
 <a class="navbar-link" href="./contact.html">Links and contact</a>
 </div>
 
