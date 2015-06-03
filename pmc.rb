@@ -7,9 +7,10 @@ RestClient.get 'http://example.com/resource', {:params => {:id => 50, 'foo' => '
 'http://www.ebi.ac.uk/europepmc/webservices/rest/search/', {:params => {:AUTHORID => "0000-0001-9755-1703"}}
 
 ## write header for pmc.org
+#f=File.open("pmc.org", 'w') { |file| file.write("your text") }
 
-#+TITLE: Chris Wallace: publications
-#+SETUPFILE: ./setup3.org
-#+INCLUDE: ./nav2.org
-** Published
-** Preprints
+f.write("#+TITLE: Chris Wallace: publications")
+f.write("#+SETUPFILE: ./setup3.org")
+f.write("#+INCLUDE: ./nav2.org")
+f.write("** Published")
+f.write("** Preprints")
