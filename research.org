@@ -1,0 +1,25 @@
+#+TITLE: Chris Wallace: research
+
+#+SETUPFILE: ./setup3.org
+
+#+INCLUDE: ./nav2.org
+
+** From GWAS to causal genes
+
+Genomewide association studies (GWAS) have been hugely successful in identifying associations between genetic variation and risk of common diseases.  
+However, genetic variation will not be a pharmaceutical target for these disease and translating this knowledge into understanding the genes, cells and pathways involved in disease aetiology has been slow.
+This is because the associated genetic variants do not typically reside in genes and change the protein they encode, but lie between genes and are presumed to regulate their expression in some cells, perhaps under specific conditions.
+We use two approaches to identify the causal genes.
+
+*** Colocalisation of disease and gene expression signals
+
+As GWAS studies for disease have been conducted over the past decade, so people have conducted GWAS for other, more gene specific traits, such as parallel GWAS for the expression levels of each of the ~20,000 protein coding genes in a given cell type, called "eQTL" studies.
+These produce a local GWAS trace just as a disease GWAS does.  We use a pattern matching technique called colocalisation to determine whether the two GWAS traces are compatible with the two traits, disease risk and expression of a given gene in a given cell type and condition, sharing a causal variant.
+
+[[./ctsh.jpg]]
+
+
+
+** Relationships between related diseases
+
+** Heterogeneity
