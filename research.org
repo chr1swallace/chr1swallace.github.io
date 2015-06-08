@@ -33,13 +33,13 @@ condition, sharing a causal variant.
 
 ** Related papers
 
-Giambartolomei, Claudia, Damjan Vukcevic, Eric E Schadt, Lude Franke, Aroon D Hingorani, Chris Wallace, and Vincent Plagnol. 2014. “Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics.” PLoS Genetics 10 (5): e1004383. doi:10.1371/journal.pgen.1004383.
+Giambartolomei, Claudia, Damjan Vukcevic, Eric E Schadt, Lude Franke, Aroon D Hingorani, Chris Wallace, and Vincent Plagnol. 2014. “Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics.” PLoS Genetics 10 (5): e1004383. http://dx.doi.org/10.1371/journal.pgen.1004383.
 
-Wallace, Chris, Maxime Rotival, Jason D Cooper, Catherine M Rice, Jennie H M Yang, Mhairi McNeill, Deborah J Smyth, et al. 2012. “Statistical Colocalization of Monocyte Gene Expression and Genetic Risk Variants for Type 1 Diabetes.” Human Molecular Genetics 21 (12): 2815–24. doi:10.1093/hmg/dds098.
+Wallace, Chris, Maxime Rotival, Jason D Cooper, Catherine M Rice, Jennie H M Yang, Mhairi McNeill, Deborah J Smyth, et al. 2012. “Statistical Colocalization of Monocyte Gene Expression and Genetic Risk Variants for Type 1 Diabetes.” Human Molecular Genetics 21 (12): 2815–24. http://dx.doi.org/10.1093/hmg/dds098.
 
-Wallace, Chris. 2013. “Statistical Testing of Shared Genetic Control for Potentially Related Traits.” Genetic Epidemiology 37 (8): 802–13. doi:10.1002/gepi.21765.
+Wallace, Chris. 2013. “Statistical Testing of Shared Genetic Control for Potentially Related Traits.” Genetic Epidemiology 37 (8): 802–13. http://dx.doi.org/10.1002/gepi.21765.
 
-Guo, Hui, Mary D Fortune, Oliver S Burren, Ellen Schofield, John A Todd, and Chris Wallace. 2015. “Integration of Disease Association and eQTL Data Using a Bayesian Colocalisation Approach Highlights Six Candidate Causal Genes in Immune-Mediated Diseases.” Human Molecular Genetics 24 (12): 3305–13. doi:10.1093/hmg/ddv077.
+Guo, Hui, Mary D Fortune, Oliver S Burren, Ellen Schofield, John A Todd, and Chris Wallace. 2015. “Integration of Disease Association and eQTL Data Using a Bayesian Colocalisation Approach Highlights Six Candidate Causal Genes in Immune-Mediated Diseases.” Human Molecular Genetics 24 (12): 3305–13. http://dx.doi.org/10.1093/hmg/ddv077.
 
 
 
@@ -69,9 +69,9 @@ sharing the same causal variant only about 50% of the time.
 
 ** Related papers
 
-Liley, James, and Chris Wallace. 2015. “A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics.” PLoS Genetics 11 (2): e1004926. doi:10.1371/journal.pgen.1004926.
+Liley, James, and Chris Wallace. 2015. “A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics.” PLoS Genetics 11 (2): e1004926. http://dx.doi.org/10.1371/journal.pgen.1004926.
 
-Onengut-Gumuscu, Suna, Wei-Min Chen, Oliver Burren, Nick J Cooper, Aaron R Quinlan, Josyf C Mychaleckyj, Emily Farber, et al. 2015. “Fine Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for Colocalization of Causal Variants with Lymphoid Gene Enhancers.” Nature Genetics 47 (4): 381–86. doi:10.1038/ng.3245.
+Onengut-Gumuscu, Suna, Wei-Min Chen, Oliver Burren, Nick J Cooper, Aaron R Quinlan, Josyf C Mychaleckyj, Emily Farber, et al. 2015. “Fine Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for Colocalization of Causal Variants with Lymphoid Gene Enhancers.” Nature Genetics 47 (4): 381–86. http://dx.doi.org/10.1038/ng.3245.
 
 
 
