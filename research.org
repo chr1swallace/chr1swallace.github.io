@@ -8,15 +8,40 @@
 
 #+HTML: <img src="ctsh.jpg" alt="portrait" style="float:right;margin:10px;" />
 
-Genomewide association studies (GWAS) have been hugely successful in identifying associations between genetic variation and risk of common diseases.  
-However, genetic variation will not be a pharmaceutical target for these disease and translating this knowledge into understanding the genes, cells and pathways involved in disease aetiology has been slow.
-This is because the associated genetic variants do not typically reside in genes and change the protein they encode, but lie between genes and are presumed to regulate their expression in some cells, perhaps under specific conditions.
+Genomewide association studies (GWAS) have been hugely successful in
+identifying associations between genetic variation and risk of common
+diseases.  However, genetic variation will not be a pharmaceutical
+target for these disease and translating this knowledge into
+understanding the genes, cells and pathways involved in disease
+aetiology has been slow.  This is because the associated genetic
+variants do not typically reside in genes and change the protein they
+encode, but lie between genes and are presumed to regulate their
+expression in some cells, perhaps under specific conditions.
 # We use two approaches to identify the causal genes.
 
 # *** Colocalisation of disease and gene expression signals
 
-As GWAS studies for disease have been conducted over the past decade, so people have conducted GWAS for other, more gene specific traits, such as parallel GWAS for the expression levels of each of the ~20,000 protein coding genes in a given cell type, called "eQTL" studies.
-These produce a local GWAS trace just as a disease GWAS does.  We use a pattern matching technique called colocalisation to determine whether the two GWAS traces are compatible with the two traits, disease risk and expression of a given gene in a given cell type and condition, sharing a causal variant.
+As GWAS studies for disease have been conducted over the past decade,
+so people have conducted GWAS for other, more gene specific traits,
+such as parallel GWAS for the expression levels of each of the ~20,000
+protein coding genes in a given cell type, called "eQTL" studies.
+These produce a local GWAS trace just as a disease GWAS does.  We use
+a pattern matching technique called colocalisation to determine
+whether the two GWAS traces are compatible with the two traits,
+disease risk and expression of a given gene in a given cell type and
+condition, sharing a causal variant.
+
+** Related papers
+
+Giambartolomei, Claudia, Damjan Vukcevic, Eric E Schadt, Lude Franke, Aroon D Hingorani, Chris Wallace, and Vincent Plagnol. 2014. “Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics.” PLoS Genetics 10 (5): e1004383. doi:10.1371/journal.pgen.1004383.
+
+Wallace, Chris, Maxime Rotival, Jason D Cooper, Catherine M Rice, Jennie H M Yang, Mhairi McNeill, Deborah J Smyth, et al. 2012. “Statistical Colocalization of Monocyte Gene Expression and Genetic Risk Variants for Type 1 Diabetes.” Human Molecular Genetics 21 (12): 2815–24. doi:10.1093/hmg/dds098.
+
+Wallace, Chris. 2013. “Statistical Testing of Shared Genetic Control for Potentially Related Traits.” Genetic Epidemiology 37 (8): 802–13. doi:10.1002/gepi.21765.
+
+Guo, Hui, Mary D Fortune, Oliver S Burren, Ellen Schofield, John A Todd, and Chris Wallace. 2015. “Integration of Disease Association and eQTL Data Using a Bayesian Colocalisation Approach Highlights Six Candidate Causal Genes in Immune-Mediated Diseases.” Human Molecular Genetics 24 (12): 3305–13. doi:10.1093/hmg/ddv077.
+
+
 
 * Relationships between related diseases
 #+HTML: <img src="disease-network.png" alt="portrait" style="float:left;margin:10px;" />
@@ -25,19 +50,29 @@ We study the shared and distinct genetic aetiology between related
 autoimmune diseases both at the genomewide and region specific level,
 addressing two separate questions.  First, at a the level of the whole
 genome, do associations with one disease predict associations with
-another disease?  We do this using an approach called conditional
-false discovery which uses genomewide associations, it includes
-information from individual loci that are not genomewide significant,
-but show a trend to shared association for two diseases.  However,
-because genes with similar function are often located close to one
-another, and because genetic variants also show a spatial correlation
-due to linkage disequilibrium, this does not autoimattically imply
-that the two diseases share the same causal variants.  We therefore
-use a complementary approach, applying the colocalisation (pattern
-matching) described above to investigate sharing of causal variants in
-detail.  This shows that even for two apparently closely related
-autoimmune diseases which both show association to the same genetic
-region (delineated by two recombination hotspots), this will relate to them sharing the same causal variant only about 50% of the time.
+another disease?  We do this using an approach which estimates
+conditional false discovery rates for association of each disease
+at each SNP conditional on the other disease.  Because this uses
+genomewide associations, it includes information from individual loci
+that are not genomewide significant, but show a trend to shared
+association for two diseases.  However, because genes with similar
+function are often located close to one another, and because genetic
+variants also show a spatial correlation due to linkage
+disequilibrium, this does not autoimattically imply that the two
+diseases share the same causal variants.  We therefore use a
+complementary approach, applying the colocalisation (pattern matching)
+described above to investigate sharing of causal variants in detail.
+This shows that even for two apparently closely related autoimmune
+diseases which both show association to the same genetic region
+(delineated by two recombination hotspots), this will relate to them
+sharing the same causal variant only about 50% of the time.
+
+** Related papers
+
+Liley, James, and Chris Wallace. 2015. “A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics.” PLoS Genetics 11 (2): e1004926. doi:10.1371/journal.pgen.1004926.
+
+Onengut-Gumuscu, Suna, Wei-Min Chen, Oliver Burren, Nick J Cooper, Aaron R Quinlan, Josyf C Mychaleckyj, Emily Farber, et al. 2015. “Fine Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for Colocalization of Causal Variants with Lymphoid Gene Enhancers.” Nature Genetics 47 (4): 381–86. doi:10.1038/ng.3245.
+
 
 
 
