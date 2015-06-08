@@ -3,8 +3,8 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Chris Wallace group: statistics, genomics and autoimmune diseases</title>
-<!-- 2015-06-08 Mon 19:24 -->
+<title>Chris Wallace: research</title>
+<!-- 2015-06-08 Mon 19:23 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
@@ -67,7 +67,7 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Chris Wallace group: statistics, genomics and autoimmune diseases</h1>
+<h1 class="title">Chris Wallace: research</h1>
 <div id="nav">
 <a class="navbar-link" href="index.html"><i class="fa fa-home"></i></a> |
 <!-- <a href="./background.html">Background</a> |  -->
@@ -79,35 +79,52 @@ for the JavaScript code in this tag.
 <a class="navbar-link" href="./contact.html">Links and contact</a>
 </div>
 
-<img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">From GWAS to causal genes</h2>
+<div class="outline-text-2" id="text-1">
+<img src="ctsh.jpg" alt="portrait" style="float:right;margin:10px;" />
 
 <p>
-Chris Wallace is a <a href="http://www.wellcome.ac.uk">Wellcome Trust</a> Research Career Development Fellow,
- head of the <a href="https://www-gene.cimr.cam.ac.uk/staff/dilstats/">statistics group</a> in the Wellcome Trust/JDRF <a href="http://www-gene.cimr.cam.ac.uk">Diabetes and Inflammation
- Laboratory</a> at Cambridge, and a visitor at the <a href="http://www.mrc-bsu.cam.ac.uk">MRC Biostatistics Unit</a>.
-My group is based in the <a href="http://www.cimr.cam.ac.uk">Cambridge Institute for Medical Research</a>.
+Genomewide association studies (GWAS) have been hugely successful in identifying associations between genetic variation and risk of common diseases.  
+However, genetic variation will not be a pharmaceutical target for these disease and translating this knowledge into understanding the genes, cells and pathways involved in disease aetiology has been slow.
+This is because the associated genetic variants do not typically reside in genes and change the protein they encode, but lie between genes and are presumed to regulate their expression in some cells, perhaps under specific conditions.
 </p>
+<p>
+As GWAS studies for disease have been conducted over the past decade, so people have conducted GWAS for other, more gene specific traits, such as parallel GWAS for the expression levels of each of the ~20,000 protein coding genes in a given cell type, called "eQTL" studies.
+These produce a local GWAS trace just as a disease GWAS does.  We use a pattern matching technique called colocalisation to determine whether the two GWAS traces are compatible with the two traits, disease risk and expression of a given gene in a given cell type and condition, sharing a causal variant.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Relationships between related diseases</h2>
+<div class="outline-text-2" id="text-2">
+<img src="disease-network.png" alt="portrait" style="float:left;margin:10px;" />
 
 <p>
-Our immune system protects us against infectious disease, but
-sometimes attacks our own cells, causing autoimmune disease.  We use
-statistical analysis of genetic and genomic datasets to understand the
-genes, cells and pathways involved in the aetiology of autoimmune
-diseases such as type 1 diabetes and the relationships between
-different autoimmune diseases.
+We study the shared and distinct genetic aetiology between related
+autoimmune diseases both at the genomewide and region specific level,
+addressing two separate questions.  First, at a the level of the whole
+genome, do associations with one disease predict associations with
+another disease?  We do this using an approach called conditional
+false discovery which uses genomewide associations, it includes
+information from individual loci that are not genomewide significant,
+but show a trend to shared association for two diseases.  However,
+because genes with similar function are often located close to one
+another, and because genetic variants also show a spatial correlation
+due to linkage disequilibrium, this does not autoimattically imply
+that the two diseases share the same causal variants.  We therefore
+use a complementary approach, applying the colocalisation (pattern
+matching) described above to investigate sharing of causal variants in
+detail.  This shows that even for two apparently closely related
+autoimmune diseases which both show association to the same genetic
+region (delineated by two recombination hotspots), this will relate to them sharing the same causal variant only about 50% of the time.
 </p>
-
-<p>
-These pages exist to store information about datasets and code used in
-papers from our group.  The aim is to make this information accessible,
-which is not always possible in the published papers.
-</p>
-
-<a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="display: block;    margin-left: auto;    margin-right: auto;"></a>
-<div class="blank"></div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2015-06-08 Mon 19:24</p>
+<p class="date">Created: 2015-06-08 Mon 19:23</p>
 <p class="validation"></p>
 </div>
 </body>

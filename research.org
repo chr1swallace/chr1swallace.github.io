@@ -18,10 +18,28 @@ This is because the associated genetic variants do not typically reside in genes
 As GWAS studies for disease have been conducted over the past decade, so people have conducted GWAS for other, more gene specific traits, such as parallel GWAS for the expression levels of each of the ~20,000 protein coding genes in a given cell type, called "eQTL" studies.
 These produce a local GWAS trace just as a disease GWAS does.  We use a pattern matching technique called colocalisation to determine whether the two GWAS traces are compatible with the two traits, disease risk and expression of a given gene in a given cell type and condition, sharing a causal variant.
 
+* Relationships between related diseases
+#+HTML: <img src="disease-network.png" alt="portrait" style="float:left;margin:10px;" />
 
-** Relationships between related diseases
+We study the shared and distinct genetic aetiology between related
+autoimmune diseases both at the genomewide and region specific level,
+addressing two separate questions.  First, at a the level of the whole
+genome, do associations with one disease predict associations with
+another disease?  We do this using an approach called conditional
+false discovery which uses genomewide associations, it includes
+information from individual loci that are not genomewide significant,
+but show a trend to shared association for two diseases.  However,
+because genes with similar function are often located close to one
+another, and because genetic variants also show a spatial correlation
+due to linkage disequilibrium, this does not autoimattically imply
+that the two diseases share the same causal variants.  We therefore
+use a complementary approach, applying the colocalisation (pattern
+matching) described above to investigate sharing of causal variants in
+detail.  This shows that even for two apparently closely related
+autoimmune diseases which both show association to the same genetic
+region (delineated by two recombination hotspots), this will relate to them sharing the same causal variant only about 50% of the time.
 
-We study the shared and distinct genetic aetiology between related autoimmune diseases both at the genomewide and region specific level, addressing two separate questions.  First, do variants for different diseases 
+
 
 
 # ** Heterogeneity

@@ -2,7 +2,7 @@
 #+options: toc:nil num:nil
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:nil creator:nil email:nil
-#+OPTIONS: timestamp:nil
+#+OPTIONS: timestamp:t
 #+CREATOR: 
 #+DESCRIPTION:
 #+EXCLUDE_TAGS: noexport
