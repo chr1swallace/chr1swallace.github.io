@@ -20,8 +20,26 @@ you really don't want to use github, as a last resort, email
 =chris.wallace= at =cimr.cam.ac.uk=.
 
 * Code and data organised by papers
-
+  
 ** 2015
+
+*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"
+
+*Paper*:  [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005272][PLOS Genet]] | [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]]
+
+*Code*: Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For detailed pipeline of steps to run GUESSFM, see the [[https://github.com/chr1swallace/GUESSFM/tree/master/vignettes][vignettes]].
+
+*Data*: [[T1D ImmunoChip Data]] | [[MS ImmunoChip Data]]
+
+
+
+*** Fortune et al "Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls"
+
+*Paper*: [[http://www.nature.com/ng/journal/v47/n7/full/ng.3330.html][Nat Genet]] | [[http://biorxiv.org/content/biorxiv/early/2015/06/08/020651.full.pdf][bioRxiv preprint]]
+
+*Data*: [[T1D ImmunoChip Data]] | [[MS ImmunoChip Data]] | [[RA ImmunoChip Data]] | [[T1D ImmunoChip Data]]
+
+Complete results are available in the [[http://www.nature.com/ng/journal/v47/n7/full/ng.3330.html#supplementary-information][Supplementary Tables]].
 
 *** Castro Dopico et al "Widespread seasonal gene expression reveals annual differences in human immunity and physiology" 
 
@@ -43,7 +61,6 @@ you really don't want to use github, as a last resort, email
 
 *Data*: [[T1D ImmunoChip Data]]
 
-
 *** Guo et al "Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases"
 
 *Paper*: [[http://dx.doi.org/10.1093/hmg/ddv077][Hum Mol Genet]]
@@ -51,16 +68,6 @@ you really don't want to use github, as a last resort, email
 *Code*: Uses the R package [[https://github.com/chr1swallace/coloc/][coloc]] (available also from [[http://cran.r-project.org/web/packages/coloc/index.html][CRAN]]).
 
 *Data*: [[ImmunoChip summary statistics]] | [[Fairfax eQTL data]] | [[Cardiogenics eQTL data]]
-
-*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"
-
-*Paper*: [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]].
-
-*Code*: Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For detailed pipeline of steps to run GUESSFM, see the [[https://github.com/chr1swallace/GUESSFM/tree/master/vignettes][vignettes]].
-
-*Data*: [[T1D ImmunoChip Data]]
-
-MS data was accessed through application to the [[International Multiple Sclerosis Genetic Consortium][International Multiple Sclerosis Genetic Consortium (IMSGC)]].
 
 *** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"
 *Paper*: [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][Nat Commun]].
@@ -89,6 +96,18 @@ We also used [[T1D GWAS Data]].
 * Datasets we have used
 
 ** GWAS
+*** Coeliac ImmunoChip Data
+
+Primary analysis is by [[http://www.nature.com/ng/journal/v43/n12/full/ng.998.html][Trynka et al]].  Genotype data  is hosted by the European Bioinformatics Institute, under accession number [[http://www.ebi.ac.uk/ega/studies/EGAS00000000053][EGAS00000000053]].
+
+*** MS ImmunoChip Data
+
+MS ImmunoChip data was accessed through application to the [[International Multiple Sclerosis Genetic Consortium][International Multiple Sclerosis Genetic Consortium (IMSGC)]].  Primary analysis of these data is presented in [[http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3882906/]] and the dbGaP accession number for the  US cohort is phs000357.v2.p2.
+
+*** RA ImmunoChip Data
+
+Primary analysis was by [[http://www.nature.com/ng/journal/v44/n12/full/ng.2462.html][Eyre et al.]] and data were accessed through a request to the authors.
+
 *** T1D ImmunoChip Data 
 
 from dbGaP ([[http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000180.v2.p2]])
