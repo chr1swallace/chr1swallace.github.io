@@ -61,7 +61,7 @@ variants also show a spatial correlation due to linkage
 disequilibrium, this does not autoimattically imply that the two
 diseases share the same causal variants.  We therefore use a
 complementary approach, applying the colocalisation (pattern matching)
-described above to investigate sharing of causal variants in detail.
+described left to investigate sharing of causal variants in detail.
 This shows that even for two apparently closely related autoimmune
 diseases which both show association to the same genetic region
 (delineated by two recombination hotspots), this will relate to them
@@ -71,9 +71,16 @@ sharing the same causal variant only about 50% of the time.
 
 Liley, James, and Chris Wallace. 2015. “A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics.” PLoS Genetics 11 (2): e1004926. http://dx.doi.org/10.1371/journal.pgen.1004926.
 
-Onengut-Gumuscu, Suna, Wei-Min Chen, Oliver Burren, Nick J Cooper, Aaron R Quinlan, Josyf C Mychaleckyj, Emily Farber, et al. 2015. “Fine Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for Colocalization of Causal Variants with Lymphoid Gene Enhancers.” Nature Genetics 47 (4): 381–86. http://dx.doi.org/10.1038/ng.3245.
+Onengut-Gumuscu, Suna, Wei-Min Chen, Oliver Burren, Nick J Cooper,
+Aaron R Quinlan, Josyf C Mychaleckyj, Emily Farber, et al. 2015. “Fine
+Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for
+Colocalization of Causal Variants with Lymphoid Gene Enhancers.”
+Nature Genetics 47 (4): 381–86. http://dx.doi.org/10.1038/ng.3245.
 
-
+Fortune MD, Guo H, Burren O, Schofield E, Walker NM, Ban M, Sawcer SJ,
+Bowes J, Worthington J, Barton A, Eyre S, Todd JA, Wallace C.
+"Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls."
+Nature Genetics 47 (7): 839-846.  [[http://dx.doi.org/10.1038/ng.3330]].  Preprint at [[http://biorxiv.org/content/early/2015/06/08/020651][bioRxiv]]. PMID:26053495
 
 
 
