@@ -85,3 +85,17 @@ Nature Genetics 47 (7): 839-846.  [[http://dx.doi.org/10.1038/ng.3330]].  Prepri
 
 
 # ** Heterogeneity
+
+* Gene expression variation pre-disease
+
+The BABYDIET study led by Annette Ziegler and Ezio Bonifacio collected
+blood samples longitudinally from 109 children genetically at risk of,
+but initially unaffected by type 1 diabetes.  We were lucky to have
+access to white blood cells (PBMCs) from these samples and measured
+the gene expression in them.  We were particularly interested in
+expression of interferon responsive genes, given previous links
+between type 1 diabetes and infection.  Indeed, we saw an upregulation
+of these genes in children who went on to develop the autoantibodies
+that are strongly predictive of T1D diagnosis, but, crucially, the
+upregulation was transient and preceded the appearance of
+autoantibodies.
