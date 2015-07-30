@@ -4,7 +4,7 @@
 
 #+INCLUDE: ./nav2.org
 
-* From GWAS to causal genes
+* From genetic association to causal genes
 
 #+HTML: <img src="ctsh.jpg" alt="portrait" style="float:right;margin:10px;" />
 
@@ -86,7 +86,9 @@ Nature Genetics 47 (7): 839-846.  [[http://dx.doi.org/10.1038/ng.3330]].  Prepri
 
 # ** Heterogeneity
 
-* Gene expression variation pre-disease
+
+* Gene expression in immune cells
+#+HTML: <img src="ferreira.jpg" style="float:right;margin:10px;" />
 
 The BABYDIET study led by Annette Ziegler and Ezio Bonifacio collected
 blood samples longitudinally from 109 children genetically at risk of,
@@ -98,4 +100,28 @@ between type 1 diabetes and infection.  Indeed, we saw an upregulation
 of these genes in children who went on to develop the autoantibodies
 that are strongly predictive of T1D diagnosis, but, crucially, the
 upregulation was transient and preceded the appearance of
-autoantibodies.
+autoantibodies.  It was also temporally correlated with recent upper
+respiratory infection, and may represent a biomarker for the response
+to infection or the mechanism by which the infection influences type 1
+diabetes risk.
+
+We also used these data to investigate seasonal variation in gene
+expression, and found that 25% of the genes expressed in these cells
+in these children varied in their expression throughout the year.  In
+winter, we saw that this expression profile produced a
+pro-inflammatory environment.  This might be advantageous during a
+season when infectious diseases are at a peak, but is a risk factor
+for other diseases associated with inflammation such as cardiovascular
+also peak in winter.  We replicated this finding in multiple datasets,
+including one from the Southern hemisphere when winter occurs during
+June-August.
+
+** Related papers
+
+Ferreira RC, Guo H, Coulson RM, Smyth DJ, Pekalski ML, Burren OS, et al.
+"A type I interferon transcriptional signature precedes autoimmunity in children genetically at risk for type 1 diabetes."
+/Diabetes/ [2014, 63(7):2538-2550] [[http://europepmc.org/abstract/MED/24561305][PMID:24561305]] PMCID:PMC4066333
+
+Dopico XC, Evangelou M, Ferreira RC, Guo H, Pekalski ML, Smyth DJ, et al. 
+"Widespread seasonal gene expression reveals annual differences in human immunity and physiology."
+/Nat Commun/ [2015, 6:7000] [[http://europepmc.org/abstract/MED/25965853][PMID:25965853]] PMCID:PMC4432600

@@ -13,11 +13,13 @@ Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Research Career
 My group is based in the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical Research]].
 
 Our immune system protects us against infectious disease, but
-sometimes attacks our own cells, causing autoimmune disease.  We use
-statistical analysis of genetic and genomic datasets to understand the
-genes, cells and pathways involved in the aetiology of autoimmune
+sometimes attacks our own cells, causing autoimmune disease.  My group
+use statistical analysis of genetic and genomic datasets to understand
+the genes, cells and pathways involved in the aetiology of autoimmune
 diseases such as type 1 diabetes and the relationships between
-different autoimmune diseases.
+different autoimmune diseases.  Our goal is to further the
+understanding of these diseases in order to help prevent and treat
+them.
 
 These pages exist to store information about datasets and code used in
 papers from our group.  The aim is to make this information accessible,
