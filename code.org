@@ -71,7 +71,10 @@ install_github("chr1swallace/package.name", "chr1swallace")
        manipulation, and binding, of such objects, and includes a few
        functions I use for finding duplicate samples, applying QC, and
        aligning alleles between different datasets.  It seems to work,
-       and I intend to push it to CRAN in the future.</li>
+       and I intend to push it to CRAN in the future.
+*** [[https://github.com/chr1swallace/GUESSFM][GUESSFM]]
+    A wrapper around the GUESS stochastic model search method for fine
+    mapping causal variants in genetic data.   See [[file:research.org::*Causal%20variant%20identification][more detail here]].
 *** [[https://github.com/chr1swallace/origin][origin]] 
 implements an   extension to the Weinberg method for testing for parent of origin
   effects to allow for multiple affected offspring in a nuclear

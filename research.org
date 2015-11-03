@@ -4,7 +4,42 @@
 
 #+INCLUDE: ./nav2.org
 
-* From genetic association to causal genes
+* Causal variant identification
+
+#+HTML: <img src="GUESSFM_small.png" alt="portrait" style="float:left;margin:10px;" />
+
+Genetic association studies have identified many DNA sequence variants
+that associate with disease risk. By exploiting the known correlation
+that exists between neighbouring variants in the genome, inference can
+be extended beyond those individual variants tested to identify sets
+within which a causal variant is likely to reside. However, this
+correlation, particularly in the presence of multiple disease causing
+variants in relative proximity, makes disentangling the specific
+causal variants difficult. Statistical approaches to this fine mapping
+problem have traditionally taken a stepwise search approach, beginning
+with the most associated variant in a region, then iteratively
+attempting to find additional associated variants. We adapted a
+stochastic search approach that avoids this stepwise process and is
+explicitly designed for dealing with highly correlated predictors to
+the fine mapping problem. We showed in simulated data that it
+outperforms its stepwise counterpart and other variable selection
+strategies such as the lasso. We applied our approach to understand
+the association of two immune-mediated diseases to a region on
+chromosome 10p15. We identified a model for multiple sclerosis
+containing two variants, neither of which was found through a stepwise
+search, and functionally linked both of these to the neighbouring
+candidate gene, IL2RA, in independent data. Our approach can be used
+to aid fine mapping of other disease-associated regions, which is
+critical for design of functional follow-up studies required to
+understand the mechanisms through which genetic variants influence
+disease.
+
+** Related papers
+
+Wallace C, Cutler AJ, Pontikos N, Pekalski ML, Burren OS, Cooper JD, et al. (2015) Dissection of a Complex Disease Susceptibility Region Using a Bayesian Stochastic Search Approach to Fine Mapping. PLoS Genet 11(6): e1005272. doi:10.1371/journal.pgen.1005272
+[[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005272]]
+
+* Causal gene identification
 
 #+HTML: <img src="ctsh.jpg" alt="portrait" style="float:right;margin:10px;" />
 
