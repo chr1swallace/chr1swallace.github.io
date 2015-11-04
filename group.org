@@ -52,9 +52,13 @@ James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD pro
 # *** Arcadio Rubio Garcia (PhD student, primary supervisor John Todd)
 # Arcadio Rubio Garcia is a PhD student working with sequencing and expression data.
 
-# *** Steven Kiddle (Visitor, MRC fellow)
-# Steve
+*** Steven Kiddle (Visitor, MRC fellow)
+
+#+HTML: <img src="pics/kiddle_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Steven Kiddle is an MRC Career Development Fellow in Biostatistics based at King’s College London. He is visiting our group in Cambridge until May 2016. He works on clustering approaches for time series and biomarkers of Alzheimer’s Disease.
+
 # *** Loes Rutten-Jacob
+
 
 ** Alumni
 *** Lucia Cilloni (MPhil student, summer 2015)
