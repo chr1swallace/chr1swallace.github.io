@@ -27,9 +27,14 @@ selection, Bayesian model averaging and empirical Bayes false
 discovery rates, applied to integrated analysis of multiple related
 datasets.
 
-Previously:
+I am funded by the [[http://www.wellcome.ac.uk/][Wellcome Trust]].
 
+*Future plans*
 
+In February 2016 I will move to the [[http://www.med.cam.ac.uk/][Department of Medicine]] to extend
+new collaborations and take on a more formal visiting position  at the [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]] as a Visiting Programme Leader.
+
+*Previously* 
 - 2003-2008: Research Fellow working with
 	  the [[http://www.brightstudy.ac.uk/][BRIGHT]] study into
 	  the genetics of hypertension.
@@ -43,7 +48,6 @@ Previously:
 
 # I keep notes about R and other code at my [[http://cwcode.wordpress.com][code blog]].
 
-I am funded by the [[http://www.wellcome.ac.uk/][Wellcome Trust]].
 
 *** Mary Fortune (PhD student)
 
@@ -80,7 +84,7 @@ Imperial College London.
 
 *** Hui Guo (post doc 2010-2014)
 #+HTML: <img src="pics/hui.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-[[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] worked on gene expression data, and led the analysis of our study relating gene expression in PBMCs children at risk of type 1 diabetes is now a lecturer in biostatistics at University of Manchester.
+[[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] worked on gene expression data, and led the analysis of our study relating gene expression in PBMCs children at risk of type 1 diabetes is now a lecturer in biostatistics at [[http://www.population-health.manchester.ac.uk/staff/HuiGuo/][University of Manchester]].
 *** Xin Yang (PhD student 2011-2014)
 #+HTML: <img src="pics/xin.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
 Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA seq, and bisulfite seq - focusing particularly on the extra binomial variation induced by pooling.  She moved to KCL in 2014, and from there to the CTTV project at Sanger/GSK.
