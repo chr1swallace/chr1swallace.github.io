@@ -11,14 +11,18 @@
 I am a statistician who works with biological datasets to understand
 the mechanisms underlying human disease and identify possible
 treatments.  Such work is only possible with close collaboration with
-biologists, and I moved to the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical
-Research]] in 2009 to pursue these collaborations.  During the GWAS era,
-we, and others, identified many genetic polymorphisms that alter risk
-of human diseases such as type 1 diabetes and hypertension.  My focus
-has now mostly shifted towards understanding the cell specific
-mechanism through which these variants affect risk of different immune
-mediated diseases and intermediate biological traits such as gene
-expression.  Statistically, my current work is focused on variable
+biologists, and I moved to the [[http://www.cimr.cam.ac.uk][Cambridge
+Institute for Medical Research]] in 2009 to pursue these
+collaborations, most strongly with the [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation
+Laboratory]] where I have been head of statistics since 2012.  During
+the GWAS era, we, and others, identified many genetic polymorphisms
+that alter risk of human diseases such as type 1 diabetes and
+hypertension.  My focus has now mostly shifted towards understanding
+the cell specific mechanism through which these variants affect risk
+of different immune mediated diseases and intermediate biological
+traits such as gene expression.
+# In Feburary 2016 to the [[http://www.med.cam.ac.uk/][Department of Medicine]] to extend new collaborations.  
+Statistically, my current work is focused on variable
 selection, Bayesian model averaging and empirical Bayes false
 discovery rates, applied to integrated analysis of multiple related
 datasets.
@@ -37,14 +41,14 @@ Previously:
 - 1997-1999: Statistical
 	programmer, [[http://www.imperial.ac.uk][Imperial]].
 
-I contribute to the [[http://dilstats.wordpress.com][DILstats blog]], where you can find details of
-recent papers from our group, and keep notes about R and other
-code at my [[http://cwcode.wordpress.com][code blog]].
+# I keep notes about R and other code at my [[http://cwcode.wordpress.com][code blog]].
+
+I am funded by the [[http://www.wellcome.ac.uk/][Wellcome Trust]].
 
 *** Mary Fortune (PhD student)
 
 #+HTML: <img src="pics/mary.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-[[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data.
+[[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data. 
 
 *** James Liley (PhD student)
 #+HTML: <img src="pics/jamesliley_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
