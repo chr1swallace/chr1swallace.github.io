@@ -57,7 +57,11 @@ James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD pro
 #+HTML: <img src="pics/kiddle_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
 Steven Kiddle is an MRC Career Development Fellow in Biostatistics based at King’s College London. He is visiting our group in Cambridge until May 2016. He works on clustering approaches for time series and biomarkers of Alzheimer’s Disease.
 
-# *** Loes Rutten-Jacob
+*** Loes Rutten-Jacobs (Visitor, BHF fellow)
+
+#+HTML: <img src="pics/Loes_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Loes Rutten-Jacobs is a British Heart Foundation Immediate Research Fellow in the [[http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/][Stroke Research Group]] of the Department of Clinical Neurosciences, University of Cambridge and is visiting our group until December 2018. In her research she aims to identify novel pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
+
 
 
 ** Alumni
@@ -75,9 +79,10 @@ Imperial College London.
 [[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] worked on gene expression data, and led the analysis of our study relating gene expression in PBMCs children at risk of type 1 diabetes is now a lecturer in biostatistics at University of Manchester.
 *** Xin Yang (PhD student 2011-2014)
 #+HTML: <img src="pics/xin.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA seq, and bisulfite seq - focusing particularly on the extra binomial variation induced by pooling.  She moved to KCL in 2014.
+Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA seq, and bisulfite seq - focusing particularly on the extra binomial variation induced by pooling.  She moved to KCL in 2014, and from there to the CTTV project at Sanger/GSK.
+
 *** Nikolas Pontikos (PhD student 2011-2014) 
 #+HTML: <img src="pics/NikoSubmitting_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-Niko worked on automated analysis of flow cytometry data and applying clustering methods to call and impute genotypes in the KIR locus.  He moved to UCL in 2014.
+Niko worked on automated analysis of flow cytometry data and applying clustering methods to call and impute genotypes in the KIR locus.  He moved to UCL in 2014 and maintains notes about his [[http://pontikos.github.io/][current work]].
 
 
