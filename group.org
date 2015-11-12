@@ -88,7 +88,7 @@ Imperial College London.
 #+HTML: <img src="pics/xin.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
 Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA
 seq, and bisulfite seq - focusing particularly on the extra binomial
-variation induced by pooling.  [[http://figshare.com/articles/Statistical_analysis_of_next_generation_sequencing_data_with_applications_to_type_1_diabetes_studies/1598221][thesis]]
+variation induced by pooling.  Her [[http://figshare.com/articles/Statistical_analysis_of_next_generation_sequencing_data_with_applications_to_type_1_diabetes_studies/1598221][thesis]] is on figshare.
 
 She moved to KCL in 2014, and from there to the CTTV project at Sanger/GSK.
 
