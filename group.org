@@ -83,7 +83,7 @@ Imperial College London.
 
 *** Hui Guo (post doc 2010-2014)
 #+HTML: <img src="pics/hui.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-[[http://www.population-health.manchester.ac.uk/staff/HuiGuo][Hui Guo]] worked on gene expression data, and led the analysis of our study relating gene expression in PBMCs children at risk of type 1 diabetes is now a lecturer in biostatistics at [[http://www.population-health.manchester.ac.uk/staff/HuiGuo/][University of Manchester]].
+Hui worked on gene expression data, and led the analysis of our study relating gene expression in PBMCs from children at risk of type 1 diabetes to autoantibody positivity.  She is now a lecturer in biostatistics at [[http://www.population-health.manchester.ac.uk/staff/HuiGuo/][University of Manchester]].
 *** Xin Yang (PhD student 2011-2014)
 #+HTML: <img src="pics/xin.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
 Xin worked on all kinds of next gen sequencing data - pooled DNA, RNA

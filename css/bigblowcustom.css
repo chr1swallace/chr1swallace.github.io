@@ -45,11 +45,15 @@ div { clear: both; }
 /*        margin-top: 2px; */
 /*        margin-bottom: 0px; */
 /* } */
+
+#content a:link, #content a:visited, #content a:hover { font-weight: bold; }
 #nav a:link, #nav a:visited {
+    font-weight: normal;
        color: #000000;
     /* font-size: small; */
 }
 #nav a:hover {
+    font-weight: normal;
     color: #13679D;
     /* font-size: small; */
 }
