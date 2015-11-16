@@ -1,0 +1,7 @@
+#+TITLE: Chris Wallace: group publications
+
+#+SETUPFILE: ./setup3.org
+
+#+INCLUDE: ./nav2.org
+
+#+INCLUDE: "orcid-out.html" html
