@@ -14,10 +14,10 @@ years = Hash.new(0)
 
 def addlink(type, id) 
   if type=="pmid"
-    OFILE.write("<a href=\"http://ukpmc.ac.uk/abstract/MED/#{id}\"><b><tt>ukpmc</tt></b></a>")
+    OFILE.write(" [<a href=\"http://ukpmc.ac.uk/abstract/MED/#{id}\"><b><tt>ukpmc</tt></b></a>]")
   end
   if type=="doi"
-    OFILE.write("<a href=\"http://dx.doi.org/#{id}\"><b><tt>doi</tt></b></a>")    
+    OFILE.write(" [<a href=\"http://dx.doi.org/#{id}\"><b><tt>doi</tt></b></a>]")    
   end
 end
 
@@ -36,8 +36,13 @@ def auput i
   if(comma)
     second,first = i.split(',').map(&:strip)
     i = "#{first} #{second}"
-  end
+  end  
   i.sub("C Wallace","<b>C Wallace</b>")
+  i.sub("J Liley","<b>J Liley</b>")
+  i.sub("H Guo","<b>H Guo</b>")
+  i.sub("MD Fortune","<b>MD Fortune</b>")
+  i.sub("X Yang","<b>X Yang</b>")
+  i.sub("N Pontikos","<b>N Pontikos</b>")
 end
 
 OFILE.write("<ol>\n")
@@ -56,6 +61,11 @@ OFILE.write("<ol>\n")
 
   @au = node.css("credit-name").children.map { |i| i.text }
   @au.map!{ |i| auput(i) }
+  if @au.count > 20
+    n=@au.count
+    no=n-20
+    @au = [ @au[0..9], "... #{no} other(s)...", @au[(n-10)..n] ].flatten
+  end
   OFILE.write(@au.join(", ") + ".\n" + yr + ".\n" + ti + ".\n")
 
   @types = node.css('work-external-identifier-type').map { |i| i.text }

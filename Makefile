@@ -1,4 +1,4 @@
-OBJS = index.html group.html research.html code.html contact.html
+OBJS = index.html group.html research.html code.html contact.html pubs.html
 
 main: $(OBJS)
 	echo "done"
