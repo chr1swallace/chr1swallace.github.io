@@ -11,6 +11,7 @@ puts "Works found: " + @block.count
 ## prepare output
 OFILE = File.open('orcid-out.html','w')
 years = Hash.new(0)
+titles = Hash.new(0)
 
 def addlink(type, id) 
   if type=="pmid"
@@ -32,28 +33,52 @@ end
 def auput i
   comma_re=/,/
   i.gsub!("\.","") # remove .
-  comma = comma_re.match(i)
-  if(comma)
-    second,first = i.split(',').map(&:strip)
-    i = "#{first} #{second}"
-  end  
-  i.sub("C Wallace","<b>C Wallace</b>")
-  i.sub("J Liley","<b>J Liley</b>")
-  i.sub("H Guo","<b>H Guo</b>")
-  i.sub("MD Fortune","<b>MD Fortune</b>")
-  i.sub("X Yang","<b>X Yang</b>")
-  i.sub("N Pontikos","<b>N Pontikos</b>")
+  i.gsub!(",","") # remove ,
+  # comma = comma_re.match(i)
+  # if(comma)
+  #   second,first = i.split(',').map(&:strip)
+  #   i = "#{first} #{second}"
+  # end  
+  i.sub("Wallace C","<b>Wallace C</b>")
+  i.sub("Liley J","<b>Liley J</b>")
+  i.sub("Guo H","<b>Guo H</b>")
+  i.sub("Fortune MD","<b>Fortune MD</b>")
+  i.sub("Yang X","<b>Yang X</b>")
+  i.sub("Pontikos N","<b>Pontikos N</b>")
 end
 
 OFILE.write("<ol>\n")
 
+skip_re=/Erratum|Corrigendum/
+source_re=/Scopus/
+
 @block.map { |node| 
 
+  so = node.css("source-name").children.text
+  source = source_re.match(so)
+  if source
+    next
+  end
+
   ti = node.css("title").children.text
+  ti.sub!("\.$","")
+  # TODO: skip Erratum/Corigendum
+  skip=skip_re.match(ti)
+  if(skip)
+    next
+  end
+  # TODO: make and check hash of titles
+  ti2=ti.downcase.gsub(/[^a-z]/, '')
+  if titles[ti2] ==0
+    titles[ti2] = 1
+  else
+    next
+  end
+
   yr = node.css("year").children.text
 
   if years[yr] == 0
-    OFILE.write("<div style=\"font-weight:bold\">" + yr + "</div>")
+    OFILE.write("<div style=\"font-weight:bold; font-size:150%; margin-top:10px\">" + yr + "</div>")
     years[yr] = 1
   end
 
@@ -66,7 +91,7 @@ OFILE.write("<ol>\n")
     no=n-20
     @au = [ @au[0..9], "... #{no} other(s)...", @au[(n-10)..n] ].flatten
   end
-  OFILE.write(@au.join(", ") + ".\n" + yr + ".\n" + ti + ".\n")
+  OFILE.write(ti + "<br/>\n" + @au.join(", ") + ".\n" + yr + ".<br/>\n")
 
   @types = node.css('work-external-identifier-type').map { |i| i.text }
   @ids = node.css('work-external-identifier-id').map { |i| i.text }
@@ -106,46 +131,3 @@ OFILE.close()
 
 
 
-
-parsed_res = Crack::XML.parse(xx)
-
-@doc.xpath("//")
-
-thing = doc.at_xpath('//things')
-puts "ID   = " + thing.at_xpath('//Id').content
-puts "Name = " + thing.at_xpath('//Name').content
-
-
-arxiv_re = /http:\/\/arxiv.org\/abs\/([\.\d]+)\"/
-oldstyle_re = /^<a name=\"(\w+)(\d{2})/
-newstyle_re = /^<a name=\"(\d{4})_/
-
-year_re = /\((\d{4})\)/
-years = Hash.new(0)
-
-doi_re = /doi:(.*)/
-
-IO.foreach('orcid.txt') { |line|
-  ## get year
-  year = year_re.match(line)
-  if year
-    yearn = year.captures[0]
-    if years[yearn] == 0
-      ofile.write('#+LATEX: <div style="font-weight:bold">' + yearn + ' </div>')
-      years[yearn] = 1
-    end
-  end
-
-  ## any doi
-  doi = doi_re.match(doi)
-
-  ## if arxiv, split line after first ' '
-  arxiv = arxiv_re.match(line)
-  if arxiv
-#     puts("found arxiv")
-#     puts(line)
-    line=line.sub("</a>, ", "</a>, \n" )
-#     puts(line)
-  end
-  ofile.write(line)
-}
