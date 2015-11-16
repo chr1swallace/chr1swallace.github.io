@@ -2,20 +2,98 @@
 
 require 'nokogiri'
 
-## prepare output
-ofile = File.open('orcid.org','w')
 
 doc = Nokogiri::XML(File.open("./orcid.xml"))
 @block = doc.css("works work")
 puts "Works found: " + @block.count
 
+
+## prepare output
+OFILE = File.open('orcid-out.html','w')
+years = Hash.new(0)
+
+def addlink(type, id) 
+  if type=="pmid"
+    OFILE.write("<a href=\"http://ukpmc.ac.uk/abstract/MED/#{id}\"><b><tt>ukpmc</tt></b></a>")
+  end
+  if type=="doi"
+    OFILE.write("<a href=\"http://dx.doi.org/#{id}\"><b><tt>doi</tt></b></a>")    
+  end
+end
+
+def bstart
+  OFILE.write("<li>")
+end
+
+def bend
+  OFILE.write("</li>\n\n")
+end
+
+def auput i
+  comma_re=/,/
+  i.gsub!("\.","") # remove .
+  comma = comma_re.match(i)
+  if(comma)
+    second,first = i.split(',').map(&:strip)
+    i = "#{first} #{second}"
+  end
+  i.sub("C Wallace","<b>C Wallace</b>")
+end
+
+OFILE.write("<ol>\n")
+
 @block.map { |node| 
-  ti = node.css("title").children
-  ti.sub(<title>, </title> -> "")
-  ci = node.css("citation").children
-ci.sub("Wallace C" -> bold)
-@ids = node.css('work-external-identifier')
+
+  ti = node.css("title").children.text
+  yr = node.css("year").children.text
+
+  if years[yr] == 0
+    OFILE.write("<div style=\"font-weight:bold\">" + yr + "</div>")
+    years[yr] = 1
+  end
+
+  bstart()
+
+  @au = node.css("credit-name").children.map { |i| i.text }
+  @au.map!{ |i| auput(i) }
+  OFILE.write(@au.join(", ") + ".\n" + yr + ".\n" + ti + ".\n")
+
+  @types = node.css('work-external-identifier-type').map { |i| i.text }
+  @ids = node.css('work-external-identifier-id').map { |i| i.text }
+
+  for i in 0 ... @ids.size
+    addlink(@types[i], @ids[i])
+  end
+
+  bend()
 }
+
+OFILE.write("</ol>\n")
+
+## close output
+OFILE.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -61,6 +139,3 @@ IO.foreach('orcid.txt') { |line|
   end
   ofile.write(line)
 }
-
-## close output
-ofile.close()
