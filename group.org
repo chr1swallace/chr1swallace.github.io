@@ -62,12 +62,12 @@ James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD pro
 *** Steven Kiddle (Visitor, MRC fellow)
 
 #+HTML: <img src="pics/kiddle_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-Steven Kiddle is an MRC Career Development Fellow in Biostatistics based at King’s College London. He is visiting our group in Cambridge until May 2016. He works on clustering approaches for time series and biomarkers of Alzheimer’s Disease.
+[[https://kclpure.kcl.ac.uk/portal/steven.kiddle.html][Steven Kiddle]] is an MRC Career Development Fellow in Biostatistics based at King’s College London. He is visiting our group in Cambridge until May 2016. He works on clustering approaches for time series and biomarkers of Alzheimer’s Disease.
 
 *** Loes Rutten-Jacobs (Visitor, BHF fellow)
 
 #+HTML: <img src="pics/Loes_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-Loes Rutten-Jacobs is a British Heart Foundation Immediate Research Fellow in the [[http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/][Stroke Research Group]] of the Department of Clinical Neurosciences, University of Cambridge and is visiting our group until December 2018. In her research she aims to identify novel pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
+[[http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406][Loes Rutten-Jacobs]] is a British Heart Foundation Immediate Research Fellow in the [[http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/][Stroke Research Group]] of the Department of Clinical Neurosciences, University of Cambridge and is visiting our group until December 2018. In her research she aims to identify novel pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
 
 
 

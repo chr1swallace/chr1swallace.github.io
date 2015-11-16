@@ -68,11 +68,11 @@ condition, sharing a causal variant.
 
 ** Related papers
 
-Giambartolomei, Claudia, Damjan Vukcevic, Eric E Schadt, Lude Franke, Aroon D Hingorani, Chris Wallace, and Vincent Plagnol. 2014. “Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics.” PLoS Genetics 10 (5): e1004383. http://dx.doi.org/10.1371/journal.pgen.1004383.
-
 Wallace, Chris, Maxime Rotival, Jason D Cooper, Catherine M Rice, Jennie H M Yang, Mhairi McNeill, Deborah J Smyth, et al. 2012. “Statistical Colocalization of Monocyte Gene Expression and Genetic Risk Variants for Type 1 Diabetes.” Human Molecular Genetics 21 (12): 2815–24. http://dx.doi.org/10.1093/hmg/dds098.
 
 Wallace, Chris. 2013. “Statistical Testing of Shared Genetic Control for Potentially Related Traits.” Genetic Epidemiology 37 (8): 802–13. http://dx.doi.org/10.1002/gepi.21765.
+
+Giambartolomei, Claudia, Damjan Vukcevic, Eric E Schadt, Lude Franke, Aroon D Hingorani, Chris Wallace, and Vincent Plagnol. 2014. “Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics.” PLoS Genetics 10 (5): e1004383. http://dx.doi.org/10.1371/journal.pgen.1004383.
 
 Guo, Hui, Mary D Fortune, Oliver S Burren, Ellen Schofield, John A Todd, and Chris Wallace. 2015. “Integration of Disease Association and eQTL Data Using a Bayesian Colocalisation Approach Highlights Six Candidate Causal Genes in Immune-Mediated Diseases.” Human Molecular Genetics 24 (12): 3305–13. http://dx.doi.org/10.1093/hmg/ddv077.
 
@@ -113,7 +113,7 @@ Colocalization of Causal Variants with Lymphoid Gene Enhancers.”
 Nature Genetics 47 (4): 381–86. http://dx.doi.org/10.1038/ng.3245.
 
 Fortune MD, Guo H, Burren O, Schofield E, Walker NM, Ban M, Sawcer SJ,
-Bowes J, Worthington J, Barton A, Eyre S, Todd JA, Wallace C.
+Bowes J, Worthington J, Barton A, Eyre S, Todd JA, Wallace C.  2015.
 "Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls."
 Nature Genetics 47 (7): 839-846.  [[http://dx.doi.org/10.1038/ng.3330]].  Preprint at [[http://biorxiv.org/content/early/2015/06/08/020651][bioRxiv]]. PMID:26053495
 
