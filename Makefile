@@ -9,3 +9,8 @@ main: $(OBJS)
 view: $(OBJS)
 	gnome-www-browser index.html
 
+orcid-renew: 
+	curl -H "Accept: application/orcid+xml" 'http://pub.orcid.org/v1.2/0000-0001-9755-1703/orcid-works' -L -i > orcid.html
+	awk 'NR>9 {print}' orcid.html | sed 's/orcid-//g' > orcid.xml
+
+#curl  http://feed.labs.orcid-eu.org/0000-0001-9755-1703?format=txt > orcid.txt
