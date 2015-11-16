@@ -10,11 +10,11 @@
 
 #+BEGIN_HTML
 <div class="contact">
-<b>Contact</b><br><i class="fa fa-phone"></i>01223 761093
+<b>Contact</b><br><i class="fa fa-phone"></i> 01223 761093
  |
-<i class="fa fa-envelope"></i>chris dot wallace at cimr.cam.ac.uk
+<i class="fa fa-envelope"></i> cew54 at cam.ac.uk
  |
-<a href="https://twitter.com/chr1swallace"><i class="fa fa-twitter"></i>chr1swallace</a>
+<a href="https://twitter.com/chr1swallace"><i class="fa fa-twitter"></i> chr1swallace</a>
 </div>                  
 <div class="links">
 #+END_HTML

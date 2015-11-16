@@ -6,3 +6,6 @@ main: $(OBJS)
 %.html: %.org
 	emacs -batch -Q -L lisp -l ~/.emacs --visit $^ -f org-html-export-to-html
 
+view: $(OBJS)
+	gnome-www-browser index.html
+
