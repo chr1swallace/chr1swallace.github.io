@@ -46,7 +46,8 @@ div { clear: both; }
 /*        margin-bottom: 0px; */
 /* } */
 
-#content a:link, #content a:visited, #content a:hover { font-weight: bold; }
+a:link, a:visited { font-weight: bold; }
+a:hover { font-weight: bold; color: #00275D; }
 #nav a:link, #nav a:visited {
     font-weight: normal;
        color: #000000;

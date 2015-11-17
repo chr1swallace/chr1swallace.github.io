@@ -5,7 +5,7 @@ require 'nokogiri'
 
 doc = Nokogiri::XML(File.open("./orcid.xml"))
 @block = doc.css("works work")
-puts "Works found: " + @block.count
+puts "Works found: " + @block.count.to_s
 
 
 ## prepare output
@@ -15,10 +15,10 @@ titles = Hash.new(0)
 
 def addlink(type, id) 
   if type=="pmid"
-    OFILE.write(" [<a href=\"http://ukpmc.ac.uk/abstract/MED/#{id}\"><b><tt>ukpmc</tt></b></a>]")
+    OFILE.write(" [<a href=\"http://ukpmc.ac.uk/abstract/MED/#{id}\"><tt>ukpmc</tt></a>]")
   end
   if type=="doi"
-    OFILE.write(" [<a href=\"http://dx.doi.org/#{id}\"><b><tt>doi</tt></b></a>]")    
+    OFILE.write(" [<a href=\"http://dx.doi.org/#{id}\"><tt>doi</tt></a>]")    
   end
 end
 
@@ -30,6 +30,16 @@ def bend
   OFILE.write("</li>\n\n")
 end
 
+def bold_authors i
+  i.sub!("Wallace C","<b>Wallace C</b>")
+  i.sub!("Liley J","<b>Liley J</b>")
+  i.sub!("Guo H","<b>Guo H</b>")
+  i.sub!("Fortune MD","<b>Fortune MD</b>")
+  i.sub!("Yang X","<b>Yang X</b>")
+  i.sub!("Pontikos N","<b>Pontikos N</b>")
+  i
+end
+
 def auput i
   comma_re=/,/
   i.gsub!("\.","") # remove .
@@ -39,12 +49,8 @@ def auput i
   #   second,first = i.split(',').map(&:strip)
   #   i = "#{first} #{second}"
   # end  
-  i.sub("Wallace C","<b>Wallace C</b>")
-  i.sub("Liley J","<b>Liley J</b>")
-  i.sub("Guo H","<b>Guo H</b>")
-  i.sub("Fortune MD","<b>Fortune MD</b>")
-  i.sub("Yang X","<b>Yang X</b>")
-  i.sub("Pontikos N","<b>Pontikos N</b>")
+  #  bold_authors(i)
+  i
 end
 
 OFILE.write("<ol>\n")
@@ -82,16 +88,21 @@ source_re=/Scopus/
     years[yr] = 1
   end
 
+  ci = node.css("citation").children.text
+
   bstart()
 
   @au = node.css("credit-name").children.map { |i| i.text }
+  au_complete = @au.join(", ")
+  ci.sub!("#{au_complete}, ","")
   @au.map!{ |i| auput(i) }
   if @au.count > 20
     n=@au.count
     no=n-20
     @au = [ @au[0..9], "... #{no} other(s)...", @au[(n-10)..n] ].flatten
   end
-  OFILE.write(ti + "<br/>\n" + @au.join(", ") + ".\n" + yr + ".<br/>\n")
+  au_long = @au.join(", ")
+  OFILE.write("#{ti}<br/>\n#{au_long}.<br/>\n#{ci}.<br/>\n")
 
   @types = node.css('work-external-identifier-type').map { |i| i.text }
   @ids = node.css('work-external-identifier-id').map { |i| i.text }

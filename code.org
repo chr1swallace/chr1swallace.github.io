@@ -60,7 +60,7 @@ diabetes risk.  Heinig M, et al.  /Nature/ 2010. [ [[http://europepmc.org/abstra
 
 * Non-CRAN packages
 To install these from github, do, in R:
-#+BEGIN_SRC 
+#+BEGIN_SRC R
 install.packages("devtools")
 library(devtools)
 install_github("chr1swallace/package.name", "chr1swallace")
@@ -113,7 +113,7 @@ and this score test by
 Wallace et al. /Am J Hum Genet/ 2006. 79:323-31 [ [[http://europepmc.org/abstract/MED/16826522][Europe PMC]] ]
 #+END_QUOTE
 
- [ [[soft/ibdscore.tgz][download]] ]
+[ [[http://www-gene.cimr.cam.ac.uk/staff/wallace/soft/ibdscore.tgz][download]] ]
 
 * See also...
 

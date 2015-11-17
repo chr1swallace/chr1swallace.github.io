@@ -3,9 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Chris Wallace: code</title>
-<!-- 2015-11-04 Wed 13:10 -->
+<!-- 2015-11-17 Tue 09:28 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chris Wallace: code</title>
 <meta  name="generator" content="Org-mode" />
 <link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
 <link rel="stylesheet" type="text/css" href="styles/bigblow/css/hideshow.css"/>
@@ -75,17 +76,17 @@ for the JavaScript code in this tag.
 <a class="navbar-link" href="./research.html">Research</a> |
 <a class="navbar-link" href="./data.html">Data</a> |
 <a class="navbar-link" href="./code.html">Software</a> |
-<a class="navbar-link" href="http://europepmc.org/search?query=AUTHORID:%220000-0001-9755-1703%22&sortby=Date">Publications</a> |
+<!-- <a class="navbar-link" href="http://europepmc.org/search?query=AUTHORID:%220000-0001-9755-1703%22&sortby=Date">Publications</a> | -->
+<a class="navbar-link" href="./pubs.html">Publications</a> |
 <a class="navbar-link" href="./contact.html">Links and contact</a>
 </div>
 
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">CRAN packages</h2>
-<div class="outline-text-2" id="text-1">
-</div><div id="outline-container-sec-1-0-1" class="outline-4">
-<h4 id="sec-1-0-1"><a href="http://cran.r-project.org/web/packages/coloc/index.html">coloc</a></h4>
-<div class="outline-text-4" id="text-1-0-1">
+<div id="outline-container-orgheadline5" class="outline-2">
+<h2 id="orgheadline5">CRAN packages</h2>
+<div class="outline-text-2" id="text-orgheadline5">
+</div><div id="outline-container-orgheadline1" class="outline-4">
+<h4 id="orgheadline1"><a href="http://cran.r-project.org/web/packages/coloc/index.html">coloc</a></h4>
+<div class="outline-text-4" id="text-orgheadline1">
 <p>
 a package of R functions used to test for
 colocalisation of two genetic traits.  For more detail or
@@ -117,9 +118,9 @@ Giambartolomei et al.  Bayesian test for co-localisation between pairs of geneti
 </blockquote>
 </div>
 </div>
-<div id="outline-container-sec-1-0-2" class="outline-4">
-<h4 id="sec-1-0-2"><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">snpStatsWriter</a></h4>
-<div class="outline-text-4" id="text-1-0-2">
+<div id="outline-container-orgheadline2" class="outline-4">
+<h4 id="orgheadline2"><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">snpStatsWriter</a></h4>
+<div class="outline-text-4" id="text-orgheadline2">
 <p>
 allows writing snpStats objects to disk in formats suitable
 for reading by snphap, phase, mach, IMPUTE, beagle, and
@@ -127,9 +128,9 @@ for reading by snphap, phase, mach, IMPUTE, beagle, and
 </p>
 </div>
 </div>
-<div id="outline-container-sec-1-0-3" class="outline-4">
-<h4 id="sec-1-0-3"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h4>
-<div class="outline-text-4" id="text-1-0-3">
+<div id="outline-container-orgheadline3" class="outline-4">
+<h4 id="orgheadline3"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h4>
+<div class="outline-text-4" id="text-orgheadline3">
 <p>
 implements a
           Wilcoxon-based test for Gene Set Enrichment Analysis when
@@ -145,9 +146,9 @@ diabetes risk.  Heinig M, et al.  <i>Nature</i> 2010. [ <a href="http://europepm
 </blockquote>
 </div>
 </div>
-<div id="outline-container-sec-1-0-4" class="outline-4">
-<h4 id="sec-1-0-4"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h4>
-<div class="outline-text-4" id="text-1-0-4">
+<div id="outline-container-orgheadline4" class="outline-4">
+<h4 id="orgheadline4"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h4>
+<div class="outline-text-4" id="text-orgheadline4">
 <p>
 (author Xin Yang, listed here because Xin doesn't have her own website)
 uses an extra binomial model to test for case-control
@@ -165,21 +166,23 @@ Extra-binomial variation approach for analysis of pooled DNA sequencing data.
 </div>
 </div>
 
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Non-CRAN packages</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6">Non-CRAN packages</h2>
+<div class="outline-text-2" id="text-orgheadline6">
 <p>
 To install these from github, do, in R:
 </p>
-<pre class="example">
-install.packages("devtools")
-library(devtools)
-install_github("chr1swallace/package.name", "chr1swallace")
+<div class="org-src-container">
+
+<pre class="src src-R">install.packages(<span style="font-style: italic;">"devtools"</span>)
+<span style="font-weight: bold; text-decoration: underline;">library</span>(devtools)
+install_github(<span style="font-style: italic;">"chr1swallace/package.name"</span>, <span style="font-style: italic;">"chr1swallace"</span>)
 </pre>
 </div>
-<div id="outline-container-sec-2-0-1" class="outline-4">
-<h4 id="sec-2-0-1"><a href="https://github.com/chr1swallace/annotSnpStats">annotSnpStats</a></h4>
-<div class="outline-text-4" id="text-2-0-1">
+</div>
+<div id="outline-container-orgheadline7" class="outline-4">
+<h4 id="orgheadline7"><a href="https://github.com/chr1swallace/annotSnpStats">annotSnpStats</a></h4>
+<div class="outline-text-4" id="text-orgheadline7">
 <p>
 extends SnpMatrix objects from the snpStats package by tying in
 sample and snp annotation data.frames.  It allows the joint
@@ -190,18 +193,18 @@ and I intend to push it to CRAN in the future.
 </p>
 </div>
 </div>
-<div id="outline-container-sec-2-0-2" class="outline-4">
-<h4 id="sec-2-0-2"><a href="https://github.com/chr1swallace/GUESSFM">GUESSFM</a></h4>
-<div class="outline-text-4" id="text-2-0-2">
+<div id="outline-container-orgheadline8" class="outline-4">
+<h4 id="orgheadline8"><a href="https://github.com/chr1swallace/GUESSFM">GUESSFM</a></h4>
+<div class="outline-text-4" id="text-orgheadline8">
 <p>
 A wrapper around the GUESS stochastic model search method for fine
-mapping causal variants in genetic data.   See <a href="research.html">more detail here</a>.
+mapping causal variants in genetic data.   See <a href="research.html#MissingReference">more detail here</a>.
 </p>
 </div>
 </div>
-<div id="outline-container-sec-2-0-3" class="outline-4">
-<h4 id="sec-2-0-3"><a href="https://github.com/chr1swallace/origin">origin</a></h4>
-<div class="outline-text-4" id="text-2-0-3">
+<div id="outline-container-orgheadline9" class="outline-4">
+<h4 id="orgheadline9"><a href="https://github.com/chr1swallace/origin">origin</a></h4>
+<div class="outline-text-4" id="text-orgheadline9">
 <p>
 implements an   extension to the Weinberg method for testing for parent of origin
   effects to allow for multiple affected offspring in a nuclear
@@ -230,12 +233,12 @@ Wallace et al. The imprinted DLK1-MEG3 gene region on chromosome
 </div>
 </div>
 
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">Older software</h2>
-<div class="outline-text-2" id="text-3">
-</div><div id="outline-container-sec-3-0-1" class="outline-4">
-<h4 id="sec-3-0-1">IBDSCORE</h4>
-<div class="outline-text-4" id="text-3-0-1">
+<div id="outline-container-orgheadline11" class="outline-2">
+<h2 id="orgheadline11">Older software</h2>
+<div class="outline-text-2" id="text-orgheadline11">
+</div><div id="outline-container-orgheadline10" class="outline-4">
+<h4 id="orgheadline10">IBDSCORE</h4>
+<div class="outline-text-4" id="text-orgheadline10">
 <p>
 implements a score test for the Rice-Holmans IBD
         regression model.
@@ -262,23 +265,23 @@ Wallace et al. <i>Am J Hum Genet</i> 2006. 79:323-31 [ <a href="http://europepmc
 </blockquote>
 
 <p>
-[ <i>download</i> ]
+[ <a href="http://www-gene.cimr.cam.ac.uk/staff/wallace/soft/ibdscore.tgz">download</a> ]
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4">See also&#x2026;</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-orgheadline12" class="outline-2">
+<h2 id="orgheadline12">See also&#x2026;</h2>
+<div class="outline-text-2" id="text-orgheadline12">
 <p>
-[ <a href="http://crantastic.org/authors/2111">published R packages on CRAN</a> | <a href="http://github.com/chr1swallace">all code at github</a> | <a href="http://cwcode.wordpress.com">code blog</a> ]
+[ <a href="http://crantastic.org/authors/2111">published R packages on CRAN</a> | <a href="http://github.com/chr1swallace">all code at github</a> | <a href="http://cwcode.wordpress.com/">code blog</a> ]
 </p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2015-11-04 Wed 13:10</p>
+<p class="date">Created: 2015-11-17 Tue 09:28</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
