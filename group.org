@@ -73,7 +73,7 @@ James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD pro
 *** Oliver Burren (Visitor, PhD student)
 
 #+HTML: <img src="pics/Olly_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-[[https://scholar.google.co.uk/citations?user=9XotieYAAAAJ&hl=en&oi=sra][Olly Burren]] is head of Genome Informatics in the [[https://www-gene.cimr.cam.ac.uk/][Diabetes and Inflammation Laboratory]]. Simultaneously, he is undertaking a PhD supervised by John Todd and Chris Wallace, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. In his spare time, he is responsible for the creation and smooth running of the ImmunoBase [[[http://www.immunobase.org]]], T1DBase [[[http://www.t1dbase.org]]] and CHiCP [[[http://www.chicp.org]]] web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.
+[[https://scholar.google.co.uk/citations?user=9XotieYAAAAJ&hl=en&oi=sra][Olly Burren]] is head of Genome Informatics in the [[https://www-gene.cimr.cam.ac.uk/][Diabetes and Inflammation Laboratory]]. Simultaneously, he is undertaking a PhD supervised by John Todd and Chris Wallace, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. In his spare time, he is responsible for the creation and smooth running of the [[http://www.immunobase.org][ImmunoBase]],  [[http://www.t1dbase.org][T1DBase]] and [[http://www.chicp.org][CHiCP]] web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.
 
 ** Alumni
 *** Lucia Cilloni (MPhil student, summer 2015)
