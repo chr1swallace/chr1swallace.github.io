@@ -7,14 +7,14 @@
 
 #+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
 
-Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Research Career Development Fellow,
- head of the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the Wellcome Trust/JDRF [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation
- Laboratory]] at Cambridge, and a visitor at the [[http://www.mrc-bsu.cam.ac.uk][MRC Biostatistics Unit]].
-My group is currently based in the [[http://www.cimr.cam.ac.uk][Cambridge Institute for Medical Research]].
+Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Research Fellow in  the [[http://www.med.cam.ac.uk/][Department of Medicine]] at the [[http://www.cam.ac.uk][University of Cambridge]] and a visiting Programme Leader at the  [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]].  
+She was previously head of the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the Wellcome Trust/JDRF [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation
+ Laboratory]] at Cambridge, with whom she remains a close collaborator.
+# Her group focuses on the development of statistical genomics methods and their application to understand autoimmune diseases.
 
 Our immune system protects us against infectious disease, but
 sometimes attacks our own cells, causing autoimmune disease.  My group
-use statistical analysis of genetic and genomic datasets to understand
+develop and apply statistical genomic methods to understand
 the genes, cells and pathways involved in the aetiology of autoimmune
 diseases such as type 1 diabetes and the relationships between
 different autoimmune diseases.  Our goal is to further the
@@ -25,9 +25,9 @@ These pages exist to store information about datasets and code used in
 papers from our group.  The aim is to make this information accessible,
 which is not always possible in the published papers.
 
-*Moving and hiring*
+# *Moving and hiring*
 
-In February 2016 I will move to the [[http://www.med.cam.ac.uk/][Department of Medicine]] as a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Fellow  and take on a more formal visiting position at the [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]] as a Visiting Programme Leader.  I will be looking for ambitious post doctural statisticians / computational biologists / <insert other quantitative genomics-related analyst> who are motivated to understand the dysregulation of the immune system and its relationship to autoimmune disease.  If that's you, see the [[http://www.jobs.cam.ac.uk/job/8766/][advert]] for more details and get in touch!  < cew54 at cam.ac.uk >
+# In February 2016 I will move to the [[http://www.med.cam.ac.uk/][Department of Medicine]] as a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Fellow  and take on a more formal visiting position at the [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]] as a Visiting Programme Leader.  I will be looking for ambitious post doctural statisticians / computational biologists / <insert other quantitative genomics-related analyst> who are motivated to understand the dysregulation of the immune system and its relationship to autoimmune disease.  If that's you, see the [[http://www.jobs.cam.ac.uk/job/8766/][advert]] for more details and get in touch!  < cew54 at cam.ac.uk >
 
 # This is a set of pages to store information about datasets and code
 # used in statistical genetics papers from Chris Wallace's group.  For

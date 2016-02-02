@@ -4,7 +4,6 @@
 
 #+INCLUDE: ./nav2.org
 
-
 * Links and contacts
 
 
@@ -16,6 +15,9 @@
  |
 <a href="https://twitter.com/chr1swallace"><i class="fa fa-twitter"></i> chr1swallace</a>
 </div>                  
+<div class="contact">
+<i class="fa fa-home"></i> MRC Biostatistics Unit, Cambridge Biomedical Campus, Cambridge Institute of Public Health, Forvie Site, Robinson Way, Cambridge CB2 0SR, UK
+</div>
 <div class="links">
 #+END_HTML
 
