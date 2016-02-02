@@ -85,3 +85,9 @@ img {
     padding-bottom: 10px;
     padding-right: 10px;
 }
+
+table, th, td
+{
+    border: 2px solid white;
+    margin-bottom: 20px;    
+}
