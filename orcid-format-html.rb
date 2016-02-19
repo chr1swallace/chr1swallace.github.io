@@ -9,7 +9,7 @@ puts "Works found: " + @block.count.to_s
 
 
 ## prepare output
-OFILE = File.open('orcid-out.html','w')
+OFILE = File.open('pubs.html','a')
 years = Hash.new(0)
 titles = Hash.new(0)
 
@@ -49,7 +49,7 @@ def auput i
   #   second,first = i.split(',').map(&:strip)
   #   i = "#{first} #{second}"
   # end  
-  #  bold_authors(i)
+  bold_authors(i)
   i
 end
 
@@ -115,6 +115,7 @@ source_re=/Scopus/
 }
 
 OFILE.write("</ol>\n")
+OFILE.write("</div></div></body></html>")
 
 ## close output
 OFILE.close()

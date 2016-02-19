@@ -1,4 +1,4 @@
-OBJS = index.html group.html research.html code.html contact.html pubs.html
+OBJS = index.html group.html research.html code.html contact.html pubs.html data.html pubs2.html
 
 main: $(OBJS)
 	echo "done"
@@ -14,7 +14,9 @@ orcid-renew:
 	awk 'NR>9 {print}' orcid.html | sed 's/orcid-//g' > orcid.xml
 
 orcid-format: 
-	./orcid-format.rb
-	touch pubs.org
+	cp pubs-a.html pubs.html
+	./orcid-format-html.rb
+	./orcid-format-org.rb
+	touch pubs2.org
 
 #curl  http://feed.labs.orcid-eu.org/0000-0001-9755-1703?format=txt > orcid.txt

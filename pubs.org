@@ -4,4 +4,4 @@
 
 #+INCLUDE: ./nav2.org
 
-#+INCLUDE: "orcid-out.html" html
+* Stuf

@@ -1,0 +1,93 @@
+div { clear: both; }
+
+#nav {
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    left: 10px;                          /* together with this to put the div at the top */
+    color: #333333;
+    cursor: pointer;
+    /* font-family: verdana; */
+    /* font-size: 11px; */
+    padding: 5px 10px 5px 10px;
+    /* padding: 5px; */
+    position: absolute;                    /* this is the magic */
+       /* left: 11px; */
+    margin-bottom: 10px;
+     max-width: 810px;
+   text-align: left;
+    /* width: 100%; */
+    z-index: 999;
+}
+
+    /* #nav:hover { */
+    /*     text-decoration: underline; */
+    /* } */
+
+/* #nav div { width: 100%;   background-color: #13679D; /\* #fefefe; *\/ */
+/*      } */
+
+/* #nav {   */
+/*        z-index: 10;   */
+/*       position: fixed;                    /\* this is the magic *\/ */
+/*      /\* position: absolute;   *\/ */
+/*        right: 0;   */
+/*        top: 0; */
+/*        text-align: right;  */
+/*        font-size: small;    */
+/*        /\* padding: 9px 0px 10px 0px; *\/ */
+/*        text-transform: uppercase; */
+/*        background-color: #13679D; /\* #fefefe; *\/ */
+/*        color: #ffffff; */
+/*        /\* padding: 2px; *\/ */
+/*     /\* border: 1px solid #333333; *\/ */
+/*        margin-right: 9px; */
+/*        margin-left: auto; */
+/*        margin-top: 2px; */
+/*        margin-bottom: 0px; */
+/* } */
+
+a:link, a:visited { font-weight: bold; }
+a:hover { font-weight: bold; background-color: #759FCF; color: #ffffff; }
+#nav a:link, #nav a:visited {
+    font-weight: normal;
+       color: #000000;
+    /* font-size: small; */
+}
+#nav a:hover {
+    font-weight: normal;
+    color: #ffffff;
+    /* font-size: small; */
+}
+
+div.links, div.contact { text-align:left; 
+                         width: 100%;
+                         margin-left: -50px; 
+ }
+
+#links {
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;                          /* together with this to put the div at the top */
+    color: #333333;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 5px;
+         position: absolute;                    /* this is the magic */
+         left: 11px;
+         margin-right: 10px;
+    text-align: left;
+    /* width: 100%; */
+    z-index: 999;
+}
+
+img {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+table, th, td
+{
+    border: 2px solid white;
+    margin-bottom: 20px;    
+}

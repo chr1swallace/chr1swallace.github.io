@@ -3,21 +3,98 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-11-17 Tue 09:28 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>Chris Wallace: code</title>
+<!-- 2016-02-19 Fri 20:46 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
-<link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
-<link rel="stylesheet" type="text/css" href="styles/bigblow/css/hideshow.css"/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/cw/css/cw.css"/>
 <script type="text/javascript" src="styles/bigblow/js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/jquery.localscroll-min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/jquery.zclip.min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/bigblow.js"></script>
-<script type="text/javascript" src="styles/bigblow/js/hideshow.js"></script>
-<link rel="stylesheet" type="text/css" href="css/bigblowcustom.css"/>
+<link rel="stylesheet" type="text/css" href="css/cwcustom.css"/>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script type="text/javascript">
 /*
@@ -70,23 +147,24 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">Chris Wallace: code</h1>
 <div id="nav">
-<a class="navbar-link" href="index.html"><i class="fa fa-home"></i></a> |
+<a class="navbar-link" href="index.html"><i class="fa fa-home"></i></a> <br/>
 <!-- <a href="./background.html">Background</a> |  -->
-<a class="navbar-link" href="./group.html">Group</a> |
-<a class="navbar-link" href="./research.html">Research</a> |
-<a class="navbar-link" href="./data.html">Data</a> |
-<a class="navbar-link" href="./code.html">Software</a> |
+<a class="navbar-link" href="./group.html">Group</a> <br/>
+<a class="navbar-link" href="./research.html">Research</a> <br/>
+<a class="navbar-link" href="./data.html">Data</a> <br/>
+<a class="navbar-link" href="./code.html">Software</a> <br/>
 <!-- <a class="navbar-link" href="http://europepmc.org/search?query=AUTHORID:%220000-0001-9755-1703%22&sortby=Date">Publications</a> | -->
-<a class="navbar-link" href="./pubs.html">Publications</a> |
+<a class="navbar-link" href="./pubs2.html">Publications</a> <br/>
 <a class="navbar-link" href="./contact.html">Links and contact</a>
 </div>
 
-<div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5">CRAN packages</h2>
-<div class="outline-text-2" id="text-orgheadline5">
-</div><div id="outline-container-orgheadline1" class="outline-4">
-<h4 id="orgheadline1"><a href="http://cran.r-project.org/web/packages/coloc/index.html">coloc</a></h4>
-<div class="outline-text-4" id="text-orgheadline1">
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">CRAN packages</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-0-1" class="outline-4">
+<h4 id="sec-1-0-1"><a href="http://cran.r-project.org/web/packages/coloc/index.html">coloc</a></h4>
+<div class="outline-text-4" id="text-1-0-1">
 <p>
 a package of R functions used to test for
 colocalisation of two genetic traits.  For more detail or
@@ -118,9 +196,9 @@ Giambartolomei et al.  Bayesian test for co-localisation between pairs of geneti
 </blockquote>
 </div>
 </div>
-<div id="outline-container-orgheadline2" class="outline-4">
-<h4 id="orgheadline2"><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">snpStatsWriter</a></h4>
-<div class="outline-text-4" id="text-orgheadline2">
+<div id="outline-container-sec-1-0-2" class="outline-4">
+<h4 id="sec-1-0-2"><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">snpStatsWriter</a></h4>
+<div class="outline-text-4" id="text-1-0-2">
 <p>
 allows writing snpStats objects to disk in formats suitable
 for reading by snphap, phase, mach, IMPUTE, beagle, and
@@ -128,9 +206,9 @@ for reading by snphap, phase, mach, IMPUTE, beagle, and
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline3" class="outline-4">
-<h4 id="orgheadline3"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h4>
-<div class="outline-text-4" id="text-orgheadline3">
+<div id="outline-container-sec-1-0-3" class="outline-4">
+<h4 id="sec-1-0-3"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h4>
+<div class="outline-text-4" id="text-1-0-3">
 <p>
 implements a
           Wilcoxon-based test for Gene Set Enrichment Analysis when
@@ -146,9 +224,9 @@ diabetes risk.  Heinig M, et al.  <i>Nature</i> 2010. [ <a href="http://europepm
 </blockquote>
 </div>
 </div>
-<div id="outline-container-orgheadline4" class="outline-4">
-<h4 id="orgheadline4"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h4>
-<div class="outline-text-4" id="text-orgheadline4">
+<div id="outline-container-sec-1-0-4" class="outline-4">
+<h4 id="sec-1-0-4"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h4>
+<div class="outline-text-4" id="text-1-0-4">
 <p>
 (author Xin Yang, listed here because Xin doesn't have her own website)
 uses an extra binomial model to test for case-control
@@ -166,23 +244,23 @@ Extra-binomial variation approach for analysis of pooled DNA sequencing data.
 </div>
 </div>
 
-<div id="outline-container-orgheadline6" class="outline-2">
-<h2 id="orgheadline6">Non-CRAN packages</h2>
-<div class="outline-text-2" id="text-orgheadline6">
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Non-CRAN packages</h2>
+<div class="outline-text-2" id="text-2">
 <p>
 To install these from github, do, in R:
 </p>
 <div class="org-src-container">
 
-<pre class="src src-R">install.packages(<span style="font-style: italic;">"devtools"</span>)
-<span style="font-weight: bold; text-decoration: underline;">library</span>(devtools)
-install_github(<span style="font-style: italic;">"chr1swallace/package.name"</span>, <span style="font-style: italic;">"chr1swallace"</span>)
+<pre class="src src-R">install.packages("devtools")
+library(devtools)
+install_github("chr1swallace/package.name", "chr1swallace")
 </pre>
 </div>
 </div>
-<div id="outline-container-orgheadline7" class="outline-4">
-<h4 id="orgheadline7"><a href="https://github.com/chr1swallace/annotSnpStats">annotSnpStats</a></h4>
-<div class="outline-text-4" id="text-orgheadline7">
+<div id="outline-container-sec-2-0-1" class="outline-4">
+<h4 id="sec-2-0-1"><a href="https://github.com/chr1swallace/annotSnpStats">annotSnpStats</a></h4>
+<div class="outline-text-4" id="text-2-0-1">
 <p>
 extends SnpMatrix objects from the snpStats package by tying in
 sample and snp annotation data.frames.  It allows the joint
@@ -193,18 +271,18 @@ and I intend to push it to CRAN in the future.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline8" class="outline-4">
-<h4 id="orgheadline8"><a href="https://github.com/chr1swallace/GUESSFM">GUESSFM</a></h4>
-<div class="outline-text-4" id="text-orgheadline8">
+<div id="outline-container-sec-2-0-2" class="outline-4">
+<h4 id="sec-2-0-2"><a href="https://github.com/chr1swallace/GUESSFM">GUESSFM</a></h4>
+<div class="outline-text-4" id="text-2-0-2">
 <p>
 A wrapper around the GUESS stochastic model search method for fine
-mapping causal variants in genetic data.   See <a href="research.html#MissingReference">more detail here</a>.
+mapping causal variants in genetic data.   See <a href="research.html">more detail here</a>.
 </p>
 </div>
 </div>
-<div id="outline-container-orgheadline9" class="outline-4">
-<h4 id="orgheadline9"><a href="https://github.com/chr1swallace/origin">origin</a></h4>
-<div class="outline-text-4" id="text-orgheadline9">
+<div id="outline-container-sec-2-0-3" class="outline-4">
+<h4 id="sec-2-0-3"><a href="https://github.com/chr1swallace/origin">origin</a></h4>
+<div class="outline-text-4" id="text-2-0-3">
 <p>
 implements an   extension to the Weinberg method for testing for parent of origin
   effects to allow for multiple affected offspring in a nuclear
@@ -233,12 +311,12 @@ Wallace et al. The imprinted DLK1-MEG3 gene region on chromosome
 </div>
 </div>
 
-<div id="outline-container-orgheadline11" class="outline-2">
-<h2 id="orgheadline11">Older software</h2>
-<div class="outline-text-2" id="text-orgheadline11">
-</div><div id="outline-container-orgheadline10" class="outline-4">
-<h4 id="orgheadline10">IBDSCORE</h4>
-<div class="outline-text-4" id="text-orgheadline10">
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Older software</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-0-1" class="outline-4">
+<h4 id="sec-3-0-1">IBDSCORE</h4>
+<div class="outline-text-4" id="text-3-0-1">
 <p>
 implements a score test for the Rice-Holmans IBD
         regression model.
@@ -271,17 +349,17 @@ Wallace et al. <i>Am J Hum Genet</i> 2006. 79:323-31 [ <a href="http://europepmc
 </div>
 </div>
 
-<div id="outline-container-orgheadline12" class="outline-2">
-<h2 id="orgheadline12">See also&#x2026;</h2>
-<div class="outline-text-2" id="text-orgheadline12">
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">See also&#x2026;</h2>
+<div class="outline-text-2" id="text-4">
 <p>
-[ <a href="http://crantastic.org/authors/2111">published R packages on CRAN</a> | <a href="http://github.com/chr1swallace">all code at github</a> | <a href="http://cwcode.wordpress.com/">code blog</a> ]
+[ <a href="http://crantastic.org/authors/2111">published R packages on CRAN</a> | <a href="http://github.com/chr1swallace">all code at github</a> | <a href="http://cwcode.wordpress.com">code blog</a> ]
 </p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2015-11-17 Tue 09:28</p>
+<p class="date">Created: 2016-02-19 Fri 20:46</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
