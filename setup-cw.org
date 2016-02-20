@@ -10,7 +10,9 @@
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/cw/css/cw.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/poole.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/lanyon.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
 
 #+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery-1.11.0.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
@@ -21,5 +23,5 @@
 #+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/bigblow.js"></script>
 
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/cwcustom.css"/>
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/cwcustom.css"/>
 #+HTML_HEAD: <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">

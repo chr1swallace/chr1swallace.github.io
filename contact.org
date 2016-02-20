@@ -1,4 +1,4 @@
-#+TITLE: Chris Wallace: links and contacts
+#+TITLE: Wallace group | links and contacts
 
 #+SETUPFILE: ./setup3.org
 

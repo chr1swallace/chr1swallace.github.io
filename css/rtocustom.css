@@ -1,11 +1,23 @@
 div { clear: both; }
 
-/* navbar-link { */
-/*     border: 1px solid #DEDEDE; */
-/*     display: block; */
-/*         border-radius: 3px; */
-
-/* } */
+#nav {
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    top: 10px;                          /* together with this to put the div at the top */
+    color: #333333;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px;
+    /* padding: 5px; */
+    position: absolute;                    /* this is the magic */
+       /* left: 11px; */
+    margin-bottom: 10px;
+     max-width: 810px;
+   text-align: left;
+    /* width: 100%; */
+    z-index: 999;
+}
 
     /* #nav:hover { */
     /*     text-decoration: underline; */
@@ -35,42 +47,16 @@ div { clear: both; }
 /* } */
 
 a:link, a:visited { font-weight: bold; }
-a:hover { font-weight: bold; background-color: #759FCF; color: #ffffff; }
-
-
-#nav {
-    /* border: 1px solid #CCCCCC; */
-    top: 10px;                          /* together with this to put the div at the top */
-    color: #333333;
-    cursor: pointer;
-    /* font-family: verdana; */
-    /* font-size: 11px; */
-    padding: 5px 5px 5px 5px;
-    /* padding: 5px; */
-    position: absolute;                    /* this is the magic */
-       /* left: 11px; */
-    margin-bottom: 10px;
-    max-width: 810px;
-    text-align: right;
-    /* width: 100%; */
-    z-index: 999;
-}
-
+a:hover { font-weight: bold; color: #00275D; }
 #nav a:link, #nav a:visited {
-    background: #F7F7F7;
-    border: 1px;
-    padding: 5px 5px 5px 5px;
-    margin: 0px 5px;
-    border-radius: 5px;
-    border-style: solid;
     font-weight: normal;
-    color: #333333;
-    font-size: small;
-	     }
+       color: #000000;
+    /* font-size: small; */
+}
 #nav a:hover {
-    color: #000000;
-    background: #fff;
-    font-size: small;
+    font-weight: normal;
+    color: #13679D;
+    /* font-size: small; */
 }
 
 div.links, div.contact { text-align:left; 

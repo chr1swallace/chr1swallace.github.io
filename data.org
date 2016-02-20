@@ -1,4 +1,4 @@
-#+TITLE: Chris Wallace: data
+#+TITLE: Wallace group | data
 #+SETUPFILE: ./setup3.org
 
 #+INCLUDE: ./nav2.org

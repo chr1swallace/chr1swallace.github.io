@@ -1,4 +1,4 @@
-#+TITLE: Chris Wallace: research
+#+TITLE: Wallace group | research
 
 #+SETUPFILE: ./setup3.org
 

@@ -1,4 +1,4 @@
-#+TITLE: Chris Wallace: group publications
+#+TITLE: Wallace group | publications
 
 #+SETUPFILE: ./setup3.org
 
