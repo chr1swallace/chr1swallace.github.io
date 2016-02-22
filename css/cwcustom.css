@@ -1,5 +1,9 @@
 div { clear: both; }
 
+div.outline-3 { border-top:  10px  #ccc;
+     border: 10px solid;
+     style: block; }
+
 /* navbar-link { */
 /*     border: 1px solid #DEDEDE; */
 /*     display: block; */
