@@ -1,0 +1,11 @@
+#+TITLE: Wallace group | publications
+
+#+SETUPFILE: ./setup3.org
+
+#+INCLUDE: ./nav2.org
+
+** Preprints
+
+1. A genetic test for differential causative pathology in disease subgroups. @@html:<br/>@@ Liley J, Todd JA, *Wallace C* @@html:<br/>@@ bioRxiv @@html:<br/>@@ [ [[http://dx.doi.org/10.1101/037713][=doi=]] ]
+
+#+INCLUDE: orcid-out.org :minlevel 2
