@@ -12,8 +12,9 @@
 #+ATTR_HTML: :border 0px :align left
 | @@html:<i class="fa fa-twitter"></i>@@ |  [[https://twitter.com/chr1swallace][chr1swallace]]          |
 | @@html:<i class="fa fa-envelope"></i>@@ | cew54 at cam.ac.uk |
-| @@html:<i class="fa fa-phone"></i>@@ | 01223 761093 |
+| @@html:<i class="fa fa-phone"></i>@@ | 01223 330368 |
 | @@html:<i class="fa fa-pencil-square-o"></i>@@ | MRC Biostatistics Unit, Cambridge Biomedical Campus, Cambridge Institute of Public Health, Forvie Site, Robinson Way, Cambridge CB2 0SR, UK |
+| @@html:<i class="fa fa-pencil-square-o"></i>@@  | Department of Medicine, Box 157, Level 4, Cambridge Biomedical Campus, University of Cambridge, UK, CB2 0QQ |
 
 
 *Online*: 

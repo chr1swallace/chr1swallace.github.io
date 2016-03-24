@@ -4,7 +4,7 @@ main: $(OBJS) orcid-out.org
 	echo "done"
 
 %.html: %.org
-	emacs -batch -Q -L lisp -l efun.el --visit $^ -f org-html-export-to-html
+	emacs24 -batch -Q -L lisp -l efun.el --visit $^ -f org-html-export-to-html
 
 view: $(OBJS)
 	gnome-www-browser index.html

@@ -13,7 +13,7 @@
 #       at my [[http://cwcode.wordpress.com][code blog]</p>
 
 
-* CRAN packages
+* R packages from CRAN
 *** [[http://cran.r-project.org/web/packages/coloc/index.html][coloc]] 
 	  a package of R functions used to test for
 	  colocalisation of two genetic traits.  For more detail or
@@ -58,7 +58,7 @@ diabetes risk.  Heinig M, et al.  /Nature/ 2010. [ [[http://europepmc.org/abstra
     [ [[http://europepmc.org/abstract/MED/22976083][Europe PMC]] ]
 #+END_QUOTE
 
-* Non-CRAN packages
+* R packages from github
 To install these from github, do, in R:
 #+BEGIN_SRC R
 install.packages("devtools")
@@ -95,7 +95,15 @@ implements an   extension to the Weinberg method for testing for parent of origi
     [ [[http://europepmc.org/abstract/MED/19966805][Europe PMC]] ]
 #+END_QUOTE
 
-* Older software
+* Non-R packages
+*** VSEAMS (Olly Burren)
+Variant set enrichment analysis (of association summary statistics) using multivariate sampling. Please see the wiki available at http://github.com/ollyburren/vseams/wiki for further details.  Method described in 
+#+BEGIN_QUOTE
+Burren et al. VSEAMS: A pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes.
+/Bioinformatics/ 2014.
+[ [[http://ukpmc.ac.uk/abstract/MED/25170024][UK PMC]] ]
+#+END_QUOTE    
+
 *** IBDSCORE 
 
 implements a score test for the Rice-Holmans IBD
