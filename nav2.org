@@ -17,6 +17,7 @@
 	<a class="sidebar-nav-item" href="./research.html">Research</a>
 	<a class="sidebar-nav-item" href="./data.html">Data</a>
 	<a class="sidebar-nav-item" href="./code.html">Software</a>
+	<a class="sidebar-nav-item" href="./vacancies.html">Vacancies</a>
 	<!-- <a class="sidebar-nav-item" href="http://europepmc.org/search?query=AUTHORID:%220000-0001-9755-1703%22&sortby=Date">Publications</a> | -->
 	<a class="sidebar-nav-item" href="./pubs2.html">Publications</a>
 	<a class="sidebar-nav-item" href="./contact.html">Links and contact</a>

@@ -5,6 +5,7 @@
 <a class="biglink" href="./group.html">Group</a> 
 <a class="biglink" href="./data.html">Data</a> 
 <a class="biglink" href="./code.html">Software</a> 
+<a class="biglink" href="./vacancies.html">Vacancies</a> 
 <a class="biglink" href="http://orcid.org/0000-0001-9755-1703">Publications (ORCiD)</a> 
 </div>
 #+END_HTML

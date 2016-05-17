@@ -1,4 +1,76 @@
-We are seeking two talented and ambitious post doctoral statisticians or computational biologists to join our group.  If you are interested in applying mathematics, statistics and computational methods to understand the human immune system, and autoimmune diseases, please get in touch and consider applying!
+#+TITLE: Postdoctoral Statistician, MRC Biostatistics Unit, Cambridge
+#+SETUPFILE: ./setup3.org
 
-For more details, please see the [[][ full advert ]] and [[][ further particulars ]].
+#+INCLUDE: ./nav2.org
+
+*Postdoctoral Statistician*
+
+MRC Biostatistics Unit, Cambridge
+
+£28,007-£32,648 per annum
+
+3 years Fixed Term Post 
+
+We undertake research on statistical methods and their application to the
+design, analysis and interpretation of biomedical studies, to advance
+understanding of the cause, natural history and treatment of disease, and to
+evaluate public health strategies. A research team under the direction of Dr
+Chris Wallace aims to develop statistical methods for the analysis of
+genomic data to improve understanding of human common diseases.  Our
+research is focused on using genetic and genomic datasets to understand the
+human immune system and its dysregulation in relation to the autoimmune
+diseases (e.g. type 1 diabetes and rheumatoid arthritis) which collectively
+affect 5% of the population.  Our goal is to understand the genes, cells and
+pathways which underlie autoimmune diseases, the interactions between these
+pathways, and the relationships between different autoimmune diseases.
+Better understanding of the aetiology of these diseases is essential to
+underpin better treatment strategies.   
+
+The proposed initial project focuses on development of latent variable
+models for genomic regulation, but there exists a wealth of data and you
+will be encouraged to develop other research interests that are relevant to
+the goals of the team. The team sits between the MRC Biostatistics Unit
+(http://www.mrc-bsu.cam.ac.uk) and the University of Cambridge Department of
+Medicine (http://www.med.cam.ac.uk), both located within the Cambridge
+Biomedical Campus.  You will be located in the Biostatistics Unit, but the
+available interdisciplinary environment offers you the chance to pursue
+statistical methodology and apply solutions to novel biological datasets in
+order to address questions of relevance to human autoimmune diseases.  Our
+group has active collaborations within Cambridge (eg Ken Smith) and the
+nearby Babraham Institute (Peter Fraser, Mikhail Spivakov), but also with
+the University of Manchester (Wendy Thomson, Steve Eyre) and UCL (Lucy
+Wedderburn).  For further information on the group and our research, see
+http://chr1swallace.github.io, and please contact
+chris.wallace@mrc-bsu.cam.ac.uk with any informal enquiries.
+
+By the time you take up the appointment, you will have a PhD in a strongly
+quantitative subject, ideally statistics. Experience of managing large
+datasets and an understanding of genomics would be desirable.  Most
+important are an inquisitive mind and the desire to develop and apply
+statistical methodology to questions of substantive biological importance
+and disease relevance.  You will be supported in your career development
+with a range of formal courses and on-the-job training. 
+
+The MRC is a unique working environment where our researchers are rewarded
+by world class innovation and collaboration opportunities that the MRC name
+brings.  We have a flexible pay and reward policy, 30 days annual leave
+entitlement, and an optional MRC final salary Pension Scheme. The post will
+be in the new MRC Post-Doctoral Training Scheme, which offers formal
+training programme (including a mentor) together with the payment of
+additional settlement and training allowances.
+
+
+To apply, please visit our job board at
+http://www.mrc-bsu.cam.ac.uk/recruitment/current-vacancies/
+complete an Application Form and forward your CV and cover letter to:
+recruitment@mrc-bsu.cam.ac.uk, quoting Reference Number MRCBSU00009
+
+Closing date: 15th June 2016			
+
+Interview Date: 29th June 2016
+
+This position is subject to pre-employment screening
+
+The Medical Research Council is an Equal Opportunities Employer
+
 

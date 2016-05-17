@@ -25,6 +25,12 @@ These pages exist to store information about datasets and code used in
 papers from our group.  The aim is to make this information accessible,
 which is not always possible in the published papers.
 
+*Hiring!*
+
+We are looking to recruit a post-doctoral statistician to work, initially, on exploiting Hi-C data to support development of latent variable models to understand genomic regulation. 
+
+[ [[file:vacancies.org][more info]] ] | [ [[http://www.mrc-bsu.cam.ac.uk/recruitment/current-vacancies/][how to apply]] ]
+
 # *Moving and hiring*
 
 # In February 2016 I will move to the [[http://www.med.cam.ac.uk/][Department of Medicine]] as a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Fellow  and take on a more formal visiting position at the [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]] as a Visiting Programme Leader.  I will be looking for ambitious post doctural statisticians / computational biologists / <insert other quantitative genomics-related analyst> who are motivated to understand the dysregulation of the immune system and its relationship to autoimmune disease.  If that's you, see the [[http://www.jobs.cam.ac.uk/job/8766/][advert]] for more details and get in touch!  < cew54 at cam.ac.uk >

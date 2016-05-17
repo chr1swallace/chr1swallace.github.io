@@ -1,4 +1,4 @@
-OBJS = index.html group.html research.html code.html contact.html pubs.html data.html pubs2.html background.html
+OBJS = index.html group.html research.html code.html contact.html pubs.html data.html pubs2.html background.html vacancies.html
 
 main: $(OBJS) orcid-out.org
 	echo "done"
@@ -7,7 +7,7 @@ main: $(OBJS) orcid-out.org
 	emacs24 -batch -Q -L lisp -l efun.el --visit $^ -f org-html-export-to-html
 
 view: $(OBJS)
-	gnome-www-browser index.html
+	gnome-www-browser index.html &
 
 orcid-renew: 
 	curl -H "Accept: application/orcid+xml" 'http://pub.orcid.org/v1.2/0000-0001-9755-1703/orcid-works' -L -i > orcid.html
