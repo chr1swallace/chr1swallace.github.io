@@ -6,6 +6,9 @@
 
 ** Current members
 
+*** Chris Eijsbouts
+#+HTML: <img src="pics/ChrisE.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Chris Eijsbouts is an MPhil student who will finish his Computational Biology programme at Cambridge University with a summer project revolving around Capture Hi-C data. His goal is to find a robust method for the identification of chromatin contacts which regulate gene expression, thereby facilitating the interpretation of GWAS studies.
 
 *** Mary Fortune
 
