@@ -56,7 +56,7 @@
 	border-style: solid;
 	border-radius: 5px;
 	border: 1px;
-	color: #000;
+	/* color: #000; */
 	background: #fff;
     }
 
@@ -84,3 +84,21 @@
 /*     padding: 2px 2px 0 6px; */
 /*     text-align: right; */
 /* } */
+
+    #tabs li {
+	background-color: #fff;
+    }
+    #tabs li a:hover {
+	background:  #107896;
+	color: #fff;
+    }
+    #tabs, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
+					  color: #107896;
+					  background-color: #fff;
+				      }
+    a { color: #c2571a;
+	/* color:  #107896; */
+	/* text-decoration: underline; */
+	/* -moz-text-decoration-color:  #107896; /\* Code for Firefox *\/ */
+	/* text-decoration-color:  #107896; */
+     }
