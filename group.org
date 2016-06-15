@@ -54,7 +54,8 @@ I am funded by the [[http://www.wellcome.ac.uk/][Wellcome Trust]] as a Senior Re
 *Previously* 
 - 2009-2016 :: Wellcome Trust Career Development Fellow in the  [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation Laboratory]] (and head of the DIL stats group from 2012)
 - 2003-2008 :: Research Fellow working with	  the [[http://www.brightstudy.ac.uk/][BRIGHT]] study into	  the genetics of hypertension.
-- 1999-2003 :: PhD: "Genetic Susceptibility to leprosy: methodological issues in a linkage  analysis of extended pedigrees from Karonga District, Malawi",	  [[http://www.lshtm.ac.uk][LSHTM]], [ [[http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086][thesis]] ]	  (part of the	  [[http://www.lshtm.ac.uk/eph/ide/research/kps][Karonga Prevention Study]]).
+- 1999-2003 :: PhD: [[http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086][/Genetic Susceptibility to leprosy: methodological issues in a linkage  analysis of extended pedigrees from Karonga District, Malawi/]],	  [[http://www.lshtm.ac.uk][LSHTM]], part of the	  [[http://www.lshtm.ac.uk/eph/ide/research/kps][Karonga Prevention Study]]. 
+# [ [[http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086][thesis]] ]	  
 - 1997-1999 :: Statistical programmer, [[http://www.imperial.ac.uk][Imperial]].
 
 # I keep notes about R and other code at my [[http://cwcode.wordpress.com][code blog]].

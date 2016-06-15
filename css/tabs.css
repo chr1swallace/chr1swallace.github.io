@@ -102,3 +102,8 @@
 	/* -moz-text-decoration-color:  #107896; /\* Code for Firefox *\/ */
 	/* text-decoration-color:  #107896; */
      }
+    a:hover {
+	color:  #fff;
+	background-color:  #43abc9;
+	text-decoration: none;
+    }
