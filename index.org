@@ -25,11 +25,11 @@ These pages exist to store information about datasets and code used in
 papers from our group.  The aim is to make this information accessible,
 which is not always possible in the published papers.
 
-*Hiring!*
+# *Hiring!*
 
-We are looking to recruit a post-doctoral statistician to work, initially, on exploiting Hi-C data to support development of latent variable models to understand genomic regulation. 
+# We are looking to recruit a post-doctoral statistician to work, initially, on exploiting Hi-C data to support development of latent variable models to understand genomic regulation. 
 
-[ [[file:vacancies.org][more info]] ] | [ [[http://www.mrc-bsu.cam.ac.uk/recruitment/current-vacancies/][how to apply]] ]
+# [ [[file:vacancies.org][more info]] ] | [ [[http://www.mrc-bsu.cam.ac.uk/recruitment/current-vacancies/][how to apply]] ]
 
 # *Moving and hiring*
 

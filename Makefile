@@ -3,6 +3,9 @@ OBJS = index.html group.html research.html code.html contact.html pubs.html data
 main: $(OBJS) orcid-out.org
 	echo "done"
 
+fresh:
+	touch *.org
+
 %.html: %.org
 	emacs24 -batch -Q -L lisp -l efun.el --visit $^ -f org-html-export-to-html
 
