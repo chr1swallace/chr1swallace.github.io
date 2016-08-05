@@ -40,14 +40,14 @@ body {
     overflow-x: hidden;
 }
 
-html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
-}
+/* html { */
+/*   font-family: "PT Serif", Georgia, "Times New Roman", serif; */
+/* } */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #107896; /* #313131; */
+  color: #313131;/* #107896; */ 
   letter-spacing: -.025rem;
 }
 
@@ -528,16 +528,16 @@ a.pagination-item:hover {
 }
 
 /* Blue */
-.sidebar,
-.sidebar-toggle:active,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-    background-color: #107896; /* #6a9fb5; */
-}
-.container a,
-.sidebar-toggle,
-.related-posts li a:hover {
-    color: #107896; /* #6a9fb5; */
-}
+/* .sidebar, */
+/* .sidebar-toggle:active, */
+/* #sidebar-checkbox:checked ~ .sidebar-toggle { */
+/*     background-color: #107896; /\* #6a9fb5; *\/ */
+/* } */
+/* .container a, */
+/* .sidebar-toggle, */
+/* .related-posts li a:hover { */
+/*     color: #107896; /\* #6a9fb5; *\/ */
+/* } */
 
 /* Magenta */
 .theme-base-0e .sidebar,

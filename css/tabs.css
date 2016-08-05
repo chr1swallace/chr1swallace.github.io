@@ -4,14 +4,15 @@
 /* } */
 
 #tabs {
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px 0px 1px 0px;
-    float: left;
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px;
-    width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px 0px 50px 0px;
+  border-width: 0px 0px 1px 0px;
+  border-color: #f0f0f0;
+  border-style: solid;
+  background-color: #f0f0f0;
+  float: left;
+  padding: 0px 0px;
+  width: 100%;
 }
 
     #tabs ul {
@@ -20,14 +21,13 @@
     }
 
     #tabs li {
-	background-color: #f0f0f0;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 5px;
+	background-color: #fff;
+	/* border-style: solid; */
+	/* border-width: 1px; */
 	float: left;
         list-style-type: none;
         margin: 2px 2px 2px 0px;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 5px 0px 0px;
         white-space: nowrap;
     }
 
@@ -37,6 +37,7 @@
         font-size: 13px;
         font-weight: bold;
         margin: 0;
+	background: #fcfcfc;
         padding: 4px 10px 4px 10px;
         text-decoration: none;
     }
@@ -53,7 +54,8 @@
     #tabs li.ui-tabs-active a {
         /* background: #759FCF; */
         /* color: #FFFFFF; */
-	border-style: solid;
+	background: #fcfcfc;
+ 	border-style: solid;
 	border-radius: 5px;
 	border: 1px;
 	/* color: #000; */
@@ -89,21 +91,22 @@
 	background-color: #fff;
     }
     #tabs li a:hover {
-	background:  #107896;
+	background:  #666; /* #107896; */
 	color: #fff;
     }
     #tabs, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
-					  color: #107896;
+					  color: #333; /* #107896; */
 					  background-color: #fff;
 				      }
     a { /* color: #c2571a; */
-	color:  #107896;
+	/* color:  #107896; */
 	/* text-decoration: underline; */
 	/* -moz-text-decoration-color:  #107896; /\* Code for Firefox *\/ */
 	/* text-decoration-color:  #107896; */
      }
     a:hover {
-	color:  #fff;
-	background-color:  #43abc9;
+	/* color:  #000; */
+	/* background-color:  #43abc9; */
+	border-radius: 5px;
 	text-decoration: none;
     }
