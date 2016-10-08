@@ -5,12 +5,9 @@
 
 #+INCLUDE: ./nav2.org
 
-#+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
-
-Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Research Fellow in  the [[http://www.med.cam.ac.uk/][Department of Medicine]] at the [[http://www.cam.ac.uk][University of Cambridge]] and a visiting Programme Leader at the  [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]].  
-She was previously head of the [[https://www-gene.cimr.cam.ac.uk/staff/dilstats/][statistics group]] in the Wellcome Trust/JDRF [[http://www-gene.cimr.cam.ac.uk][Diabetes and Inflammation
- Laboratory]] at Cambridge, with whom she remains a close collaborator.
-# Her group focuses on the development of statistical genomics methods and their application to understand autoimmune diseases.
+#+HTML:<blockquote>
+*Recruitment* We are looking to recruit a post-doctoral statistician to work on understanding genomic regulation. [ [[file:vacancies.org][more info]] ]
+#+HTML:</blockquote>
 
 Our immune system protects us against infectious disease, but
 sometimes attacks our own cells, causing autoimmune disease.  My group
@@ -25,11 +22,15 @@ These pages exist to store information about datasets and code used in
 papers from our group.  The aim is to make this information accessible,
 which is not always possible in the published papers.
 
-# *Hiring!*
+#+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="display: block;    margin-left: auto;    margin-right: auto;"></a>
 
-# We are looking to recruit a post-doctoral statistician to work, initially, on exploiting Hi-C data to support development of latent variable models to understand genomic regulation. 
 
-# [ [[file:vacancies.org][more info]] ] | [ [[http://www.mrc-bsu.cam.ac.uk/recruitment/current-vacancies/][how to apply]] ]
+#+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
+
+Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Research Fellow in  the [[http://www.med.cam.ac.uk/][Department of Medicine]] at the [[http://www.cam.ac.uk][University of Cambridge]] and a visiting Programme Leader at the  [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]].  
+She was previously head of the statistics group in the Wellcome Trust/JDRF Diabetes and Inflammation
+ Laboratory at Cambridge (now at Oxford), with whom she remains a close collaborator.
+# Her group focuses on the development of statistical genomics methods and their application to understand autoimmune diseases.
 
 # *Moving and hiring*
 
@@ -46,5 +47,3 @@ which is not always possible in the published papers.
 # #+HTML: <a href="group.html" class="biglink">Group</a>
 # #+HTML: <div class=blank></div>
 
-#+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="display: block;    margin-left: auto;    margin-right: auto;"></a>
-#+HTML: <div class="blank"></div>
