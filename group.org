@@ -6,6 +6,10 @@
 
 ** Current members
 
+*** Jennifer Asimit
+#+HTML: <img src="pics/Jennifer_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
+Jenn Asimit is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits.
+
 *** Oliver Burren
 
 #+HTML: <img src="pics/Olly_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
