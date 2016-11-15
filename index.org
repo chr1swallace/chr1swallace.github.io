@@ -5,9 +5,9 @@
 
 #+INCLUDE: ./nav2.org
 
-#+HTML:<blockquote>
-*Recruitment* We are looking to recruit a post-doctoral statistician to work on understanding genomic regulation. [ [[file:vacancies.org][more info]] ]
-#+HTML:</blockquote>
+# #+HTML:<blockquote>
+# *Recruitment* We are looking to recruit a post-doctoral statistician to work on understanding genomic regulation. [ [[file:vacancies.org][more info]] ]
+# #+HTML:</blockquote>
 
 Our immune system protects us against infectious disease, but
 sometimes attacks our own cells, causing autoimmune disease.  My group

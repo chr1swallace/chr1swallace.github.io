@@ -112,6 +112,11 @@ source_re=/Scopus/
     addlink(@types[i], @ids[i])
   end
 
+  if ti=="Widespread seasonal gene expression reveals annual differences in human immunity and physiology." then
+    OFILE.write(" [ [[https://www.wired.com/2015/05/dna-changes-seasons-just-like-weather][=WIRED article=]] ]")
+    OFILE.write(" [ [[http://www.livescience.com/50806-seasonal-variation-human-genes-immune-inflammation.html][=LIVE SCIENCE article=]] ]")
+  end
+
   bend()
 }
 

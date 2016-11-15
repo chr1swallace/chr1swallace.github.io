@@ -16,7 +16,7 @@ orcid-renew:
 	curl -H "Accept: application/orcid+xml" 'http://pub.orcid.org/v1.2/0000-0001-9755-1703/orcid-works' -L -i > orcid.html
 	awk 'NR>9 {print}' orcid.html | sed 's/orcid-//g' > orcid.xml
 
-orcid-out.org: orcid.xml
+orcid-out.org: orcid.xml orcid-format-org.rb
 	./orcid-format-org.rb
 	touch pubs2.org
 

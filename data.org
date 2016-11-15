@@ -96,6 +96,11 @@ We also used [[T1D GWAS Data]].
 * Datasets we have used
 
 ** GWAS
+
+*** ATD ImmunoChip Data   
+ 
+Need to be requested from the original study authors https://www.ncbi.nlm.nih.gov/pubmed/22922229
+
 *** Coeliac ImmunoChip Data
 
 Primary analysis is by [[http://www.nature.com/ng/journal/v43/n12/full/ng.998.html][Trynka et al]].  Genotype data  is hosted by the European Bioinformatics Institute, under accession number [[http://www.ebi.ac.uk/ega/studies/EGAS00000000053][EGAS00000000053]].
@@ -110,15 +115,17 @@ Primary analysis was by [[http://www.nature.com/ng/journal/v44/n12/full/ng.2462.
 
 *** T1D ImmunoChip Data 
 
-from dbGaP ([[http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000180.v2.p2]])
+is available from dbGaP ([[http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000180.v3.p2]])
 
 *** T1D GWAS Data
 
-There have been (at least) three T1D GWAS studies.  We used all three, the details of how to access these data are best found on [[http://www.t1dbase.org/poster/accessing-external-private-genotyping-data/][T1DBase]], and the publications they come from are summarised on the [[https://www-gene.cimr.cam.ac.uk/publications/human_data.shtml#gwas][DIL's]] website.  
+2000 T1D samples were genotyped as part of the WTCCC (and controls) - data access  is described at https://www.wtccc.org.uk/info/access_to_data_samples.html. An additional 4000 cases were genotyped by the T1DGC, available at https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000180.v3.p2
+
+Autoantibody data on T1D subjects is available by contacting study authors from http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002216.
 
 *** ImmunoChip summary statistics
 
-*ImmunoBase*: ImmunoChip summary GWAS statistics from multiple studies are nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.
+*ImmunoBase*: ImmunoChip summary GWAS statistics from multiple studies *used to be* nicely curated and available from [[http://www.immunobase.org][ImmunoBase]] if you first register (free) then go to =Data..downloads= on the right, then click through to =data/immunochip/association_stats=.  I'm not sure how to access it now.
 
 ** Expression data
 
