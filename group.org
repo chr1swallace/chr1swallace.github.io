@@ -17,7 +17,7 @@ Jenn Asimit is a senior investigator statistician with an interest in statistica
 
 *** Alessandra Cabassi
 #+HTML: <img src="pics/alessandra_150.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit. She is working on Bayesian nonparametric approaches for integrative modelling of genomic "big data".
+Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit, jointly supervised by [[http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/h-to-m/paul-kirk/][Paul Kirk]]. She is working on Bayesian nonparametric approaches for integrative modelling of genomic "big data".
 *** Chris Eijsbouts
 #+HTML: <img src="pics/ChrisE.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
 Chris Eijsbouts is a research intern continuing his work on the interpretation of Capture Hi-C data following the completion of his MPhil thesis on this topic. His goal is to find a robust method for the identification of chromatin contacts which regulate gene expression, thereby facilitating the interpretation of GWAS studies.
