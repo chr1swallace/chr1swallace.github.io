@@ -84,9 +84,29 @@ function tabifySections() {
                 });
             }
         });
+    var h1Sections = [];
+    $('h1')
+        .each(function() {
+            // Remove TODO keywords and tags (contained in spans)
+            var tabText = $(this).clone().find('span').remove().end()
+                .text().trim();
+            var tabId = $(this).parent().attr('id');
+            if (tabText) {
+                // - remove heading number (all leading digits)
+                // - remove progress logging (between square brackets)
+                // - remove leading and trailing spaces
+                tabText = tabText.replace(/^\d+\s+/, '').replace(/\[[\d/%]+\]/, '').trim();
+
+                h1Sections.push({
+                    text: tabText,
+                    id: tabId
+                });
+            }
+        });
 
     // create the tab links
     var tabs = $('<ul id="tabs"></ul>');
+    tabs.append($('<li class="tabhead">' + h1Sections[0].text + ' ::</li>'));
     for (i = 0; i < allSections.length; i++) {
         var item = allSections[i];
         html = $('<li><a href="#' + item.id + '">' + item.text + '</a></li>');

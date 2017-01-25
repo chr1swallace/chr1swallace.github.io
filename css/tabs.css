@@ -5,14 +5,17 @@
 
 #tabs {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0px 0px 50px 0px;
-  border-width: 0px 0px 1px 0px;
+  /* margin: 0px 0px 50px 0px; */
+  border-width: 0px 0px 0px 0px;
   border-color: #f0f0f0;
   border-style: solid;
-  /* background-color: #000000; */
   float: left;
-  padding: 0px 0px;
+  padding: 0rem 2rem;
   width: 100%;
+    /* max-width: 810px; */
+    position: fixed;
+  left: 14rem;
+  top: 0;
 }
 
     #tabs ul {
@@ -32,12 +35,12 @@
     }
 
     #tabs li a {
-        color: #555555;
+        color: #fff;
         display: block;
         font-size: 80%;
         font-weight: bold;
         margin: 0;
-	background: #fcfcfc;
+	/* background: #fcfcfc; */
         padding: 4px 10px 4px 10px;
         text-decoration: none;
     }
@@ -48,18 +51,17 @@
 	border: 1px;
         /* background: #FFFFFF; */
         /* background: #759FCF; */
-        color: #000;
     }
 
-    #tabs li.ui-tabs-active a {
+    #tabs li.ui-tabs-active,    #tabs li.ui-tabs-active a,     #tabs ui-tabs-active, #tabs ui-tabs-active a {
         /* background: #759FCF; */
-        /* color: #FFFFFF; */
-	background: #fcfcfc;
- 	border-style: solid;
-	border-radius: 5px;
-	border: 1px;
+        color: #F00;
+	/* background: #fcfcfc; */
+ 	/* border-style: solid; */
+	/* border-radius: 5px; */
+	/* border: 1px; */
 	/* color: #000; */
-	background: #fff;
+	/* background: #fff; */
     }
 
 /* #content { */
@@ -87,27 +89,35 @@
 /*     text-align: right; */
 /* } */
 
-    #tabs li a {
-	background-color: #fff;
-	color: #666;
+
+
+    /* colours */
+
+
+    
+    #tabs {
+	background-color: #202020;
     }
-    #tabs li a:hover {
-	background:  #666; /* #107896; */
+     #tabs li, #tabs li a {
+	/* background-color: #fff; */
 	color: #fff;
     }
-    #tabs, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
-					  color: #000; /* #107896; */
-					  background-color: #fff;
-				      }
-    a { /* color: #c2571a; */
-	/* color:  #107896; */
-	/* text-decoration: underline; */
-	/* -moz-text-decoration-color:  #107896; /\* Code for Firefox *\/ */
-	/* text-decoration-color:  #107896; */
-     }
-    a:hover {
-	/* color:  #000; */
-	/* background-color:  #43abc9; */
-	border-radius: 5px;
-	text-decoration: none;
+    #tabs li a:hover, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
+       color: #d28445; 
     }
+    /* a { /\* color: #c2571a; *\/ */
+    /* 	/\* color:  #107896; *\/ */
+    /* 	/\* text-decoration: underline; *\/ */
+    /* 	/\* -moz-text-decoration-color:  #107896; /\\* Code for Firefox *\\/ *\/ */
+    /* 	/\* text-decoration-color:  #107896; *\/ */
+    /*  } */
+    /* a:hover { */
+    /* 	/\* color:  #000; *\/ */
+    /* 	/\* background-color:  #43abc9; *\/ */
+    /* 	border-radius: 5px; */
+    /* 	text-decoration: none; */
+    /* } */
+    h1 {
+  padding:    0rem;
+  margin: 0rem;
+  visibility: hidden; }

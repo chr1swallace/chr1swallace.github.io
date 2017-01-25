@@ -1,10 +1,10 @@
-#+TITLE: Wallace group | research
+#+TITLE: Research
 
 #+SETUPFILE: ./setup3.org
 
 #+INCLUDE: ./nav2.org
 
-* Causal variant identification
+* Causal variants
 
 #+HTML: <img src="GUESSFM_small.png" alt="portrait" style="float:left;margin:10px;" />
 
@@ -36,12 +36,9 @@ disease.
 
 ** Related papers
 
-Wallace C, Cutler AJ, Pontikos N, Pekalski ML, Burren OS, Cooper JD, et al. (2015) Dissection of a Complex Disease Susceptibility Region Using a Bayesian Stochastic Search Approach to Fine Mapping. PLoS Genet 11(6): e1005272. doi:10.1371/journal.pgen.1005272
-[[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005272]]
+ Dissection of a Complex Disease Susceptibility Region Using a Bayesian Stochastic Search Approach to Fine Mapping. Wallace et al., PLoS genetics, 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26106896][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1005272][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-* Causal gene identification
-
-#+HTML: <img src="ctsh.jpg" alt="portrait" style="float:right;margin:10px;" />
+* Causal genes
 
 Genomewide association studies (GWAS) have been hugely successful in
 identifying associations between genetic variation and risk of common
@@ -56,6 +53,8 @@ expression in some cells, perhaps under specific conditions.
 
 # *** Colocalisation of disease and gene expression signals
 
+#+HTML: <img src="ctsh.jpg" alt="portrait" style="float:right;margin:10px;" />
+
 As GWAS studies for disease have been conducted over the past decade,
 so people have conducted GWAS for other, more gene specific traits,
 such as parallel GWAS for the expression levels of each of the ~20,000
@@ -66,19 +65,30 @@ whether the two GWAS traces are compatible with the two traits,
 disease risk and expression of a given gene in a given cell type and
 condition, sharing a causal variant.
 
+
+#+HTML: <img src="pchic.png" alt="portrait" style="float:left;margin:10px;" />
+
+Another approach is to exploit knowledge about the 3D folding of
+chromatin derived from high throughput Chromosome Conformation Capture
+(Hi-C) in its targetted form: Capture Hi-C (CHi-C).  This allows us to link GWAS causal variants (mapped probabilistically) to the genes they regulate, and we have deployed this approach across 17 primary human sorted cell types.
+
+
 ** Related papers
 
-Wallace, Chris, Maxime Rotival, Jason D Cooper, Catherine M Rice, Jennie H M Yang, Mhairi McNeill, Deborah J Smyth, et al. 2012. “Statistical Colocalization of Monocyte Gene Expression and Genetic Risk Variants for Type 1 Diabetes.” Human Molecular Genetics 21 (12): 2815–24. http://dx.doi.org/10.1093/hmg/dds098.
+Statistical colocalization of monocyte gene expression and genetic risk variants for type 1 diabetes. Wallace et al., Human molecular genetics, 2012, vol. 21, no. 12, pp. 2815-2824.  [ [[http://dx.doi.org/10.1093/hmg/dds098][=doi=]] ] [ [[http://ukpmc.ac.uk/abstract/MED/22403184][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Wallace, Chris. 2013. “Statistical Testing of Shared Genetic Control for Potentially Related Traits.” Genetic Epidemiology 37 (8): 802–13. http://dx.doi.org/10.1002/gepi.21765.
+Statistical testing of shared genetic control for potentially related traits. Wallace. Genetic Epidemiology, 2013, vol. 37, no. 8, pp. 802-813.  [ [[http://dx.doi.org/10.1002/gepi.21765][=doi=]] ] [  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@  [[http://ukpmc.ac.uk/abstract/MED/24227294][=ukpmc=]] ]
 
-Giambartolomei, Claudia, Damjan Vukcevic, Eric E Schadt, Lude Franke, Aroon D Hingorani, Chris Wallace, and Vincent Plagnol. 2014. “Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics.” PLoS Genetics 10 (5): e1004383. http://dx.doi.org/10.1371/journal.pgen.1004383.
+A Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. Giambartolomei et al., PLoS genetics, 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24830394][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004383][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Guo, Hui, Mary D Fortune, Oliver S Burren, Ellen Schofield, John A Todd, and Chris Wallace. 2015. “Integration of Disease Association and eQTL Data Using a Bayesian Colocalisation Approach Highlights Six Candidate Causal Genes in Immune-Mediated Diseases.” Human Molecular Genetics 24 (12): 3305–13. http://dx.doi.org/10.1093/hmg/ddv077.
+Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases. Guo et al., Human molecular genetics, 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/25743184][=ukpmc=]] ] [ [[http://dx.doi.org/10.1093/hmg/ddv077][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+Chromosome contacts in activated T cells identify autoimmune disease-candidate genes. Burren et al., bioRxiv 100958 [ [[https://doi.org/10.1101/100958][=doi=]] ] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@
+
+Lineage-Specific Genome Architecture Links Enhancers and Non-coding Disease Variants to Target Gene Promoters. Javierre et al., Cell 2016 [ [[http://ukpmc.ac.uk/abstract/MED/27863249][=ukpmc=]] ] [ [[http://dx.doi.org/10.1016/j.cell.2016.09.037][=doi=]] ] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@
 
 
-
-* Relationships between related diseases
+* Diseases, their relationships and divisions
 #+HTML: <img src="disease-network.png" alt="portrait" style="float:left;margin:10px;" />
 
 We study the shared and distinct genetic aetiology between related
@@ -104,21 +114,11 @@ sharing the same causal variant only about 50% of the time.
 
 ** Related papers
 
-Liley, James, and Chris Wallace. 2015. “A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics.” PLoS Genetics 11 (2): e1004926. http://dx.doi.org/10.1371/journal.pgen.1004926.
+A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics. Liley and Wallace, PLoS genetics, 2015. [ [[http://ukpmc.ac.uk/abstract/MED/25658688][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004926][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Onengut-Gumuscu, Suna, Wei-Min Chen, Oliver Burren, Nick J Cooper,
-Aaron R Quinlan, Josyf C Mychaleckyj, Emily Farber, et al. 2015. “Fine
-Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for
-Colocalization of Causal Variants with Lymphoid Gene Enhancers.”
-Nature Genetics 47 (4): 381–86. http://dx.doi.org/10.1038/ng.3245.
+Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers. Onengut-Gumuscu et al., Nature genetics, 2015 [ [[http://ukpmc.ac.uk/abstract/MED/25751624][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3245][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Fortune MD, Guo H, Burren O, Schofield E, Walker NM, Ban M, Sawcer SJ,
-Bowes J, Worthington J, Barton A, Eyre S, Todd JA, Wallace C.  2015.
-"Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls."
-Nature Genetics 47 (7): 839-846.  [[http://dx.doi.org/10.1038/ng.3330]].  Preprint at [[http://biorxiv.org/content/early/2015/06/08/020651][bioRxiv]]. PMID:26053495
-
-
-
+ Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls. Fortune et al., Nature genetics, 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26053495][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3330][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 # ** Heterogeneity
 
 
@@ -153,10 +153,6 @@ June-August.
 
 ** Related papers
 
-Ferreira RC, Guo H, Coulson RM, Smyth DJ, Pekalski ML, Burren OS, et al.
-"A type I interferon transcriptional signature precedes autoimmunity in children genetically at risk for type 1 diabetes."
-/Diabetes/ [2014, 63(7):2538-2550] [[http://europepmc.org/abstract/MED/24561305][PMID:24561305]] PMCID:PMC4066333
+A type I interferon transcriptional signature precedes autoimmunity in children genetically at-risk of type 1 diabetes. Ferreira et al. Diabetes, 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24561305][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Dopico XC, Evangelou M, Ferreira RC, Guo H, Pekalski ML, Smyth DJ, et al. 
-"Widespread seasonal gene expression reveals annual differences in human immunity and physiology."
-/Nat Commun/ [2015, 6:7000] [[http://europepmc.org/abstract/MED/25965853][PMID:25965853]] PMCID:PMC4432600
+Widespread seasonal gene expression reveals annual differences in human immunity and physiology. Dopico et al. Nature communications, 2015  [ [[http://ukpmc.ac.uk/abstract/MED/25965853][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ncomms8000][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 

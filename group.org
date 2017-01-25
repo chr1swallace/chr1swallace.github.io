@@ -1,4 +1,4 @@
-#+TITLE: Wallace group | people
+#+TITLE: People
 
 #+SETUPFILE: ./setup3.org
 

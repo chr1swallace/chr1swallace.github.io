@@ -1,4 +1,4 @@
-#+TITLE: Wallace group | publications
+#+TITLE: Publications
 
 #+SETUPFILE: ./setup3.org
 

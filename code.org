@@ -1,4 +1,4 @@
-#+TITLE: Wallace group | code
+#+TITLE: Code
 #+SETUPFILE: ./setup3.org
 
 #+INCLUDE: ./nav2.org
