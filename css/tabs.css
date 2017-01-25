@@ -1,4 +1,13 @@
+/* Tabs and sidebar contain h1, h2 */
 
+h1,h2 {
+  padding:    0rem;
+  margin: 0rem;
+  visibility: hidden;
+}
+
+
+    
 /* #banner { */
 /*     text-align: center; */
 /* } */
@@ -7,7 +16,6 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* margin: 0px 0px 50px 0px; */
   border-width: 0px 0px 0px 0px;
-  border-color: #f0f0f0;
   border-style: solid;
   float: left;
   padding: 0rem 5rem;
@@ -17,63 +25,39 @@
   left: 0rem;
   top: 0;
 }
-/* Don't hide sidebar on wide enough screens */
-@media only screen and (min-width: 992px) {
-    #tabs {
-	left: 14rem;
-	padding: 0rem 2rem;
-    }
+
+#tabs ul {
+    margin: 0;
+    padding: 0;
 }
 
-    #tabs ul {
-        margin: 0;
-        padding: 0;
-    }
+#tabs li {
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    float: left;
+    list-style-type: none;
+    margin: 2px 2px 2px 0px;
+    padding: 0px 5px 0px 0px;
+    white-space: nowrap;
+}
 
-    #tabs li {
-	/* background-color: #fff; */
-	/* border-style: solid; */
-	/* border-width: 1px; */
-	float: left;
-        list-style-type: none;
-        margin: 2px 2px 2px 0px;
-        padding: 0px 5px 0px 0px;
-        white-space: nowrap;
-    }
-
-    #tabs li a {
-        color: #fff;
-        display: block;
-        font-size: 80%;
-        font-weight: bold;
-        margin: 0;
-	/* background: #fcfcfc; */
-        padding: 4px 10px 4px 10px;
-        text-decoration: none;
-    }
+#tabs li a {
+    display: block;
+    font-size: 80%;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+}
 
     #tabs li a:hover {
 	border-style: solid;
 	border-radius: 5px;
 	border: 1px;
-        /* background: #FFFFFF; */
-        /* background: #759FCF; */
-    }
-
-    #tabs li.ui-tabs-active,    #tabs li.ui-tabs-active a,     #tabs ui-tabs-active, #tabs ui-tabs-active a {
-        /* background: #759FCF; */
-        color: #F00;
-	/* background: #fcfcfc; */
- 	/* border-style: solid; */
-	/* border-radius: 5px; */
-	/* border: 1px; */
-	/* color: #000; */
-	/* background: #fff; */
     }
 
 /* #content { */
 /*     clear: both; */
-/*     background-color: #FFFFFF; */
 /*     font-size: 100%; */
 /*     margin: 0 auto; */
 /*     max-width: 810px; */
@@ -97,34 +81,3 @@
 /* } */
 
 
-
-    /* colours */
-
-
-    
-    #tabs {
-	background-color: #202020;
-    }
-     #tabs li, #tabs li a {
-	/* background-color: #fff; */
-	color: #fff;
-    }
-    #tabs li a:hover, .sidebar a:hover, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
-       color: #90d8f6; 
-    }
-    /* a { /\* color: #c2571a; *\/ */
-    /* 	/\* color:  #107896; *\/ */
-    /* 	/\* text-decoration: underline; *\/ */
-    /* 	/\* -moz-text-decoration-color:  #107896; /\\* Code for Firefox *\\/ *\/ */
-    /* 	/\* text-decoration-color:  #107896; *\/ */
-    /*  } */
-    a, a:hover {
-    	color:  #107896;
-    	/* background-color:  #43abc9; */
-    	border-radius: 5px;
-    	text-decoration: none;
-    }
-    h1,h2 {
-  padding:    0rem;
-  margin: 0rem;
-  visibility: hidden; }

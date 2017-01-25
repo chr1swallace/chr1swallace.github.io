@@ -13,26 +13,29 @@
 #       at my [[http://cwcode.wordpress.com][code blog]</p>
 
 
-* R packages from CRAN
-*** [[http://cran.r-project.org/web/packages/coloc/index.html][coloc]] 
+* R packages 
+*** coloc
+
+    [[http://cran.r-project.org/web/packages/coloc/index.html][CRAN]] | [[https://github.com/chr1swallace/coloc][github]] | *Note the github repository has important bug fixes that haven't reached CRAN.*
+
 	  a package of R functions used to test for
 	  colocalisation of two genetic traits.  For more detail or
 	  the statistical background and applications see:
-	  
-#+BEGIN_QUOTE
-  Wallace et al. Statistical colocalisation of monoyte gene
-	    expression and genetic risk variants for type 1
-	    diabetes. /Hum Mol Genet/ 2010. [ [[http://europepmc.org/abstract/MED/22403184][Europe PMC]] ]
-#+END_QUOTE
-	  
-#+BEGIN_QUOTE
- Wallace. Statistical testing of shared genetic control for potentially related traits. [ [[http://arxiv.org/abs/1301.5510][arXiv 1301.5510]] ]
-#+END_QUOTE
-	  
-#+BEGIN_QUOTE
 
-	     Giambartolomei et al.  Bayesian test for co-localisation between pairs of genetic association studies using summary statistics. [ [[http://arxiv.org/abs/1305.4022][arXiv 1305.4022]] ]
-	#+END_QUOTE
+
+
+
+	  
+{{{HMG12}}}
+{{{GE13}}}
+	  
+{{{giambartolomei14}}}
+
+*** colocCommonControl
+Adaptation of coloc for comparing two GWAS studies which share controls
+
+[[https://github.com/mdfortune/colocCommonControl]]
+
 *** [[http://cran.r-project.org/web/packages/snpStatsWriter/index.html][snpStatsWriter]]
 	allows writing snpStats objects to disk in formats suitable
 	for reading by snphap, phase, mach, IMPUTE, beagle, and
@@ -43,9 +46,10 @@ implements a
 	  testing regions of the genome according to GWAS derived
 	  evidence for SNP-trait association.  For more detail, see
 	  the supplementary methods of	  
+
+{{{heinig10}}}
+
 #+BEGIN_QUOTE
- A trans-acting locus regulates an anti-viral expression network and type 1
-diabetes risk.  Heinig M, et al.  /Nature/ 2010. [ [[http://europepmc.org/abstract/MED/20827270][Europe PMC]] ]
 #+END_QUOTE
 *** [[http://cran.r-project.org/web/packages/extraBinomial][extraBinomial]]
   (author Xin Yang, listed here because Xin doesn't have her own website)
@@ -98,11 +102,7 @@ implements an   extension to the Weinberg method for testing for parent of origi
 * Non-R packages
 *** VSEAMS (Olly Burren)
 Variant set enrichment analysis (of association summary statistics) using multivariate sampling. Please see the wiki available at http://github.com/ollyburren/vseams/wiki for further details.  Method described in 
-#+BEGIN_QUOTE
-Burren et al. VSEAMS: A pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes.
-/Bioinformatics/ 2014.
-[ [[http://ukpmc.ac.uk/abstract/MED/25170024][UK PMC]] ]
-#+END_QUOTE    
+{{{vseams}}}
 
 *** IBDSCORE 
 
@@ -117,9 +117,8 @@ implements a score test for the Rice-Holmans IBD
 Rice et al. /Genet Epidemiol/ 1999. 17:S691-S695
 #+END_QUOTE
 and this score test by
-#+BEGIN_QUOTE
-Wallace et al. /Am J Hum Genet/ 2006. 79:323-31 [ [[http://europepmc.org/abstract/MED/16826522][Europe PMC]] ]
-#+END_QUOTE
+
+Wallace et al. /Am J Hum Genet/ 2006. 79:323-31 [ [[http://europepmc.org/abstract/MED/16826522][Europe PMC]] ] {{{padlock}}}
 
 [ [[http://www-gene.cimr.cam.ac.uk/staff/wallace/soft/ibdscore.tgz][download]] ]
 

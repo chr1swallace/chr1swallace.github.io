@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Code</title>
-<!-- 2017-01-25 Wed 19:42 -->
+<!-- 2017-01-25 Wed 21:12 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -90,6 +90,7 @@
 <link rel="stylesheet" type="text/css" href="css/poole.css"/>
 <link rel="stylesheet" type="text/css" href="css/lanyon.css"/>
 <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+<link rel="stylesheet" type="text/css" href="css/colours.css"/>
 <script type="text/javascript" src="styles/bigblow/js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/jquery.localscroll-min.js"></script>
@@ -157,8 +158,11 @@ for the JavaScript code in this tag.
 <!-- Toggleable sidebar -->
     <div class="sidebar" id="sidebar">
       <div class="sidebar-item">
-        <p>Chris Wallace group:<br/><b>statistics</b>, applied to<br/> 
-        <b>genomics</b>, to understand<br/>
+        <p>Chris Wallace group:<br/>
+        <b>statistics</b><br/>
+        <em>applied to</em><br/> 
+        <b>genomics</b><br/>
+        <em>to understand</em><br/>
         <b>autoimmune diseases</b>.</p>
       </div>
       
@@ -178,45 +182,52 @@ for the JavaScript code in this tag.
 
 
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">R packages from CRAN</h2>
+<h2 id="sec-1">R packages</h2>
 <div class="outline-text-2" id="text-1">
 </div><div id="outline-container-sec-1-0-1" class="outline-4">
-<h4 id="sec-1-0-1"><a href="http://cran.r-project.org/web/packages/coloc/index.html">coloc</a></h4>
+<h4 id="sec-1-0-1">coloc</h4>
 <div class="outline-text-4" id="text-1-0-1">
+<p>
+<a href="http://cran.r-project.org/web/packages/coloc/index.html">CRAN</a> | <a href="https://github.com/chr1swallace/coloc">github</a> | <b>Note the github repository has important bug fixes that haven't reached CRAN.</b>
+</p>
+
 <p>
 a package of R functions used to test for
 colocalisation of two genetic traits.  For more detail or
 the statistical background and applications see:
 </p>
 
-<blockquote>
-<p>
-Wallace et al. Statistical colocalisation of monoyte gene
-          expression and genetic risk variants for type 1
-          diabetes. <i>Hum Mol Genet</i> 2010. [ <a href="http://europepmc.org/abstract/MED/22403184">Europe PMC</a> ]
-</p>
-</blockquote>
 
-<blockquote>
-<p>
-Wallace. Statistical testing of shared genetic control for potentially related traits. [ <a href="http://arxiv.org/abs/1301.5510">arXiv 1301.5510</a> ]
-</p>
-</blockquote>
 
-<blockquote>
-<p>
 
+
+<p>
+Statistical colocalization of monocyte gene expression and genetic risk variants for type 1 diabetes. Wallace et al., <i>Human Molecular Genetics</i> 2012, vol. 21, no. 12, pp. 2815-2824.  [ <a href="http://dx.doi.org/10.1093/hmg/dds098"><code>doi</code></a> ] [ <a href="http://ukpmc.ac.uk/abstract/MED/22403184"><code>ukpmc</code></a> ]  <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+Statistical testing of shared genetic control for potentially related traits. Wallace. <i>Genetic Epidemiology</i> 2013, vol. 37, no. 8, pp. 802-813.  [ <a href="http://dx.doi.org/10.1002/gepi.21765"><code>doi</code></a> ] [  <i class="fa fa-unlock-alt" aria-hidden="true"></i>  <a href="http://ukpmc.ac.uk/abstract/MED/24227294"><code>ukpmc</code></a> ]
 </p>
 
 <p>
-Giambartolomei et al.  Bayesian test for co-localisation between pairs of genetic association studies using summary statistics. [ <a href="http://arxiv.org/abs/1305.4022">arXiv 1305.4022</a> ]
+A Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. Giambartolomei et al., <i>PLoS genetics</i> 2014.  [ <a href="http://ukpmc.ac.uk/abstract/MED/24830394"><code>ukpmc</code></a> ] [ <a href="http://dx.doi.org/10.1371/journal.pgen.1004383"><code>doi</code></a> ]  <i class="fa fa-unlock-alt" aria-hidden="true"></i>
 </p>
-</blockquote>
 </div>
 </div>
+
 <div id="outline-container-sec-1-0-2" class="outline-4">
-<h4 id="sec-1-0-2"><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">snpStatsWriter</a></h4>
+<h4 id="sec-1-0-2">colocCommonControl</h4>
 <div class="outline-text-4" id="text-1-0-2">
+<p>
+Adaptation of coloc for comparing two GWAS studies which share controls
+</p>
+
+<p>
+<a href="https://github.com/mdfortune/colocCommonControl">https://github.com/mdfortune/colocCommonControl</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-0-3" class="outline-4">
+<h4 id="sec-1-0-3"><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">snpStatsWriter</a></h4>
+<div class="outline-text-4" id="text-1-0-3">
 <p>
 allows writing snpStats objects to disk in formats suitable
 for reading by snphap, phase, mach, IMPUTE, beagle, and
@@ -224,9 +235,9 @@ for reading by snphap, phase, mach, IMPUTE, beagle, and
 </p>
 </div>
 </div>
-<div id="outline-container-sec-1-0-3" class="outline-4">
-<h4 id="sec-1-0-3"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h4>
-<div class="outline-text-4" id="text-1-0-3">
+<div id="outline-container-sec-1-0-4" class="outline-4">
+<h4 id="sec-1-0-4"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h4>
+<div class="outline-text-4" id="text-1-0-4">
 <p>
 implements a
           Wilcoxon-based test for Gene Set Enrichment Analysis when
@@ -234,17 +245,18 @@ implements a
           evidence for SNP-trait association.  For more detail, see
           the supplementary methods of          
 </p>
-<blockquote>
+
 <p>
- A trans-acting locus regulates an anti-viral expression network and type 1
-diabetes risk.  Heinig M, et al.  <i>Nature</i> 2010. [ <a href="http://europepmc.org/abstract/MED/20827270">Europe PMC</a> ]
+A trans-acting locus regulates an anti-viral expression network and type 1 diabetes risk.  Heinig, et al.  <i>Nature</i> 2010. [ <a href="http://europepmc.org/abstract/MED/20827270"><code>eupmc</code></a> ] <i class="fa fa-unlock-alt" aria-hidden="true"></i>
 </p>
-</blockquote>
+
+<blockquote>
+nil</blockquote>
 </div>
 </div>
-<div id="outline-container-sec-1-0-4" class="outline-4">
-<h4 id="sec-1-0-4"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h4>
-<div class="outline-text-4" id="text-1-0-4">
+<div id="outline-container-sec-1-0-5" class="outline-4">
+<h4 id="sec-1-0-5"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h4>
+<div class="outline-text-4" id="text-1-0-5">
 <p>
 (author Xin Yang, listed here because Xin doesn't have her own website)
 uses an extra binomial model to test for case-control
@@ -337,14 +349,8 @@ Wallace et al. The imprinted DLK1-MEG3 gene region on chromosome
 <div class="outline-text-4" id="text-3-0-1">
 <p>
 Variant set enrichment analysis (of association summary statistics) using multivariate sampling. Please see the wiki available at <a href="http://github.com/ollyburren/vseams/wiki">http://github.com/ollyburren/vseams/wiki</a> for further details.  Method described in 
+Burren et al. VSEAMS: A pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes. <i>Bioinformatics</i> 2014.[ <a href="http://ukpmc.ac.uk/abstract/MED/25170024"> <code>ukpmc</code></a> ] <i class="fa fa-unlock-alt" aria-hidden="true"></i>
 </p>
-<blockquote>
-<p>
-Burren et al. VSEAMS: A pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes.
-<i>Bioinformatics</i> 2014.
-[ <a href="http://ukpmc.ac.uk/abstract/MED/25170024">UK PMC</a> ]
-</p>
-</blockquote>
 </div>
 </div>
 
@@ -370,11 +376,10 @@ Rice et al. <i>Genet Epidemiol</i> 1999. 17:S691-S695
 <p>
 and this score test by
 </p>
-<blockquote>
+
 <p>
-Wallace et al. <i>Am J Hum Genet</i> 2006. 79:323-31 [ <a href="http://europepmc.org/abstract/MED/16826522">Europe PMC</a> ]
+Wallace et al. <i>Am J Hum Genet</i> 2006. 79:323-31 [ <a href="http://europepmc.org/abstract/MED/16826522">Europe PMC</a> ] <i class="fa fa-unlock-alt" aria-hidden="true"></i>
 </p>
-</blockquote>
 
 <p>
 [ <a href="http://www-gene.cimr.cam.ac.uk/staff/wallace/soft/ibdscore.tgz">download</a> ]
@@ -393,7 +398,7 @@ Wallace et al. <i>Am J Hum Genet</i> 2006. 79:323-31 [ <a href="http://europepmc
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2017-01-25 Wed 19:42</p>
+<p class="date">Created: 2017-01-25 Wed 21:12</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

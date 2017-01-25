@@ -177,7 +177,6 @@ h1 a {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .75rem; /* 15px */
   color: rgba(255,255,255,1);
-  background-color: /* #107896; */ #202020;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   z-index: 998;
@@ -194,7 +193,8 @@ h1 a {
   color: #fff;
 }
 .sidebar-item {
-  padding: 1rem;
+    text-align: center;
+    padding: 1rem;
   font-size: 0.9rem; /* 15px */
 }
 .sidebar-item p:last-child {
@@ -271,24 +271,6 @@ a.sidebar-nav-item:focus {
 @media (min-width: 30.1em) {
   .sidebar-toggle {
     position: fixed;
-  }
-}
-
-/* Don't hide sidebar on wide enough screens */
-@media only screen and (min-width: 992px) {
-  .sidebar {
-      left: 0rem;
-      font-size: .875rem; /* 14px */
-  }
-  .sidebar-item {
-    padding: 1.5rem;
-  }
-  .sidebar-nav-item {
-    padding-left:  1.5rem;
-    padding-right: 1.5rem;
-  }
-  .sidebar-toggle {
-      visibility: hidden;
   }
 }
 

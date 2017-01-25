@@ -10,9 +10,44 @@
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 
+#+MACRO: padlock @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: liley16 A method for identifying genetic heterogeneity within phenotypically defined disease subgroups. Liley et al., /Nature Genetics/ 2016.  [ [[http://europepmc.org/abstract/MED/28024155][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3751][=doi=]] ] [ [[https://doi.org/10.1101/100958][=biorxiv=]] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ ]
+
+#+MACRO: fortune15  Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls. Fortune et al., /Nature Genetics/ 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26053495][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3330][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: onengut15 Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers. Onengut-Gumuscu et al., /Nature Genetics/ 2015 [ [[http://ukpmc.ac.uk/abstract/MED/25751624][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3245][=doi=]] ]  {{{padlock}}}
+
+#+MACRO: liley15 A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics. Liley and Wallace, /PLoS Genetics/ 2015. [ [[http://ukpmc.ac.uk/abstract/MED/25658688][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004926][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: HMG12 Statistical colocalization of monocyte gene expression and genetic risk variants for type 1 diabetes. Wallace et al., /Human Molecular Genetics/ 2012, vol. 21, no. 12, pp. 2815-2824.  [ [[http://dx.doi.org/10.1093/hmg/dds098][=doi=]] ] [ [[http://ukpmc.ac.uk/abstract/MED/22403184][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: GE13 Statistical testing of shared genetic control for potentially related traits. Wallace. /Genetic Epidemiology/ 2013, vol. 37, no. 8, pp. 802-813.  [ [[http://dx.doi.org/10.1002/gepi.21765][=doi=]] ] [  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@  [[http://ukpmc.ac.uk/abstract/MED/24227294][=ukpmc=]] ]
+
+#+MACRO: PLOSGEN15 Dissection of a Complex Disease Susceptibility Region Using a Bayesian Stochastic Search Approach to Fine Mapping. Wallace et al., /PLoS genetics/ 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26106896][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1005272][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: giambartolomei14 A Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. Giambartolomei et al., /PLoS genetics/ 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24830394][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004383][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: guo15 Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases. Guo et al., /Human Molecular Genetics/ 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/25743184][=ukpmc=]] ] [ [[http://dx.doi.org/10.1093/hmg/ddv077][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: burren17 Chromosome contacts in activated T cells identify autoimmune disease-candidate genes. Burren et al., bioRxiv 100958 [ [[https://doi.org/10.1101/100958][=doi=]] ] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@
+
+#+MACRO: javierre16 Lineage-Specific Genome Architecture Links Enhancers and Non-coding Disease Variants to Target Gene Promoters. Javierre et al., Cell 2016 [ [[http://ukpmc.ac.uk/abstract/MED/27863249][=ukpmc=]] ] [ [[http://dx.doi.org/10.1016/j.cell.2016.09.037][=doi=]] ] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@
+
+#+MACRO: ferreira14 A type I interferon transcriptional signature precedes autoimmunity in children genetically at-risk of type 1 diabetes. Ferreira et al. /Diabetes/ 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24561305][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: dopico15 Widespread seasonal gene expression reveals annual differences in human immunity and physiology. Dopico et al. /Nature Communications/ 2015  [ [[http://ukpmc.ac.uk/abstract/MED/25965853][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ncomms8000][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+
+#+MACRO: heinig10  A trans-acting locus regulates an anti-viral expression network and type 1 diabetes risk.  Heinig, et al.  /Nature/ 2010. [ [[http://europepmc.org/abstract/MED/20827270][=eupmc=]] ] {{{padlock}}}
+
+#+MACRO: vseams Burren et al. VSEAMS: A pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes. /Bioinformatics/ 2014.[ [[http://ukpmc.ac.uk/abstract/MED/25170024][ =ukpmc=]] ] {{{padlock}}}
+
+#+MACRO: bowes15 Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis.  Bowes et al. /Nature Communications/ 2015. [ [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][ =doi= ]] ] {{{padlock}}}
+
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/poole.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/lanyon.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/colours.css"/>
 
 #+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery-1.11.0.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
@@ -25,3 +60,5 @@
 
 # #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/cwcustom.css"/>
 #+HTML_HEAD: <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+

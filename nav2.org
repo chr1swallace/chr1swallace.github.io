@@ -9,8 +9,11 @@
 <!-- Toggleable sidebar -->
     <div class="sidebar" id="sidebar">
       <div class="sidebar-item">
-	<p>Chris Wallace group:<br/><b>statistics</b>, applied to<br/> 
-	<b>genomics</b>, to understand<br/>
+	<p>Chris Wallace group:<br/>
+	<b>statistics</b><br/>
+	<em>applied to</em><br/> 
+	<b>genomics</b><br/>
+	<em>to understand</em><br/>
 	<b>autoimmune diseases</b>.</p>
       </div>
       

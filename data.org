@@ -12,8 +12,7 @@
   # }
 # </script>
 
-This page holds information about datasets and code used in
-statistical genetics papers from Chris Wallace's group.  Our intention
+This page holds information about datasets and code used in our papers.  Our intention
 is to make the data and code we have used accessible.  If anything is
 unclear, please [[https://github.com/chr1swallace/chr1swallace.github.io/issues][report it as an issue]] so I (and you) can track it.  If
 you really don't want to use github, as a last resort, email
@@ -23,9 +22,9 @@ you really don't want to use github, as a last resort, email
   
 ** 2015
 
-*** Wallace et al "Dissection of a complex disease susceptibility region using a Bayesian stochastic search approach to fine mapping"
+*** 
 
-*Paper*:  [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005272][PLOS Genet]] | [[http://biorxiv.org/content/early/2015/02/12/015164][bioRxiv preprint]]
+*Paper*: {{{PLOSGEN15}}}
 
 *Code*: Uses the R package [[https://github.com/chr1swallace/GUESSFM][GUESSFM]].  For detailed pipeline of steps to run GUESSFM, see the [[https://github.com/chr1swallace/GUESSFM/tree/master/vignettes][vignettes]].
 
@@ -33,23 +32,23 @@ you really don't want to use github, as a last resort, email
 
 
 
-*** Fortune et al "Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls"
+*** 
 
-*Paper*: [[http://www.nature.com/ng/journal/v47/n7/full/ng.3330.html][Nat Genet]] | [[http://biorxiv.org/content/biorxiv/early/2015/06/08/020651.full.pdf][bioRxiv preprint]]
+*Paper*: {{{fortune15}}}
 
 *Data*: [[T1D ImmunoChip Data]] | [[MS ImmunoChip Data]] | [[RA ImmunoChip Data]] | [[T1D ImmunoChip Data]]
 
 Complete results are available in the [[http://www.nature.com/ng/journal/v47/n7/full/ng.3330.html#supplementary-information][Supplementary Tables]].
 
-*** Castro Dopico et al "Widespread seasonal gene expression reveals annual differences in human immunity and physiology" 
+*** 
 
-*Paper*: [[http://www.nature.com/ncomms/2015/150512/ncomms8000/full/ncomms8000.html][Nat Commun]]
+*Paper*: {{{dopico15}}}
 
 *Data*: [[BABYDIET gene expression]] | [[T1D gene expression]] | [[Asthma gene expression]]
 
-*** Onengut-Gumuscu et al "Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers"
+*** 
 
-*Paper*: [[http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3245.html][Nat Genet]] | [[http://www-gene.cimr.cam.ac.uk/staff/wallace/ichip-preprint.pdf][preprint]]
+*Paper*: {{{onengut15}}}
 
 *Code*: R code used to perform
   numerical calculations exploring the appropriate p value thresholds
@@ -61,31 +60,31 @@ Complete results are available in the [[http://www.nature.com/ng/journal/v47/n7/
 
 *Data*: [[T1D ImmunoChip Data]]
 
-*** Guo et al "Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases"
+*** 
 
-*Paper*: [[http://dx.doi.org/10.1093/hmg/ddv077][Hum Mol Genet]]
+*Paper*: {{{guo15}}}
 
 *Code*: Uses the R package [[https://github.com/chr1swallace/coloc/][coloc]] (available also from [[http://cran.r-project.org/web/packages/coloc/index.html][CRAN]]).
 
 *Data*: [[ImmunoChip summary statistics]] | [[Fairfax eQTL data]] | [[Cardiogenics eQTL data]]
 
-*** Bowes et al "Dense genotyping of immune-related susceptibility loci reveals new insights into the genetics of psoriatic arthritis"
-*Paper*: [[http://www.nature.com/ncomms/2015/150205/ncomms7046/abs/ncomms7046.html][Nat Commun]].
+*** 
+*Paper*: {{{bowes15}}}
 
 *Code*: R script for fine mapping https://github.com/chr1swallace/finemap-psa 
 
 *Data*: RA p values required for input were downloaded from [[http://www.immunobase.org][ImmunoBase]].
 
-*** Liley and Wallace "A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics"
-*Paper*: [[http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004926][PLOS Genet]].
+*** 
+*Paper*: {{{liley15}}}
 
 *Code*: James' code is on https://github.com/jamesliley/cFDR-common-controls.
 
 *Data*: GWAS summary statistics (p values) were downloaded from [[Immunobase]]. Also uses [[T1D ImmunoChip Data]] for simulations to examine properties of the method.
 
 ** 2014
-*** Burren et al "VSEAMS: a pipeline for variant set enrichment analysis using summary GWAS data identifies IKZF3, BATF and ESRRA as key transcription factors in type 1 diabetes"
-*Paper*: [[http://europepmc.org/abstract/MED/25170024][Bioinformatics]].
+*** 
+*Paper*: {{{vseams}}}
 
 *Code*: Olly's pipeline is at [[http://github.com/ollyburren/vseams]].
 
@@ -146,7 +145,7 @@ gene expression data: http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2232;
 See [[http://europepmc.org/abstract/MED/24603674]] for the paper.  This
 dataset has a special place in my heart, as we requested it after
 Cusanovich posted a preprint and it was shared quickly and freely.  As
-a result, I /think/ our paper using this data was actually submitted
+a result, I /think/ our paper using this data was actually preprinted and submitted
 before the Cusanovich paper was formally published in a journal.  A
 true example of preprint publishing furthering research.
 
