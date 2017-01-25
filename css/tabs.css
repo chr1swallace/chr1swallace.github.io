@@ -102,8 +102,8 @@
 	/* background-color: #fff; */
 	color: #fff;
     }
-    #tabs li a:hover, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
-       color: #d28445; 
+    #tabs li a:hover, .sidebar a:hover, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
+       color: #90d8f6; 
     }
     /* a { /\* color: #c2571a; *\/ */
     /* 	/\* color:  #107896; *\/ */
@@ -111,12 +111,12 @@
     /* 	/\* -moz-text-decoration-color:  #107896; /\\* Code for Firefox *\\/ *\/ */
     /* 	/\* text-decoration-color:  #107896; *\/ */
     /*  } */
-    /* a:hover { */
-    /* 	/\* color:  #000; *\/ */
-    /* 	/\* background-color:  #43abc9; *\/ */
-    /* 	border-radius: 5px; */
-    /* 	text-decoration: none; */
-    /* } */
+    a, a:hover {
+    	color:  #107896;
+    	/* background-color:  #43abc9; */
+    	border-radius: 5px;
+    	text-decoration: none;
+    }
     h1,h2 {
   padding:    0rem;
   margin: 0rem;
