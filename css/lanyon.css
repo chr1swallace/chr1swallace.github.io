@@ -232,7 +232,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle {
   position: absolute;
   top:  .8rem;
-  left: 15rem;
+  left: 1rem;
   display: block;
   padding: .25rem .75rem;
   color: #505050;
@@ -275,7 +275,7 @@ a.sidebar-nav-item:focus {
 }
 
 /* Don't hide sidebar on wide enough screens */
-@media (min-width: 48em) {
+@media only screen and (min-width: 992px) {
   .sidebar {
       left: 0rem;
       font-size: .875rem; /* 14px */
