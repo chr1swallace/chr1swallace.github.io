@@ -1,0 +1,59 @@
+
+/* Don't hide sidebar on wide enough screens */
+@media only screen and (min-width: 992px) {
+  .sidebar {
+      left: 0rem;
+      font-size: .875rem; /* 14px */
+  }
+  .sidebar-item {
+    padding: 1.5rem;
+  }
+  .sidebar-nav-item {
+    padding-left:  1.5rem;
+    padding-right: 1.5rem;
+  }
+  .sidebar-toggle {
+      visibility: hidden;
+  }
+    #tabs {
+	left: 14rem;
+	padding: 0rem 2rem;
+    }
+}
+
+
+    /* colours */
+
+
+    
+    #tabs, .sidebar {
+	/* background-color: #202020; */
+	background-color: #006886;
+
+    }
+     #tabs li, #tabs li a {
+	color: #fff;
+    }
+    #tabs li a:hover, .sidebar a:hover, #tabs li.ui-tabs-active a, #tabs li.ui-tabs-active a:hover {
+       color: #90d8f6; 
+    }
+    a code {
+	background-color: #fff;
+    }
+    a code, a, a:hover {
+    	color:  #107896;
+    	/* background-color:  #43abc9; */
+    	border-radius: 5px;
+    	text-decoration: none;
+    }
+    code {
+	color: #bf616a; 
+	background-color: #f9f9f9;
+    }
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color:  #004866; /* #107896; */
+  border-left: .05rem solid #90d8f6;
+}
+
