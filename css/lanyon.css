@@ -171,7 +171,7 @@ h1 a {
   bottom: 0;
   /* left: -14rem; */
   left: 0rem;
-  width: 14rem;
+  width: 8rem;
   visibility: visible;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -221,11 +221,11 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-item {
-    padding: 1.5rem;
+    padding: .5rem;
   }
   .sidebar-nav-item {
-    padding-left:  1.5rem;
-    padding-right: 1.5rem;
+    padding-left:  .5rem;
+    padding-right: .5rem;
   }
 }
 
