@@ -1,6 +1,6 @@
 
 
-#+TITLE: Chris Wallace group: statistics, genomics and autoimmune diseases
+#+TITLE: 
 #+SETUPFILE: ./setup3.org
 
 #+INCLUDE: ./nav2.org
