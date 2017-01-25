@@ -36,7 +36,7 @@ disease.
 
 ** Related papers
 
- Dissection of a Complex Disease Susceptibility Region Using a Bayesian Stochastic Search Approach to Fine Mapping. Wallace et al., PLoS genetics, 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26106896][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1005272][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+ Dissection of a Complex Disease Susceptibility Region Using a Bayesian Stochastic Search Approach to Fine Mapping. Wallace et al., /PLoS genetics/ 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26106896][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1005272][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
 * Causal genes
 
@@ -75,13 +75,13 @@ chromatin derived from high throughput Chromosome Conformation Capture
 
 ** Related papers
 
-Statistical colocalization of monocyte gene expression and genetic risk variants for type 1 diabetes. Wallace et al., Human molecular genetics, 2012, vol. 21, no. 12, pp. 2815-2824.  [ [[http://dx.doi.org/10.1093/hmg/dds098][=doi=]] ] [ [[http://ukpmc.ac.uk/abstract/MED/22403184][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+Statistical colocalization of monocyte gene expression and genetic risk variants for type 1 diabetes. Wallace et al., /Human Molecular Genetics/ 2012, vol. 21, no. 12, pp. 2815-2824.  [ [[http://dx.doi.org/10.1093/hmg/dds098][=doi=]] ] [ [[http://ukpmc.ac.uk/abstract/MED/22403184][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Statistical testing of shared genetic control for potentially related traits. Wallace. Genetic Epidemiology, 2013, vol. 37, no. 8, pp. 802-813.  [ [[http://dx.doi.org/10.1002/gepi.21765][=doi=]] ] [  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@  [[http://ukpmc.ac.uk/abstract/MED/24227294][=ukpmc=]] ]
+Statistical testing of shared genetic control for potentially related traits. Wallace. /Genetic Epidemiology/ 2013, vol. 37, no. 8, pp. 802-813.  [ [[http://dx.doi.org/10.1002/gepi.21765][=doi=]] ] [  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@  [[http://ukpmc.ac.uk/abstract/MED/24227294][=ukpmc=]] ]
 
-A Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. Giambartolomei et al., PLoS genetics, 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24830394][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004383][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+A Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. Giambartolomei et al., /PLoS genetics/ 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24830394][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004383][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases. Guo et al., Human molecular genetics, 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/25743184][=ukpmc=]] ] [ [[http://dx.doi.org/10.1093/hmg/ddv077][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+Integration of disease association and eQTL data using a Bayesian colocalisation approach highlights six candidate causal genes in immune-mediated diseases. Guo et al., /Human Molecular Genetics/ 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/25743184][=ukpmc=]] ] [ [[http://dx.doi.org/10.1093/hmg/ddv077][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
 Chromosome contacts in activated T cells identify autoimmune disease-candidate genes. Burren et al., bioRxiv 100958 [ [[https://doi.org/10.1101/100958][=doi=]] ] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@
 
@@ -105,22 +105,24 @@ function are often located close to one another, and because genetic
 variants also show a spatial correlation due to linkage
 disequilibrium, this does not autoimattically imply that the two
 diseases share the same causal variants.  We therefore use a
-complementary approach, applying the colocalisation (pattern matching)
-described left to investigate sharing of causal variants in detail.
+complementary approach, applying the an adapted colocalisation method that we use for matching disease and gene expression signatures to investigate sharing of causal variants in detail.
 This shows that even for two apparently closely related autoimmune
 diseases which both show association to the same genetic region
 (delineated by two recombination hotspots), this will relate to them
 sharing the same causal variant only about 50% of the time.
 
+More recently, we have developed a genome-wide test for determining whether some phenotypically or clinically defined division of patients corresponds to a genetic signature of aetiological heterogeneity.
+
 ** Related papers
 
-A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics. Liley and Wallace, PLoS genetics, 2015. [ [[http://ukpmc.ac.uk/abstract/MED/25658688][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004926][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+A Pleiotropy-Informed Bayesian False Discovery Rate Adapted to a Shared Control Design Finds New Disease Associations From GWAS Summary Statistics. Liley and Wallace, /PLoS Genetics/ 2015. [ [[http://ukpmc.ac.uk/abstract/MED/25658688][=ukpmc=]] ] [ [[http://dx.doi.org/10.1371/journal.pgen.1004926][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers. Onengut-Gumuscu et al., Nature genetics, 2015 [ [[http://ukpmc.ac.uk/abstract/MED/25751624][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3245][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+Fine mapping of type 1 diabetes susceptibility loci and evidence for colocalization of causal variants with lymphoid gene enhancers. Onengut-Gumuscu et al., /Nature Genetics/ 2015 [ [[http://ukpmc.ac.uk/abstract/MED/25751624][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3245][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
- Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls. Fortune et al., Nature genetics, 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26053495][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3330][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+ Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls. Fortune et al., /Nature Genetics/ 2015.  [ [[http://ukpmc.ac.uk/abstract/MED/26053495][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3330][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 # ** Heterogeneity
 
+A method for identifying genetic heterogeneity within phenotypically defined disease subgroups. Liley et al., /Nature Genetics/ 2016.  [ [[http://europepmc.org/abstract/MED/28024155][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ng.3751][=doi=]] ] [ [[https://doi.org/10.1101/100958][=biorxiv=]] @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ ]
 
 * Gene expression in immune cells
 #+HTML: <img src="ferreira.jpg" style="float:right;margin:10px;" />
@@ -153,6 +155,6 @@ June-August.
 
 ** Related papers
 
-A type I interferon transcriptional signature precedes autoimmunity in children genetically at-risk of type 1 diabetes. Ferreira et al. Diabetes, 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24561305][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+A type I interferon transcriptional signature precedes autoimmunity in children genetically at-risk of type 1 diabetes. Ferreira et al. /Diabetes/ 2014.  [ [[http://ukpmc.ac.uk/abstract/MED/24561305][=ukpmc=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
 
-Widespread seasonal gene expression reveals annual differences in human immunity and physiology. Dopico et al. Nature communications, 2015  [ [[http://ukpmc.ac.uk/abstract/MED/25965853][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ncomms8000][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
+Widespread seasonal gene expression reveals annual differences in human immunity and physiology. Dopico et al. /Nature Communications/ 2015  [ [[http://ukpmc.ac.uk/abstract/MED/25965853][=ukpmc=]] ] [ [[http://dx.doi.org/10.1038/ncomms8000][=doi=]] ]  @@html:<i class="fa fa-unlock-alt" aria-hidden="true"></i>@@ 
