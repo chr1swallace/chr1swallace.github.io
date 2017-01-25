@@ -18,18 +18,20 @@ different autoimmune diseases.  Our goal is to further the
 understanding of these diseases in order to help prevent and treat
 them.
 
-These pages exist to store information about datasets and code used in
-papers from our group.  The aim is to make this information accessible,
-which is not always possible in the published papers.
+Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Research Fellow, in the
+[[http://www.med.cam.ac.uk/][Department of Medicine]] and the [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]] at the
+[[http://www.cam.ac.uk][University of Cambridge]].  These pages exist to store information about
+datasets and code used in papers from our group.  The aim is to make
+this information accessible, which is not always possible in the
+published papers.
 
 #+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="display: block;    margin-left: auto;    margin-right: auto;"></a>
 
 
-#+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
+# #+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0 0 5px;" />
 
-Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Research Fellow in  the [[http://www.med.cam.ac.uk/][Department of Medicine]] at the [[http://www.cam.ac.uk][University of Cambridge]] and a visiting Programme Leader at the  [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]].  
-She was previously head of the statistics group in the Wellcome Trust/JDRF Diabetes and Inflammation
- Laboratory at Cambridge (now at Oxford), with whom she remains a close collaborator.
+# She was previously head of the statistics group in the Wellcome Trust/JDRF Diabetes and Inflammation
+#  Laboratory at Cambridge (now at Oxford), with whom she remains a close collaborator.
 # Her group focuses on the development of statistical genomics methods and their application to understand autoimmune diseases.
 
 # *Moving and hiring*

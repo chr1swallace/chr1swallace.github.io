@@ -14,13 +14,75 @@
             <creation-method>website</creation-method>
             <completion-date>2012-12-04T08:31:15.489Z</completion-date>
             <submission-date>2012-12-04T05:01:17.375Z</submission-date>
-            <last-modified-date>2016-11-23T20:23:45.325Z</last-modified-date>
+            <last-modified-date>2017-01-24T18:43:35.972Z</last-modified-date>
             <claimed>true</claimed>
             <verified-email>true</verified-email>
             <verified-primary-email>true</verified-primary-email>
         </history>
         <activities>
             <works>
+                <work put-code="29065005" visibility="public">
+                    <work-title>
+                        <title>A method for identifying genetic heterogeneity within phenotypically defined disease subgroups</title>
+                    </work-title>
+                    <journal-title>Nature Genetics</journal-title>
+                    <work-citation>
+                        <work-citation-type>bibtex</work-citation-type>
+                        <citation>@article{Liley_2016,
+	doi = {10.1038/ng.3751},
+	url = {https://doi.org/10.1038%2Fng.3751},
+	year = 2016,
+	month = {dec},
+	publisher = {Springer Nature},
+	author = {James Liley and John A Todd and Chris Wallace},
+	title = {A method for identifying genetic heterogeneity within phenotypically defined disease subgroups},
+	journal = {Nature Genetics}
+}</citation>
+                    </work-citation>
+                    <work-type>journal-article</work-type>
+                    <publication-date>
+                        <year>2016</year>
+                        <month>12</month>
+                        <day>26</day>
+                    </publication-date>
+                    <work-external-identifiers>
+                        <work-external-identifier>
+                            <work-external-identifier-type>doi</work-external-identifier-type>
+                            <work-external-identifier-id>10.1038/ng.3751</work-external-identifier-id>
+                        </work-external-identifier>
+                    </work-external-identifiers>
+                    <work-contributors>
+                        <contributor>
+                            <credit-name visibility="public">James Liley</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">John A Todd</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Chris Wallace</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                    </work-contributors>
+                    <source>
+                        <source-orcid>
+                            <uri>http://orcid.org/0000-0001-9884-1913</uri>
+                            <path>0000-0001-9884-1913</path>
+                            <host>orcid.org</host>
+                        </source-orcid>
+                        <source-name>Crossref</source-name>
+                        <source-date>2016-12-26T17:59:47.791Z</source-date>
+                    </source>
+                    <created-date>2016-12-26T17:59:47.791Z</created-date>
+                    <last-modified-date>2017-01-16T20:41:23.044Z</last-modified-date>
+                </work>
                 <work put-code="28341031" visibility="public">
                     <work-title>
                         <title>Lineage-Specific Genome Architecture Links Enhancers and Non-coding Disease Variants to Target Gene Promoters.</title>

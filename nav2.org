@@ -1,13 +1,16 @@
 #+BEGIN_HTML
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
+     styles, `#sidebar-checkbox` for behavior.  
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>    -->
+
 
 <!-- Toggleable sidebar -->
     <div class="sidebar" id="sidebar">
       <div class="sidebar-item">
-	<p>Chris Wallace group:<br/>statistics, genomics and autoimmune diseases.</p>
+	<p>Chris Wallace group:<br/><b>statistics</b>, applied to<br/> 
+	<b>genomics</b>, to understand<br/>
+	<b>autoimmune diseases</b>.</p>
       </div>
       
       <nav class="sidebar-nav">

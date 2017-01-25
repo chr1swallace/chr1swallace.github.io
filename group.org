@@ -26,7 +26,7 @@ Chris Eijsbouts is a research intern continuing his work on the interpretation o
 *** Mary Fortune
 
 #+HTML: <img src="pics/mary_150.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />
-[[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]] is a Wellcome Trust four year PhD student working on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data. 
+[[http://www.damtp.cam.ac.uk/people/mdf34/][Mary Fortune]]  worked as a Wellcome Trust PhD student in the [[http://cato.medschl.cam.ac.uk/graduate-programmes/phd-programmes/wellcome-trust-mathematical-genomics-and-medicine-mgm/][Mathematical Genomics and Medicine]] programme on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data. She is staying on in the group to complete papers arising from her PhD work.
 
 *** Nastasiya Grinberg
 #+HTML: <img src="pics/nfg_small.jpg" alt="portrait" style="float:left;margin:0 5px 0 0;" />

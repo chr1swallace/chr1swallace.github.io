@@ -6,8 +6,8 @@ main: $(OBJS) orcid-out.org
 fresh:
 	touch *.org
 
-%.html: %.org
-	emacs24 -batch -Q -L lisp -l efun.el --visit $^ -f org-html-export-to-html
+%.html: %.org nav2.org setup3.org
+	emacs24 -batch -Q -L lisp -l efun.el --visit $< -f org-html-export-to-html
 
 view: $(OBJS)
 	gnome-www-browser index.html &

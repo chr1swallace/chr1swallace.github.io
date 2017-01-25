@@ -117,7 +117,7 @@ wrap {
  */
 
 h1 {
-  font-size: 90%;
+  font-size: 110%;
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
@@ -169,13 +169,14 @@ h1 a {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -14rem;
+  /* left: -14rem; */
+  left: 0rem;
   width: 14rem;
-  /* visibility: hidden; */
+  visibility: visible;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
+  color: rgba(255,255,255,1);
   background-color: /* #107896; */ #202020;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -194,6 +195,7 @@ h1 a {
 }
 .sidebar-item {
   padding: 1rem;
+  font-size: 0.9rem; /* 15px */
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
@@ -209,6 +211,7 @@ h1 a {
   border-top: 1px solid rgba(255,255,255,.1);
 }
 .sidebar-nav-item.active,
+a.sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
@@ -239,7 +242,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle {
   position: absolute;
   top:  .8rem;
-  left: 1rem;
+  left: 15rem;
   display: block;
   padding: .25rem .75rem;
   color: #505050;
@@ -315,7 +318,7 @@ a.sidebar-nav-item:focus {
 
 #sidebar-checkbox:checked + .sidebar {
   z-index: 10;
-  visibility: visible;
+  visibility: hidden;
 }
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
@@ -342,7 +345,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+    color: #303030;
 }
 .page-title,
 .post-title {
