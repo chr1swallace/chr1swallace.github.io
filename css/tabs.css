@@ -117,7 +117,7 @@
     /* 	border-radius: 5px; */
     /* 	text-decoration: none; */
     /* } */
-    h1 {
+    h1,h2 {
   padding:    0rem;
   margin: 0rem;
   visibility: hidden; }
