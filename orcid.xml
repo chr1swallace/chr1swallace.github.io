@@ -14,13 +14,466 @@
             <creation-method>website</creation-method>
             <completion-date>2012-12-04T08:31:15.489Z</completion-date>
             <submission-date>2012-12-04T05:01:17.375Z</submission-date>
-            <last-modified-date>2017-01-24T18:43:35.972Z</last-modified-date>
+            <last-modified-date>2017-09-11T18:09:07.631Z</last-modified-date>
             <claimed>true</claimed>
             <verified-email>true</verified-email>
             <verified-primary-email>true</verified-primary-email>
         </history>
         <activities>
             <works>
+                <work put-code="36551787" visibility="public">
+                    <work-title>
+                        <title>Chromosome contacts in activated T cells identify autoimmune disease candidate genes.</title>
+                    </work-title>
+                    <journal-title>Genome biology</journal-title>
+                    <work-citation>
+                        <work-citation-type>bibtex</work-citation-type>
+                        <citation>@article{PMID:28870212,
+	title = {Chromosome contacts in activated T cells identify autoimmune disease candidate genes.},
+	doi = {10.1186/s13059-017-1285-0},
+	journal = {Genome biology},
+	month = {09},
+	year = {2017}
+}</citation>
+                    </work-citation>
+                    <work-type>journal-article</work-type>
+                    <publication-date>
+                        <year>2017</year>
+                        <month>09</month>
+                    </publication-date>
+                    <work-external-identifiers>
+                        <work-external-identifier>
+                            <work-external-identifier-type>pmid</work-external-identifier-type>
+                            <work-external-identifier-id>28870212</work-external-identifier-id>
+                        </work-external-identifier>
+                        <work-external-identifier>
+                            <work-external-identifier-type>doi</work-external-identifier-type>
+                            <work-external-identifier-id>10.1186/s13059-017-1285-0</work-external-identifier-id>
+                        </work-external-identifier>
+                    </work-external-identifiers>
+                    <url>http://europepmc.org/abstract/med/28870212</url>
+                    <work-contributors>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                    </work-contributors>
+                    <source>
+                        <source-orcid>
+                            <uri>http://orcid.org/0000-0002-9157-3431</uri>
+                            <path>0000-0002-9157-3431</path>
+                            <host>orcid.org</host>
+                        </source-orcid>
+                        <source-name>Europe PubMed Central</source-name>
+                        <source-date>2017-09-06T05:44:44.656Z</source-date>
+                    </source>
+                    <created-date>2017-09-06T05:44:44.656Z</created-date>
+                    <last-modified-date>2017-09-06T05:44:44.656Z</last-modified-date>
+                </work>
+                <work put-code="36551788" visibility="public">
+                    <work-title>
+                        <title>Neonatal and adult recent thymic emigrants produce IL-8 and express complement receptors CR1 and CR2.</title>
+                    </work-title>
+                    <journal-title>JCI insight</journal-title>
+                    <work-citation>
+                        <work-citation-type>bibtex</work-citation-type>
+                        <citation>@article{PMID:28814669,
+	title = {Neonatal and adult recent thymic emigrants produce IL-8 and express complement receptors CR1 and CR2.},
+	doi = {10.1172/jci.insight.93739},
+	journal = {JCI insight},
+	month = {08},
+	year = {2017}
+}</citation>
+                    </work-citation>
+                    <work-type>journal-article</work-type>
+                    <publication-date>
+                        <year>2017</year>
+                        <month>08</month>
+                    </publication-date>
+                    <work-external-identifiers>
+                        <work-external-identifier>
+                            <work-external-identifier-type>pmid</work-external-identifier-type>
+                            <work-external-identifier-id>28814669</work-external-identifier-id>
+                        </work-external-identifier>
+                        <work-external-identifier>
+                            <work-external-identifier-type>doi</work-external-identifier-type>
+                            <work-external-identifier-id>10.1172/jci.insight.93739</work-external-identifier-id>
+                        </work-external-identifier>
+                    </work-external-identifiers>
+                    <url>http://europepmc.org/abstract/med/28814669</url>
+                    <work-contributors>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                    </work-contributors>
+                    <source>
+                        <source-orcid>
+                            <uri>http://orcid.org/0000-0002-9157-3431</uri>
+                            <path>0000-0002-9157-3431</path>
+                            <host>orcid.org</host>
+                        </source-orcid>
+                        <source-name>Europe PubMed Central</source-name>
+                        <source-date>2017-09-06T05:44:44.665Z</source-date>
+                    </source>
+                    <created-date>2017-09-06T05:44:44.665Z</created-date>
+                    <last-modified-date>2017-09-06T05:44:44.665Z</last-modified-date>
+                </work>
+                <work put-code="36551789" visibility="public">
+                    <work-title>
+                        <title>Cells with Treg-specific FOXP3 demethylation but low CD25 are prevalent in autoimmunity.</title>
+                    </work-title>
+                    <journal-title>Journal of autoimmunity</journal-title>
+                    <work-citation>
+                        <work-citation-type>bibtex</work-citation-type>
+                        <citation>@article{PMID:28747257,
+	title = {Cells with Treg-specific FOXP3 demethylation but low CD25 are prevalent in autoimmunity.},
+	doi = {10.1016/j.jaut.2017.07.009},
+	journal = {Journal of autoimmunity},
+	month = {07},
+	year = {2017}
+}</citation>
+                    </work-citation>
+                    <work-type>journal-article</work-type>
+                    <publication-date>
+                        <year>2017</year>
+                        <month>07</month>
+                    </publication-date>
+                    <work-external-identifiers>
+                        <work-external-identifier>
+                            <work-external-identifier-type>pmid</work-external-identifier-type>
+                            <work-external-identifier-id>28747257</work-external-identifier-id>
+                        </work-external-identifier>
+                        <work-external-identifier>
+                            <work-external-identifier-type>doi</work-external-identifier-type>
+                            <work-external-identifier-id>10.1016/j.jaut.2017.07.009</work-external-identifier-id>
+                        </work-external-identifier>
+                    </work-external-identifiers>
+                    <url>http://europepmc.org/abstract/med/28747257</url>
+                    <work-contributors>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <contributor-attributes>
+                                <contributor-sequence>first</contributor-sequence>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                    </work-contributors>
+                    <source>
+                        <source-orcid>
+                            <uri>http://orcid.org/0000-0002-9157-3431</uri>
+                            <path>0000-0002-9157-3431</path>
+                            <host>orcid.org</host>
+                        </source-orcid>
+                        <source-name>Europe PubMed Central</source-name>
+                        <source-date>2017-09-06T05:44:44.668Z</source-date>
+                    </source>
+                    <created-date>2017-09-06T05:44:44.668Z</created-date>
+                    <last-modified-date>2017-09-06T05:44:44.668Z</last-modified-date>
+                </work>
+                <work put-code="30384489" visibility="public">
+                    <work-title>
+                        <title>A rare IL2RA haplotype identifies SNP rs61839660 as causal for autoimmunity</title>
+                    </work-title>
+                    <work-type>other</work-type>
+                    <publication-date>
+                        <year>2017</year>
+                        <month>02</month>
+                        <day>14</day>
+                    </publication-date>
+                    <work-external-identifiers>
+                        <work-external-identifier>
+                            <work-external-identifier-type>doi</work-external-identifier-type>
+                            <work-external-identifier-id>10.1101/108126</work-external-identifier-id>
+                        </work-external-identifier>
+                    </work-external-identifiers>
+                    <work-contributors>
+                        <contributor>
+                            <credit-name visibility="public">Daniel B Rainbow</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Marcin Lukasz Pekalski</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Antony Cutler</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Oliver S Burren</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Neil Walker</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">John Todd</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Chris Wallace</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                        <contributor>
+                            <credit-name visibility="public">Linda Wicker</credit-name>
+                            <contributor-attributes>
+                                <contributor-role>author</contributor-role>
+                            </contributor-attributes>
+                        </contributor>
+                    </work-contributors>
+                    <source>
+                        <source-orcid>
+                            <uri>http://orcid.org/0000-0001-9884-1913</uri>
+                            <path>0000-0001-9884-1913</path>
+                            <host>orcid.org</host>
+                        </source-orcid>
+                        <source-name>Crossref</source-name>
+                        <source-date>2017-02-15T06:10:57.254Z</source-date>
+                    </source>
+                    <created-date>2017-02-15T06:10:57.254Z</created-date>
+                    <last-modified-date>2017-02-15T06:10:57.254Z</last-modified-date>
+                </work>
                 <work put-code="29065005" visibility="public">
                     <work-title>
                         <title>A method for identifying genetic heterogeneity within phenotypically defined disease subgroups</title>

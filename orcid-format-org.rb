@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 require 'nokogiri'
 
@@ -33,6 +33,7 @@ end
 def bold_authors i
   i.sub!("Wallace C","*Wallace C*")
   i.sub!("Liley J","*Liley J*")
+  i.sub!("Burren O","*Burren O*")
   i.sub!("Guo H","*Guo H*")
   i.sub!("Fortune MD","*Fortune MD*")
   i.sub!("Yang X","*Yang X*")
@@ -66,6 +67,11 @@ source_re=/Scopus/
     next
   end
 
+  type = node.css("work-type").children.text
+  if(type=="other")
+    next
+  end
+
   ti = node.css("title").children.text
   ti.sub!("\.$","")
   # TODO: skip Erratum/Corigendum
@@ -75,11 +81,10 @@ source_re=/Scopus/
   end
   # TODO: make and check hash of titles
   ti2=ti.downcase.gsub(/[^a-z]/, '')
-  if titles[ti2] ==0
-    titles[ti2] = 1
-  else
+  if(titles[ti2]==1)
     next
   end
+  titles[ti2] = 1
 
   yr = node.css("year").children.text
 
@@ -104,6 +109,15 @@ source_re=/Scopus/
   end
   au_long = @au.join(", ")
   OFILE.write("#{ti}@@html:<br/>@@ #{au_long}.@@html:<br/>@@ #{ci}.@@html:<br/>@@ ")
+
+  citype=node.css("work-citation-type").children.text
+  if(citype=="bibtex") then
+    jo = node.css("journal-title").children.text
+  else
+    jo = node.css("citation").children.text
+    jo.sub!("#{au_complete}, ","")
+    jo.sub!(/, .*/,"")
+  end
 
   @types = node.css('work-external-identifier-type').map { |i| i.text }
   @ids = node.css('work-external-identifier-id').map { |i| i.text }
