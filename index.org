@@ -11,7 +11,7 @@
 
 
 
-#+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="float:left;    margin-left: 0px;    margin-right: auto;"></a>
+#+HTML: <a href="https://cwcode.wordpress.com/2015/02/17/wordclouds-from-orcid/"><img src="orcid.png" title="wordcloud from ORCiD data" style="float:right;    margin-left: 5px;    margin-right: 0px;"></a>
 Our immune system protects us against infectious disease, but
 sometimes attacks our own cells, causing autoimmune disease.  My group
 develop and apply statistical genomic methods to understand
@@ -23,7 +23,7 @@ them.
 
 #+HTML: <br/><br/>
 
-#+HTML: <img src="pic_200.jpg" alt="portrait" style="float:right;margin:0 0px 0 5px;" />
+#+HTML: <img src="pic_200.jpg" alt="portrait" style="float:left;margin:0 5px 0 0px;" />
 Chris Wallace is a [[http://www.wellcome.ac.uk][Wellcome Trust]] Senior Research Fellow, in the
 [[http://www.med.cam.ac.uk/][Department of Medicine]] and the [[http://www.mrc-bsu.cam.ac.uk/][MRC Biostatistics Unit]] at the
 [[http://www.cam.ac.uk][University of Cambridge]].  These pages exist to store information about the research we do, the people who do it, and the datasets and code we use.  The aim is to make
