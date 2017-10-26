@@ -1,4 +1,4 @@
-OBJS = index.html group.html research.html code.html contact.html pubs.html data.html pubs2.html background.html vacancies.html pubs3.html talks.html
+OBJS = index.html group.html research.html code.html contact.html pubs.html data.html pubs2.html background.html vacancies.html pubs3.html talks.html charlie.html
 
 main: $(OBJS) orcid-out.org
 	echo "done"
