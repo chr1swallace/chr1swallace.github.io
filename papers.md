@@ -4,6 +4,6 @@ title: Papers
 permalink: /papers/
 ---
 
-Papers ordered by year
+<!-- Papers ordered by year -->
 
 {% bibliography %}
