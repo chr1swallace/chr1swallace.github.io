@@ -1,6 +1,0 @@
-#+options: toc:nil num:nil
-#+HTML_HEAD: <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type
-#+HTML_HEAD: <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,
-#+HTML_HEAD: <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Op
-#+HTML_HEAD: <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/fo
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/mystyle.css">

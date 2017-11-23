@@ -1,0 +1,43 @@
+- title: "About"
+  href: "/about/"
+
+- title: "People"
+  href: "/group/"
+  - subtitle: "Current members"
+    subhref: "/group/current/"
+    # - subtitle: "Visitors"
+    #   subhref: "/research/visitors/"
+    - subtitle: "Alumni"
+      subhref: "/group/alumni/"
+ 
+# - title: "Blog"
+#   href: "/blog/"
+# - title: "CV"
+#   href: "/cv/"
+
+- title: "Research"
+  href: "/research/"
+  subcategories:
+    - subtitle: "Causal variants"
+      subhref: "/research/causal-variants/"
+    - subtitle: "Causal genes"
+      subhref: "/research/causal-genes/"
+    - subtitle: "Diseases, their relationships and divisions"
+      subhref: "/research/disease-het/"
+    - subtitle: "Gene expression in immune cells"
+      subhref: "/research/expr/"
+
+- title: "Data"
+  href: "/data/"
+
+- title: "Software"
+  href: "/software/"
+
+- title: "Papers"
+  href: "/pubs/"
+
+- title: "Talks"
+  href: "/talks/"
+
+- title: "Links and contact"
+  href: "/links/"
