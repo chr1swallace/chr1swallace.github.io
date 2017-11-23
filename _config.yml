@@ -18,8 +18,8 @@ author: Chris Wallace
 email: cew54-at-cam-dot-ac-dot-uk
 description: >- # this means to ignore newlines until "baseurl:"
   Statistics applied to genomics to understand autoimmune diseases
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://chr1swallace.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
+url: http://chr1swallace.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chr1swallace
 github_username:  chr1swallace
 
