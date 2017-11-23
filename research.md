@@ -35,9 +35,8 @@ critical for design of functional follow-up studies required to
 understand the mechanisms through which genetic variants influence
 disease.
 
-<!-- # Related papers -->
-
-<!-- {{{PLOSgen15}}} -->
+<div style="clear:both"></div>
+**Related papers** <a href="/papers/index.html#2015_il2ra">Wallace et al. (2015)</a>
 
 ## Causal genes
 
@@ -73,21 +72,14 @@ Another approach is to exploit knowledge about the 3D folding of
 chromatin derived from high throughput Chromosome Conformation Capture
 (Hi-C) in its targetted form: Capture Hi-C (CHi-C).  This allows us to link GWAS causal variants (mapped probabilistically) to the genes they regulate, and we have deployed this approach across 17 primary human sorted cell types.
 
+<div style="clear:both"></div>
 
-<!-- # Related papers -->
-
-<!-- {{{GE13}}} -->
-
-<!-- {{{giambartolomei14}}} -->
-
-<!-- {{{guo15}}} -->
-
-<!-- {{{HMG15}}} -->
-
-<!-- {{{javierre16}}} -->
-
-<!-- {{{burren17}}} -->
-
+**Related papers** 
+ <a href="/papers/index.html#2013_genepi_coloc">Wallace (2013)</a> // 
+ <a href="/papers/index.html#2014_plosgen_giambartolomei">Giambartolomei et al. (2014)</a> // 
+ <a href="/papers/index.html#2015_hgm_guo">Guo et al. (2015)</a> // 
+ <a href="/papers/index.html#2017_genbiol_burren">Burren et al. (2017)</a>
+ 
 <div style="clear:both"></div>
 
 ## Diseases, their relationships and divisions
@@ -116,15 +108,13 @@ sharing the same causal variant only about 50% of the time.
 
 More recently, we have developed a genome-wide test for determining whether some phenotypically or clinically defined division of patients corresponds to a genetic signature of aetiological heterogeneity.
 
-<!-- # Related papers -->
+<div style="clear:both"></div>
 
-<!-- {{{liley15}}} -->
-
-<!-- {{{onengut15}}} -->
-
-<!-- {{{fortune15}}} -->
-
-<!-- {{{liley16}}} -->
+**Related papers**
+<a href="/papers/index.html#2015_plosgen_liley">Liley and Wallace (2015)</a> //
+<a href="/papers/index.html#2015_ng_onengut">Onengut et al. (2015)</a> //
+<a href="/papers/index.html#2015_ng_fortune">Fortune et al. (2015)</a> //
+<a href="/papers/index.html#2015_ng_liley">Liley et al. (2016)</a>
 
 <div style="clear:both"></div>
 
@@ -158,8 +148,9 @@ also peak in winter.  We replicated this finding in multiple datasets,
 including one from the Southern hemisphere when winter occurs during
 June-August.
 
-<!-- # Related papers -->
+<div style="clear:both"></div>
 
-<!-- {{{ferreira14}}} -->
+**Related papers**
+<a href="/papers/index.html#2014_diabetes_ifnsig">Ferreira et al. (2014)</a> //
+<a href="/papers/index.html#2015_castro">Castro Dopico et al. (2015)</a>
 
-<!-- {{{dopico15}}} -->
