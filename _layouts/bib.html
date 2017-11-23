@@ -1,0 +1,89 @@
+---
+---
+
+{% if entry.abbr %}
+  {% if site.data.venues[entry.abbr] %}
+    <abbr>[<a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>]</abbr>
+  {% else %}
+    <abbr>[{{entry.abbr}}]</abbr>
+  {% endif %}
+{% endif %}
+
+<div id="{{entry.key}}">
+  <span class="title">{{entry.title}}</span>
+  <span class="author">
+    {% for author in entry.author_array %}
+    {% assign a = author.last | remove_first: "*" %}
+    {% assign pre = ''%}
+    {% assign post = '' %}
+    {% if author.first.length > 0 %}
+    {% capture b %}
+    {author.first | slice: 0 %}}
+    {% endcapture %}
+    {% endif %}
+    {% if site.data.group[a] %}
+    {% assign pre = "<b>" %}
+    {% assign post = "</b>" %}
+    {% endif %}
+
+    {% if forloop.last %}
+    {% assign sep = ". " %}
+    {% else %}
+    {% assign sep=", " %}
+    {% endif %}
+
+    {{pre}}{{author.last}} {{author.first | slice: 0 }}{{post}}{{sep}}
+    {% endfor %}
+  </span>
+  
+  <span class="periodical">
+    {% if entry.type == "article" %}
+    <em>{{entry.journal}}</em>
+    {% elsif entry.type == "inproceedings" %}
+    <em>In {{entry.booktitle}}</em>
+    {% endif %}
+    {% if entry.year %}
+    {{entry.year}}
+    {% endif %}
+  </span>
+
+  <span class="links">
+  <!-- {% if entry.abstract %} -->
+  <!--   [<a class="abstract">Abs</a>] -->
+  <!-- {% endif %} -->
+    {% if entry.eprint %}
+    [<a href="{{ entry.eprint }}" target="_blank">preprint</a>]
+  {% endif %}
+   {% if entry.doi %}
+    [<a href="http://doi.org/{{ entry.doi }}" target="_blank">DOI</a>]
+  {% endif %}
+  {% if entry.pmc %}
+    [<a href="http://europepmc.org/articles/{{ entry.pmc }}" target="_blank">PMC</a>] <i class="fa fa-unlock-alt"></i>
+  {% endif %}
+ <!-- {% if entry.html %} -->
+  <!--   [<a href="{{ entry.html }}" target="_blank">HTML</a>] -->
+  <!-- {% endif %} -->
+  <!-- {% if entry.pdf %} -->
+  <!--   [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>] -->
+  <!-- {% endif %} -->
+  <!-- {% if entry.supp %} -->
+  <!--   [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>] -->
+  <!-- {% endif %} -->
+  <!-- {% if entry.poster %} -->
+  <!--   [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>] -->
+  <!-- {% endif %} -->
+  <!-- {% if entry.slides %} -->
+  <!--   [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>] -->
+  <!-- {% endif %} -->
+  <!-- {% if entry.code %} -->
+  <!--   [<a href="{{ entry.code }}" target="_blank">Code</a>] -->
+  <!-- {% endif %} -->
+  </span>
+
+  <!-- Hidden abstract block -->
+  <!-- {% if entry.abstract %} -->
+  <!-- <span class="abstract hidden"> -->
+  <!--   <p>{{ entry.abstract }}</p> -->
+  <!-- </span> -->
+  <!-- {% endif %} -->
+</div>
