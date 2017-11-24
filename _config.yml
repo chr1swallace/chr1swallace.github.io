@@ -57,11 +57,7 @@ exclude: [Rakefile]
 permalink: blog/:year/:month/:title
 
 scholar:
-  sort_by: year
-  order: descending
-  group_by: year
-  group_order: descending
-  bibliography_template: bib
+  bibliography_template: altbib
   last_name: Wallace
-  style: biomed-central
+  style: science
   relative: "/papers/index.html"

@@ -6,4 +6,4 @@ permalink: /papers/
 
 <!-- Papers ordered by year -->
 
-{% bibliography %}
+{% bibliography --group_by year --group_order descending --template bib %}

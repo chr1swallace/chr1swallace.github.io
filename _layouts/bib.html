@@ -17,9 +17,6 @@
     {% assign pre = ''%}
     {% assign post = '' %}
     {% if author.first.length > 0 %}
-    {% capture b %}
-    {author.first | slice: 0 %}}
-    {% endcapture %}
     {% endif %}
     {% if site.data.group[a] %}
     {% assign pre = "<b>" %}
@@ -36,7 +33,7 @@
     {% endfor %}
   </span>
   
-  <span class="periodical">
+  <div class="jblocks">
     {% if entry.type == "article" %}
     <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
@@ -45,22 +42,19 @@
     {% if entry.year %}
     {{entry.year}}
     {% endif %}
-  </span>
-
-  <span class="links">
   <!-- {% if entry.abstract %} -->
   <!--   [<a class="abstract">Abs</a>] -->
   <!-- {% endif %} -->
-    {% if entry.eprint %}
-    [<a href="{{ entry.eprint }}" target="_blank">preprint</a>]
-  {% endif %}
-   {% if entry.doi %}
-    [<a href="http://doi.org/{{ entry.doi }}" target="_blank">DOI</a>]
+  {% if entry.doi %}
+  <a href="http://doi.org/{{ entry.doi }}" target="_blank" class="pure-button doi">DOI</a>
   {% endif %}
   {% if entry.pmc %}
-    [<a href="http://europepmc.org/articles/{{ entry.pmc }}" target="_blank">PMC</a>] <i class="fa fa-unlock-alt"></i>
+  <a href="http://europepmc.org/articles/{{ entry.pmc }}" target="_blank" class="pure-button pmc ">PMC <i class="fa fa-unlock-alt"></i></a>
   {% endif %}
- <!-- {% if entry.html %} -->
+  {% if entry.eprint %}
+  <a href="{{ entry.eprint }}" target="_blank" class="pure-button preprint">preprint</a>
+  {% endif %}
+  <!-- {% if entry.html %} -->
   <!--   [<a href="{{ entry.html }}" target="_blank">HTML</a>] -->
   <!-- {% endif %} -->
   <!-- {% if entry.pdf %} -->
@@ -78,7 +72,7 @@
   <!-- {% if entry.code %} -->
   <!--   [<a href="{{ entry.code }}" target="_blank">Code</a>] -->
   <!-- {% endif %} -->
-  </span>
+  </div>
 
   <!-- Hidden abstract block -->
   <!-- {% if entry.abstract %} -->

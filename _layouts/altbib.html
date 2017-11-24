@@ -1,0 +1,33 @@
+---
+---
+
+{% if entry.abbr %}
+  {% if site.data.venues[entry.abbr] %}
+    <abbr>[<a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>]</abbr>
+  {% else %}
+    <abbr>[{{entry.abbr}}]</abbr>
+  {% endif %}
+{% endif %}
+
+  <span class="shortref">
+    {% assign author = entry.author_array.first %}
+
+    {% if entry.author_array.length > 1 %}
+    {% assign sep = "et al. " %}
+    {% else %}
+    {% assign sep=". " %}
+    {% endif %}
+
+    {{author.last | remove_first: "*" }} {{author.first | slice: 0 }}{{sep}}
+
+    {% if entry.type == "article" %}
+    <em>{{entry.journal}}</em>
+    {% elsif entry.type == "inproceedings" %}
+    <em>In {{entry.booktitle}}</em>
+    {% endif %}
+    {% if entry.year %}
+    {{entry.year}}
+    {% endif %}
+
+    <a href="/papers/index.html#{{ entry.key }}"><i class="fa fa-link" aria-hidden="true"></i></a>
+  </span>

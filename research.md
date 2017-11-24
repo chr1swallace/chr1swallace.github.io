@@ -36,7 +36,9 @@ understand the mechanisms through which genetic variants influence
 disease.
 
 <div style="clear:both"></div>
-**Related papers** <a href="/papers/index.html#2015_il2ra">Wallace et al. (2015)</a>
+
+**Related papers**
+{% bibliography -q @article[group=finemapping] %}
 
 ## Causal genes
 
@@ -75,10 +77,7 @@ chromatin derived from high throughput Chromosome Conformation Capture
 <div style="clear:both"></div>
 
 **Related papers** 
- <a href="/papers/index.html#2013_genepi_coloc">Wallace (2013)</a> // 
- <a href="/papers/index.html#2014_plosgen_giambartolomei">Giambartolomei et al. (2014)</a> // 
- <a href="/papers/index.html#2015_hgm_guo">Guo et al. (2015)</a> // 
- <a href="/papers/index.html#2017_genbiol_burren">Burren et al. (2017)</a>
+{% bibliography -q @article[group=causalgenes] %}
  
 <div style="clear:both"></div>
 
@@ -110,12 +109,9 @@ More recently, we have developed a genome-wide test for determining whether some
 
 <div style="clear:both"></div>
 
-**Related papers**
-<a href="/papers/index.html#2015_plosgen_liley">Liley and Wallace (2015)</a> //
-<a href="/papers/index.html#2015_ng_onengut">Onengut et al. (2015)</a> //
-<a href="/papers/index.html#2015_ng_fortune">Fortune et al. (2015)</a> //
-<a href="/papers/index.html#2015_ng_liley">Liley et al. (2016)</a>
-
+**Related papers** 
+{% bibliography -q @article[group=diseasecmpdiv] %}
+ 
 <div style="clear:both"></div>
 
 ## Gene expression in immune cells
@@ -150,7 +146,6 @@ June-August.
 
 <div style="clear:both"></div>
 
-**Related papers**
-<a href="/papers/index.html#2014_diabetes_ifnsig">Ferreira et al. (2014)</a> //
-<a href="/papers/index.html#2015_castro">Castro Dopico et al. (2015)</a>
+**Related papers** 
+{% bibliography -q @article[group=expr] %}
 
