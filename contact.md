@@ -3,7 +3,6 @@ layout: page
 permalink: /contact/
 ---
 
-<i class="fa fa-unlock-alt"></i> <i class="fa fa-envelope"></i> 
 
 | <i class="fa fa-envelope"></i> | cew54 at cam.ac.uk |
 | <i class="fa fa-phone"></i>| 01223 330368 |

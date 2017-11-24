@@ -13,7 +13,8 @@
             {% else %}
               {{ site.title | escape }}
             {% endif %}
-            </li>
+<a href="https://orcid.org/{{ site.orcid_id }}"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
+</li>
 	  <li><a href="/contact/">Contact details</a>
             <!-- {% if site.email %} -->
             <!-- <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
@@ -39,7 +40,8 @@
       </div>
 
       <div class="footer-col footer-col-1">
-        <p>{{ site.description | escape }}</p>
+        <p><b>Statistics</b> applied to <b>genomics</b> to understand <b>autoimmune diseases</b></p>
+	<!-- {{ site.description | escape }}</p> -->
       </div>
     </div>
 

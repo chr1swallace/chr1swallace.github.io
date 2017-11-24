@@ -17,11 +17,12 @@ title: Wallace group
 author: Chris Wallace
 email: cew54-at-cam-dot-ac-dot-uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Statistics applied to genomics to understand autoimmune diseases
+  <b>Statistics</b> applied to genomics to understand autoimmune diseases
 baseurl: # the subpath of your site, e.g. /blog
 url: http://chr1swallace.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chr1swallace
 github_username:  chr1swallace
+orcid_id: 0000-0001-9755-1703
 
 # Build settings
 markdown: kramdown

@@ -15,21 +15,28 @@ the statistical background and applications see:
 
 
 # colocCommonControl
+[CRAN](http://cran.r-project.org/web/packages/colocCommoncontrol/index.html) // [github](https://github.com/mdfortune/colocCommonControl)
 Adaptation of coloc for comparing two GWAS studies which share controls
 
 # snpStatsWriter
-[CRAN](http://cran.r-project.org/web/packages/snpStatsWriter/index.html) | [github](https://github.com/mdfortune/colocCommonControl)
+[github](https://github.com/mdfortune/colocCommonControl)
+
 allows writing snpStats objects to disk in formats suitable
 for reading by snphap, phase, mach, IMPUTE, beagle, and
 (almost) anything else that expects a rectangular format.
-# [wgsea](http://cran.r-project.org/web/packages/wgsea/index.html) 
+
+# wgsea
+[CRAN](http://cran.r-project.org/web/packages/wgsea/index.html) 
+
 implements a
 Wilcoxon-based test for Gene Set Enrichment Analysis when
 testing regions of the genome according to GWAS derived
 evidence for SNP-trait association.  For more detail, see
 the supplementary methods of	  
 
-# [extraBinomial](http://cran.r-project.org/web/packages/extraBinomial)
+# extraBinomial
+[CRAN](http://cran.r-project.org/web/packages/extraBinomial)
+
 (author Xin Yang, listed here because Xin doesn't have her own website)
 uses an extra binomial model to test for case-control
 allele frequency differences in pooled sequence data.  See
@@ -45,17 +52,21 @@ install.packages("devtools")
 library(devtools)
 install_github("chr1swallace/package.name", "chr1swallace")
 #+END_SRC
-# [annotSnpStats](https://github.com/chr1swallace/annotSnpStats)
+# annotSnpStats
+[github](https://github.com/chr1swallace/annotSnpStats)
+
 extends SnpMatrix objects from the snpStats package by tying in
 sample and snp annotation data.frames.  It allows the joint
 manipulation, and binding, of such objects, and includes a few
 functions I use for finding duplicate samples, applying QC, and
 aligning alleles between different datasets.  It seems to work,
 and I intend to push it to CRAN in the future.
-# [GUESSFM](https://github.com/chr1swallace/GUESSFM)
+# GUESSFM
+[github](https://github.com/chr1swallace/GUESSFM)
 A wrapper around the GUESS stochastic model search method for fine
 mapping causal variants in genetic data.   See [more detail here](file:research.org::*Causal%20variant%20identification).
-# [origin](https://github.com/chr1swallace/origin) 
+# origin
+[github](https://github.com/chr1swallace/origin) 
 implements an   extension to the Weinberg method for testing for parent of origin
 effects to allow for multiple affected offspring in a nuclear
 family.  I haven't used it in a while, and it requires some checking
