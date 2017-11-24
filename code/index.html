@@ -11,7 +11,8 @@
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="canonical" href="http://localhost:4000/code/">
+<link rel="stylesheet" href="/assests/css/academicons.css"/>
+  <link rel="canonical" href="http://chr1swallace.github.io/code/">
   <link rel="alternate" type="application/rss+xml" title="Wallace group" href="/feed.xml">
   
   
@@ -133,21 +134,28 @@ colocalisation of two genetic traits.  For more detail or
 the statistical background and applications see:</p>
 
 <h1 id="coloccommoncontrol">colocCommonControl</h1>
-<p>Adaptation of coloc for comparing two GWAS studies which share controls</p>
+<p><a href="http://cran.r-project.org/web/packages/colocCommoncontrol/index.html">CRAN</a> // <a href="https://github.com/mdfortune/colocCommonControl">github</a>
+Adaptation of coloc for comparing two GWAS studies which share controls</p>
 
 <h1 id="snpstatswriter">snpStatsWriter</h1>
-<p><a href="http://cran.r-project.org/web/packages/snpStatsWriter/index.html">CRAN</a> | <a href="https://github.com/mdfortune/colocCommonControl">github</a>
-allows writing snpStats objects to disk in formats suitable
+<p><a href="https://github.com/mdfortune/colocCommonControl">github</a></p>
+
+<p>allows writing snpStats objects to disk in formats suitable
 for reading by snphap, phase, mach, IMPUTE, beagle, and
 (almost) anything else that expects a rectangular format.</p>
-<h1 id="wgsea"><a href="http://cran.r-project.org/web/packages/wgsea/index.html">wgsea</a></h1>
+
+<h1 id="wgsea">wgsea</h1>
+<p><a href="http://cran.r-project.org/web/packages/wgsea/index.html">CRAN</a></p>
+
 <p>implements a
 Wilcoxon-based test for Gene Set Enrichment Analysis when
 testing regions of the genome according to GWAS derived
 evidence for SNP-trait association.  For more detail, see
 the supplementary methods of</p>
 
-<h1 id="extrabinomial"><a href="http://cran.r-project.org/web/packages/extraBinomial">extraBinomial</a></h1>
+<h1 id="extrabinomial">extraBinomial</h1>
+<p><a href="http://cran.r-project.org/web/packages/extraBinomial">CRAN</a></p>
+
 <p>(author Xin Yang, listed here because Xin doesn’t have her own website)
 uses an extra binomial model to test for case-control
 allele frequency differences in pooled sequence data.  See
@@ -163,18 +171,22 @@ install.packages(“devtools”)
 library(devtools)
 install_github(“chr1swallace/package.name”, “chr1swallace”)
 #+END_SRC</p>
-<h1 id="annotsnpstats"><a href="https://github.com/chr1swallace/annotSnpStats">annotSnpStats</a></h1>
+<h1 id="annotsnpstats">annotSnpStats</h1>
+<p><a href="https://github.com/chr1swallace/annotSnpStats">github</a></p>
+
 <p>extends SnpMatrix objects from the snpStats package by tying in
 sample and snp annotation data.frames.  It allows the joint
 manipulation, and binding, of such objects, and includes a few
 functions I use for finding duplicate samples, applying QC, and
 aligning alleles between different datasets.  It seems to work,
 and I intend to push it to CRAN in the future.</p>
-<h1 id="guessfm"><a href="https://github.com/chr1swallace/GUESSFM">GUESSFM</a></h1>
-<p>A wrapper around the GUESS stochastic model search method for fine
+<h1 id="guessfm">GUESSFM</h1>
+<p><a href="https://github.com/chr1swallace/GUESSFM">github</a>
+A wrapper around the GUESS stochastic model search method for fine
 mapping causal variants in genetic data.   See <a href="file:research.org::*Causal%20variant%20identification">more detail here</a>.</p>
-<h1 id="origin"><a href="https://github.com/chr1swallace/origin">origin</a></h1>
-<p>implements an   extension to the Weinberg method for testing for parent of origin
+<h1 id="origin">origin</h1>
+<p><a href="https://github.com/chr1swallace/origin">github</a> 
+implements an   extension to the Weinberg method for testing for parent of origin
 effects to allow for multiple affected offspring in a nuclear
 family.  I haven’t used it in a while, and it requires some checking
 just to get it to pass the CRAN tests.  Unless I need to revisit it
@@ -236,7 +248,8 @@ Genet/ 2010.
             
               Chris Wallace
             
-            </li>
+<a href="https://orcid.org/0000-0001-9755-1703"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>
+</li>
 	  <li><a href="/contact/">Contact details</a>
             <!--  -->
             <!-- <li><a href="mailto:cew54-at-cam-dot-ac-dot-uk">cew54-at-cam-dot-ac-dot-uk</a></li> -->
@@ -266,7 +279,8 @@ Genet/ 2010.
       </div>
 
       <div class="footer-col footer-col-1">
-        <p>Statistics applied to genomics to understand autoimmune diseases</p>
+        <p><b>Statistics</b> applied to <b>genomics</b> to understand <b>autoimmune diseases</b></p>
+	<!-- &lt;b&gt;Statistics&lt;/b&gt; applied to genomics to understand autoimmune diseases</p> -->
       </div>
     </div>
 
