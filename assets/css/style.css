@@ -580,18 +580,6 @@ a.pmc, a.slides, a.doi, a.preprint {
   margin-right: 1%;
   float: right; }
 
-a.pmc, a.slides {
-  background-color: #6CE3A1;
-  color: black; }
-
-a.preprint {
-  background-color: #b1cef4;
-  color: black; }
-
-a.doi {
-  background-color: #e7e7e7;
-  color: black; }
-
 .bibliography {
   margin-bottom: 50px;
   margin-top: 20px;
