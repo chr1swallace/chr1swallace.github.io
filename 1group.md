@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Group
-permalink: /group/
+title: People
+permalink: /people/
 ---
 
 # Chris Wallace
@@ -85,6 +85,15 @@ Nastasiya Grinberg is a Wellcome Trust funded postdoctoral researcher. Her resea
 ![portait]({{ "/assets/jamesliley_small.jpg" }})
 </div>
 James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He is working on analysis of GWAS and similar data across multiple diseases and in disease subtypes.
+
+<div style="clear:both"></div>
+
+# Elena Vigorito #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/elena.jpg" }})
+</div>
+Elena obtained her PhD in immunology at the University of Barcelona, Spain, and worked for several years on gene regulation on the immune system at the Babraham Institute, UK. She then trained in epidemiology and now works on developing statistical and computational methods for modelling genetic regulation through transcriptomic datasets.
 
 <div style="clear:both"></div>
 
