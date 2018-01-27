@@ -158,6 +158,7 @@ pre {
 .site-header {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
+  background: #e8e8e8;
   min-height: 55.95px;
   position: relative; }
 
@@ -469,6 +470,18 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.site-header, .site-footer {
+  background: #e8e8e8; }
+
+.site-nav .page-link {
+  color: #424242; }
+
+.site-title, .site-title:visited {
+  color: #424242; }
+
+.footer-col-wrapper, .site-title, a.page-link {
+  color: #424242; }
 
 .year {
   margin: 0 -3em -2.5ex -2em;
