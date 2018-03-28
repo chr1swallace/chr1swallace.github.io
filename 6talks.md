@@ -12,7 +12,7 @@ permalink: /talks/
 - *Integrating multiple sources and shapes of genomic data to prioritise autoimmune disease-candidate genes* Chris Wallace // IGES <a href="https://ndownloader.figshare.com/files/9289894" class="pure-button">slides</a>
 - *Joint fine-mapping of multiple  related diseases increases  power through exploiting  shared causal variant structure*  Jenn Asimit // IGES <a href="https://doi.org/10.6084/m9.figshare.5396836" class="pure-button">slides</a>
 - *A statistical genetics view of disease stratification and borrowing power from external data* Chris Wallace // A talk given to the MATURA consortium <a href="https://ndownloader.figshare.com/files/8297507" class="pure-button">slides</a>
-- Chromosome contacts in activated T cells identify autoimmune disease-candidate genes</a> Olly Burren // Immunogenomics <a href="https://github.com/ollyburren/ollyburren.github.io/raw/master/resources/burren_immunogenomics_2017.pdf" class="pure-button">poster</a>
+- *Chromosome contacts in activated T cells identify autoimmune disease-candidate genes* Olly Burren // Immunogenomics <a href="https://github.com/ollyburren/ollyburren.github.io/raw/master/resources/burren_immunogenomics_2017.pdf" class="pure-button">poster</a>
 
 
 
