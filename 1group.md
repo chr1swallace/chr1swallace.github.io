@@ -12,32 +12,36 @@ permalink: /people/
 </div>
 I am a statistician who works with biological datasets to understand
 the mechanisms underlying human disease and identify possible
-treatments.  Such work is only possible with close collaboration with
-biologists, and I moved to the [Cambridge
-Institute for Medical Research](http://www.cimr.cam.ac.uk) in 2009 to pursue these
-collaborations, most closely with the [Diabetes and Inflammation
-Laboratory](http://www-gene.cimr.cam.ac.uk).  During
+treatments.  
+<!-- Such work is only possible with close collaboration with -->
+<!-- biologists, and I maintain close collaborations with moved to the [Cambridge -->
+<!-- Institute for Medical Research](http://www.cimr.cam.ac.uk) in 2009 to pursue these -->
+<!-- collaborations, most closely with the [Diabetes and Inflammation -->
+<!-- Laboratory](http://www-gene.cimr.cam.ac.uk).   -->
+During
 the GWAS era, we, and others, identified many genetic polymorphisms
-that alter risk of human diseases such as type 1 diabetes and
-hypertension.  My focus has now mostly shifted towards understanding
+that alter risk of human autoimmune diseases such as type 1 diabetes and
+rheumatoid arthritis.  My focus has now mostly shifted towards understanding
 the cell specific mechanism through which these variants affect risk
 of different immune mediated diseases and intermediate biological
 traits such as gene expression.
 
 Statistically, my current work is focused on variable
 selection, Bayesian model averaging and empirical Bayes false
-discovery rates, applied to integrated analysis of multiple related
+discovery rates, applied to integrated analysis of multiple related genetic and genomic
 datasets.
 
-My aim for my group is that, by integrating detailed biological understanding with excellent statistical inference we will make a meaningful contribution to the understanding of autoimmune diseases.
+My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of autoimmune diseases.
 
-In Feburary 2016 I moved to the [Department of Medicine](http://www.med.cam.ac.uk/) as a PI with the aim of establishing new collaborations. I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow  and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  
+<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  
 
 *Previously* 
 - 2009-2016 :: Wellcome Trust Career Development Fellow in the  [Diabetes and Inflammation Laboratory](http://www-gene.cimr.cam.ac.uk) (and head of the DIL stats group from 2012)
 - 2003-2008 :: Research Fellow working with	  the [BRIGHT](http://www.brightstudy.ac.uk/) study into	  the genetics of hypertension.
 - 1999-2003 :: PhD: [Genetic Susceptibility to leprosy: methodological issues in a linkage  analysis of extended pedigrees from Karonga District, Malawi](http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086),	  [LSHTM](http://www.lshtm.ac.uk), part of the	  [Karonga Prevention Study](http://www.lshtm.ac.uk/eph/ide/research/kps). 
 - 1997-1999 :: Statistical programmer, [Imperial](http://www.imperial.ac.uk).
+
+<p>{% render_orcid 0000-0001-9755-1703 %}</p>
 
 -------------------------------------------------------------------------------
 
@@ -59,6 +63,8 @@ Jenn Asimit is a senior investigator statistician with an interest in statistica
 </div>
 [Olly Burren](http://ollyburren.github.io) is undertaking a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
 
+<p>{% render_orcid 0000-0002-3388-5760 %}</p>
+
 <div style="clear:both"></div>
 
 # Alessandra Cabassi #
@@ -76,6 +82,8 @@ Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit, jointly super
 ![portait]({{ "/assets/nfg_small.jpg" }})
 </div>
 Nastasiya Grinberg is a Wellcome Trust funded postdoctoral researcher. Her research interests revolve around applications of machine learning and data mining techniques to GWAS data and in bioinformatics. She also has a special interest in scientific computing.
+
+<p>{% render_orcid 0000-0002-2727-5130 %}</p>
 
 <div style="clear:both"></div>
 
@@ -118,6 +126,8 @@ Elena obtained her PhD in immunology at the University of Barcelona, Spain, and 
 Chris Eijsbouts first joined the group as an MPhil student in Computational Biology for a 3 month summer project.  He stayed on afterwards as a research assistant, to continue his work on the interpretation of Capture Hi-C data. The goal of this project was to develop a method for improved identification of chromatin contacts which regulate gene expression, thereby facilitating the interpretation of GWAS studies.
 He will start a PhD in Oxford in Autumn 2017.
 
+<p>{% render_orcid 0000-0001-5179-0653 %}</p>
+
 <div style="clear:both"></div>
 
 # Steven Kiddle (2014-2017) #
@@ -143,6 +153,8 @@ Thesis: [*Statistical Techniques to Fine Map the Related Genetic Aetiology of Au
 
 <!-- Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls. Fortune et al. /Nature Genetics/ 2015, vol. 47, no. 7, pp. 839-846.  [ [=ukpmc=](http://ukpmc.ac.uk/abstract/MED/26053495) ] [ [=doi=](http://dx.doi.org/10.1038/ng.3330) ] -->
 
+
+<p>{% render_orcid 0000-0002-6006-4343 %}</p>
 
 <div style="clear:both"></div>
 

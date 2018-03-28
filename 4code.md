@@ -5,68 +5,63 @@ permalink: /code/
 ---
 
 ## R packages 
-# coloc
-
-[CRAN](http://cran.r-project.org/web/packages/coloc/index.html) | [github](https://github.com/chr1swallace/coloc) | *Note the github repository has important bug fixes that haven't reached CRAN.*
-
-a package of R functions used to test for
-colocalisation of two genetic traits.  For more detail or
-the statistical background and applications see:
-
-
-# colocCommonControl
-[CRAN](http://cran.r-project.org/web/packages/colocCommoncontrol/index.html) // [github](https://github.com/mdfortune/colocCommonControl)
-Adaptation of coloc for comparing two GWAS studies which share controls
-
-# snpStatsWriter
-[github](https://github.com/mdfortune/colocCommonControl)
-
-allows writing snpStats objects to disk in formats suitable
-for reading by snphap, phase, mach, IMPUTE, beagle, and
-(almost) anything else that expects a rectangular format.
-
-# wgsea
-[CRAN](http://cran.r-project.org/web/packages/wgsea/index.html) 
-
-implements a
-Wilcoxon-based test for Gene Set Enrichment Analysis when
-testing regions of the genome according to GWAS derived
-evidence for SNP-trait association.  For more detail, see
-the supplementary methods of	  
-
-# extraBinomial
-[CRAN](http://cran.r-project.org/web/packages/extraBinomial)
-
-(author Xin Yang, listed here because Xin doesn't have her own website)
-uses an extra binomial model to test for case-control
-allele frequency differences in pooled sequence data.  See
-    Yang X, Todd JA, Clayton D, and Wallace C.
-    Extra-binomial variation approach for analysis of pooled DNA sequencing data.
-    /Bioinformatics/ 2012.
-    [ [Europe PMC](http://europepmc.org/abstract/MED/22976083) ]
-
-## R packages from github
-To install these from github, do, in R:
-#+BEGIN_SRC R
+To install R packages directly from github, do, in R:
+```
 install.packages("devtools")
 library(devtools)
-install_github("chr1swallace/package.name", "chr1swallace")
-#+END_SRC
-# annotSnpStats
-[github](https://github.com/chr1swallace/annotSnpStats)
+install_github("chr1swallace/package.name")
+```
+# coloc
+[CRAN](http://cran.r-project.org/web/packages/coloc/index.html) // [github](https://github.com/chr1swallace/coloc) // 
+A package of R functions used to test for
+colocalisation of two genetic traits.  For more detail or
+the statistical background and applications see:
+{% cite 2013_genepi_coloc %}
+{% cite 2014_plosgen_giambartolomei %}.
 
+New in v3.1 which is now up to date on CRAN: `finemap.abf()` offers finemapping of single traits under a single causal variant assumption.  See [vignette](https://rawgit.com/chr1swallace/coloc/master/inst/doc/vignette.html) for details.
+
+# GUESSFM
+[github](https://github.com/chr1swallace/GUESSFM) //
+A wrapper around the GUESS stochastic model search method for fine
+mapping causal variants in genetic data.   See {% cite 2015_il2ra %} [more detail here](/research).
+
+# colocCommonControl
+[CRAN](http://cran.r-project.org/web/packages/colocCommoncontrol/index.html) // [github](https://github.com/mdfortune/colocCommonControl) //
+Adaptation of coloc for comparing two GWAS studies which share controls 
+{% cite 2015_ng_fortune %}.
+
+# annotSnpStats
+[github](https://github.com/chr1swallace/annotSnpStats) //
 extends SnpMatrix objects from the snpStats package by tying in
 sample and snp annotation data.frames.  It allows the joint
 manipulation, and binding, of such objects, and includes a few
 functions I use for finding duplicate samples, applying QC, and
 aligning alleles between different datasets.  It seems to work,
 and I intend to push it to CRAN in the future.
-# GUESSFM
-[github](https://github.com/chr1swallace/GUESSFM)
-A wrapper around the GUESS stochastic model search method for fine
-mapping causal variants in genetic data.   See [more detail here](file:research.org::*Causal%20variant%20identification).
+
+# snpStatsWriter
+[github](https://github.com/mdfortune/colocCommonControl) //
+allows writing snpStats objects to disk in formats suitable
+for reading by snphap, phase, mach, IMPUTE, beagle, and
+(almost) anything else that expects a rectangular format.
+
+# wgsea
+[CRAN](http://cran.r-project.org/web/packages/wgsea/index.html) //
+implements a
+Wilcoxon-based test for Gene Set Enrichment Analysis when
+testing regions of the genome according to GWAS derived
+evidence for SNP-trait association.  For more detail, see
+the supplementary methods of {% cite 2010_nat_heinig %}.
+
+# extraBinomial
+[CRAN](http://cran.r-project.org/web/packages/extraBinomial) //
+(author Xin Yang, listed here because Xin doesn't have her own website)
+uses an extra binomial model to test for case-control
+allele frequency differences in pooled sequence data {% cite 2012_bioinformatics_yang %}.
+
 # origin
-[github](https://github.com/chr1swallace/origin) 
+[github](https://github.com/chr1swallace/origin) //
 implements an   extension to the Weinberg method for testing for parent of origin
 effects to allow for multiple affected offspring in a nuclear
 family.  I haven't used it in a while, and it requires some checking
@@ -87,7 +82,7 @@ Genet/ 2010.
 ## Non-R packages
 # VSEAMS (Olly Burren)
 Variant set enrichment analysis (of association summary statistics) using multivariate sampling. Please see the wiki available at [this wiki](http://github.com/ollyburren/vseams/wiki) for further details.  Method described in 
-{{{vseams}}}
+{% cite 2014_bioinformatics_burren %}.
 
 <!-- ### IBDSCORE  -->
 
