@@ -5,6 +5,7 @@ permalink: /talks/
 ---
 
 ## 2018
+- *A Bayesian joint fine mapping approach for related diseases* Jenn Asimit // European Mathematical Genetics Meeting <a href="https://figshare.com/articles/Asimit_Jenn-EMGM2018_pdf/6323228" class="pure-button">slides</a>
 - *Colocalisation and Mendelian randomization* Chris Wallace // Mendelian randomization symposium <a href="https://doi.org/10.6084/m9.figshare.6047072" class="pure-button">slides</a>
 
 ## 2017

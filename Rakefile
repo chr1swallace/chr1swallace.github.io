@@ -9,10 +9,10 @@ end
 
 desc "update bibliography"
 task :bib => '_bibliography/references.bib' do
-  puts "built input bib from ../texmf/bibtex/bib/cp.bib"
+  puts "built input bib from ~/Dropbox/Words/cv/me.bib"
 end
 
-file '_bibliography/references.bib' => '../texmf/bibtex/bib/cp.bib' do
+file '_bibliography/references.bib' => '/home/chris/Dropbox/Words/cv/me.bib' do
   system "./makebib.sh"
 end
 
