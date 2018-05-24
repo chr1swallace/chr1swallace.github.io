@@ -52,7 +52,9 @@ My aim for my group is that, by integrating detailed biological understanding wi
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Jennifer_small.jpg" }})
 </div>
-Jenn Asimit is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits.
+Jenn Asimit is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits. 
+
+<p>{% render_orcid 0000-0002-4857-2249 %}</p>
 
 <div style="clear:both"></div>
 
@@ -105,16 +107,28 @@ Elena obtained her PhD in immunology at the University of Barcelona, Spain, and 
 
 <div style="clear:both"></div>
 
+# Hope Watson #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/hope_small.jpg" }})
+</div>
+
+Hope Watson is undertaking a MPhil in Epidemiology. Her research for her thesis involves using Bayesian credible intervals to determine coverage of credible sets in fine mapping genetic associations. She also has an interest in systems architecture and high performance computing.  ​
+
+<div style="clear:both"></div>
+
 -------------------------------------------------------------------------------
 
 ## Alumni ##
 
-# Loes Rutten-Jacobs #
+# Loes Rutten-Jacobs (2016-2018) #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Loes_small.jpg" }})
 </div>
-[Loes Rutten-Jacobs](http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406) is a British Heart Foundation Immediate Research Fellow in the [Stroke Research Group](http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/) of the Department of Clinical Neurosciences, University of Cambridge and is visiting our group until December 2018. In her research she aims to identify novel pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
+[Loes Rutten-Jacobs](http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406) held a British Heart Foundation Immediate Research Fellowship in the [Stroke Research Group](http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/) of the Department of Clinical Neurosciences, University of Cambridge and was a visiting member of our group during this time. She has now moved Bonn, where she continues her research on pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
+
+<p>{% render_orcid 0000-0003-3223-885X %}</p>
 
 <div style="clear:both"></div>
 
@@ -190,7 +204,7 @@ Xin's PhD focused on analysis of all kinds of next gen sequencing data - pooled 
 seq, and bisulfite seq.  She had a special interest in modelling the extra binomial
 variation induced by pooling.  
 
-Thesis: [*Statistical analysis of next-generation sequencing data with applications to type 1 diabetes studies*](http://figshare.com/articles/Statistical_analysis_of_next_generation_sequencing_data_with_applications_to_type_1_diabetes_studies/1598221) is on figshare.
+Thesis: [*Statistical analysis of next-generation sequencing data with applications to type 1 diabetes studies*](http://figshare.com/articles/Statistical_analysis_of_next_generation_sequencing_data_with_applications_to_type_1_diabetes_studies/1598221).
 
 <!-- *Key paper*: Extra-binomial variation approach for analysis of pooled DNA sequencing data. Yang et al. /Bioinformatics/ 2012, vol. 28, no. 22, pp. 2898-2904. [ [=doi=](http://dx.doi.org/10.1093/bioinformatics/bts553) ] [ [=ukpmc=](http://ukpmc.ac.uk/abstract/MED/22976083) ] -->
 
