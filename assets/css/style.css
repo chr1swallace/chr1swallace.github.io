@@ -13,8 +13,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #333;
+  background-color: #fbfbfb;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -72,7 +72,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: #333;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -180,7 +180,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #333;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -189,7 +189,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #fbfbfb;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -639,7 +639,7 @@ a.pmc, a.slides, a.doi, a.preprint {
       -o-transition: 0.15s ease;
       transition: all 0.15s ease; }
     .bibliography li span.abstract.hidden {
-      border: dashed 1px #fdfdfd; }
+      border: dashed 1px #fbfbfb; }
     .bibliography li span.abstract.hidden.open {
       border-color: #828282; }
   .bibliography abbr {
