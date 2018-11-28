@@ -4,10 +4,58 @@ title: Research
 permalink: /research/
 ---
 
+<!-- <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ILkjTq2V-Nq7HAdYUwjVpZwi_0rKIBkV6C6PRTyyaJo&font=Default&lang=en&initial_zoom=2&height=650' width='150%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe> -->
+
+## Immune-mediated diseases, their relationships and divisions
+
+<img src="/assets/disease-network.png" alt="portrait" style="float:left;margin:10px;" />
+
+We study the shared and distinct genetic aetiology between related
+autoimmune diseases both at the genomewide and region specific level,
+addressing two separate questions.  First, at a the level of the whole
+genome, do associations with one disease predict associations with
+another disease?  We do this using an approach which estimates
+conditional false discovery rates for association of each disease
+at each SNP conditional on the other disease.  Because this uses
+genomewide associations, it includes information from individual loci
+that are not genomewide significant, but show a trend to shared
+association for two diseases.  However, because genes with similar
+function are often located close to one another, and because genetic
+variants also show a spatial correlation due to linkage
+disequilibrium, this does not autoimattically imply that the two
+diseases share the same causal variants.
+
+<div style="clear:both"></div>
+
+<img src="http://europepmc.org/articles/PMC4754941/bin/emss-63402-f0001.jpg" alt="portrait" style="float:right;margin:10px;" width="50%" />
+
+To address this more specific question, we therefore use a
+complementary approach, applying the an adapted colocalisation method that we use for matching disease and gene expression signatures to investigate sharing of causal variants in detail.
+Our analysis of four autoimmune diseases identified 90 regions that were associated with at least one disease, 33 (37%) of which were associated with 2 or more disorders. For 14 of these 33 overlapping regions, we found evidence that the causal variants differed. This shows that even for two apparently closely related autoimmune diseases which both show association to the same genetic region
+(delineated by recombination hotspots), this will relate to them
+sharing the same causal variant only about 50% of the time.
+
+<div style="clear:both"></div>
+
+<img src="http://europepmc.org/articles/PMC5357574/bin/emss-70580-f001.jpg" alt="portrait" style="float:left;margin:10px;" width="50%" />
+
+More recently, we have developed a genome-wide test for determining whether some phenotypically or clinically defined division of patients corresponds to a genetic signature of aetiological heterogeneity.  This is particularly useful when direct comparison of the two subtypes yields no individual genomewide significant signal.   We investigate subgroups of 
+type 1 diabetes (T1D) cases defined by autoantibody positivity, 
+establishing evidence for differential genetic architecture with thyroid
+ peroxidase antibody positivity, driven generally by variants in known 
+T1D associated regions.
+
+<div style="clear:both"></div>
+
+**Related papers**
+{% bibliography -q @article[group=diseasecmpdiv] %}
+ 
+<div style="clear:both"></div>
+
+
 ## Causal variants
 
 <img src="/assets/GUESSFM_small.png" alt="portrait" style="float:left;margin:10px;" />
-
 
 Genetic association studies have identified many DNA sequence variants
 that associate with disease risk. By exploiting the known correlation
@@ -39,9 +87,7 @@ disease.
 
 **Related papers**
 {% bibliography -q @article[group=finemapping] %}
-
 ## Causal genes
-
 
 Genomewide association studies (GWAS) have been hugely successful in
 identifying associations between genetic variation and risk of common
@@ -69,48 +115,16 @@ condition, sharing a causal variant.
 <div style="clear:both"></div>
 
 <img src="/assets/pchic.png" alt="portrait" style="float:left;margin:10px;" />
+<!-- <img src="http://europepmc.org/articles/PMC5123897/bin/fx1.jpg" width="50%" style="float:left;margin:10px;" /> -->
 
 Another approach is to exploit knowledge about the 3D folding of
 chromatin derived from high throughput Chromosome Conformation Capture
-(Hi-C) in its targetted form: Capture Hi-C (CHi-C).  This allows us to link GWAS causal variants (mapped probabilistically) to the genes they regulate, and we have deployed this approach across 17 primary human sorted cell types.
+(Hi-C) in its targetted form: Capture Hi-C (CHi-C).  This allows us to link GWAS causal variants (mapped probabilistically) to the genes they regulate, and we have deployed this approach across 17 primary human sorted cell types , as well as a separate more detailed comparison using CD4+ T cells, both activated and non-activated {% cite 2017_genbiol_burren %}.
 
 <div style="clear:both"></div>
 
-**Related papers** 
+**Related papers**
 {% bibliography -q @article[group=causalgenes] %}
- 
-<div style="clear:both"></div>
-
-## Diseases, their relationships and divisions
-
-<img src="/assets/disease-network.png" alt="portrait" style="float:left;margin:10px;" />
-
-We study the shared and distinct genetic aetiology between related
-autoimmune diseases both at the genomewide and region specific level,
-addressing two separate questions.  First, at a the level of the whole
-genome, do associations with one disease predict associations with
-another disease?  We do this using an approach which estimates
-conditional false discovery rates for association of each disease
-at each SNP conditional on the other disease.  Because this uses
-genomewide associations, it includes information from individual loci
-that are not genomewide significant, but show a trend to shared
-association for two diseases.  However, because genes with similar
-function are often located close to one another, and because genetic
-variants also show a spatial correlation due to linkage
-disequilibrium, this does not autoimattically imply that the two
-diseases share the same causal variants.  We therefore use a
-complementary approach, applying the an adapted colocalisation method that we use for matching disease and gene expression signatures to investigate sharing of causal variants in detail.
-This shows that even for two apparently closely related autoimmune
-diseases which both show association to the same genetic region
-(delineated by two recombination hotspots), this will relate to them
-sharing the same causal variant only about 50% of the time.
-
-More recently, we have developed a genome-wide test for determining whether some phenotypically or clinically defined division of patients corresponds to a genetic signature of aetiological heterogeneity.
-
-<div style="clear:both"></div>
-
-**Related papers** 
-{% bibliography -q @article[group=diseasecmpdiv] %}
  
 <div style="clear:both"></div>
 
@@ -146,6 +160,6 @@ June-August.
 
 <div style="clear:both"></div>
 
-**Related papers** 
+**Related papers**
 {% bibliography -q @article[group=expr] %}
 

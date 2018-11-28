@@ -89,14 +89,16 @@ Nastasiya Grinberg is a Wellcome Trust funded postdoctoral researcher. Her resea
 
 <div style="clear:both"></div>
 
-# James Liley #
+# Anna Hutchinson #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/jamesliley_small.jpg" }})
+![portait]({{ "/assets/anna.jpg" }})
 </div>
-James Liley is a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He is working on analysis of GWAS and similar data across multiple diseases and in disease subtypes.
 
-<div style="clear:both"></div>
+Anna Hutchinson is a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline). Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
+
+Her current research involves determining the true coverage of credible sets in fine mapping genetic association studies. She also has interests in using Bayesian approaches for capture Hi-C and Hi-ChIP data to better understand the 3D conformation of the genome.
+
 
 # Elena Vigorito #
 
@@ -107,19 +109,28 @@ Elena obtained her PhD in immunology at the University of Barcelona, Spain, and 
 
 <div style="clear:both"></div>
 
-# Hope Watson #
+-------------------------------------------------------------------------------
+
+## Alumni ##
+
+# Hope Watson (2018) #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/hope_small.jpg" }})
 </div>
 
-Hope Watson is undertaking a MPhil in Epidemiology. Her research for her thesis involves using Bayesian credible intervals to determine coverage of credible sets in fine mapping genetic associations. She also has an interest in systems architecture and high performance computing.  ​
+Hope Watson undertook her thesis research for her MPhil in Epidemiology. Her research involved using Bayesian credible intervals to determine coverage of credible sets in fine mapping genetic associations. She also has an interest in systems architecture and high performance computing.  ​
 
 <div style="clear:both"></div>
 
--------------------------------------------------------------------------------
+# James Liley (2015-2018) #
 
-## Alumni ##
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/jamesliley_small.jpg" }})
+</div>
+James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He worked on analysis of GWAS and similar data across multiple diseases and in disease subtypes, and theoretical developments to the conditional False Discovery Rate.  He is now a post doc with Sylvia Richardson.
+
+<div style="clear:both"></div>
 
 # Loes Rutten-Jacobs (2016-2018) #
 
@@ -138,7 +149,7 @@ Hope Watson is undertaking a MPhil in Epidemiology. Her research for her thesis 
 ![portait]({{ "/assets/ChrisE.jpg" }})
 </div>
 Chris Eijsbouts first joined the group as an MPhil student in Computational Biology for a 3 month summer project.  He stayed on afterwards as a research assistant, to continue his work on the interpretation of Capture Hi-C data. The goal of this project was to develop a method for improved identification of chromatin contacts which regulate gene expression, thereby facilitating the interpretation of GWAS studies.
-He will start a PhD in Oxford in Autumn 2017.
+He started a PhD in Oxford in Autumn 2017.
 
 <p>{% render_orcid 0000-0001-5179-0653 %}</p>
 

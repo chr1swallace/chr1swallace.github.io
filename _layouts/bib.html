@@ -45,14 +45,19 @@
   <!-- {% if entry.abstract %} -->
   <!--   [<a class="abstract">Abs</a>] -->
   <!-- {% endif %} -->
-  {% if entry.doi %}
+   {% if entry.doi %}
   <a href="http://doi.org/{{ entry.doi }}" target="_blank" class="pure-button doi">DOI</a>
   {% endif %}
   {% if entry.pmc %}
   <a href="http://europepmc.org/articles/{{ entry.pmc }}" target="_blank" class="pure-button pmc ">PMC <i class="fa fa-unlock-alt"></i></a>
+  {% elsif entry.eprint %}
+  <a href="{{ entry.eprint }}" target="_blank" class="pure-button preprint">preprint <i class="fa fa-unlock-alt"></i></a>
   {% endif %}
-  {% if entry.eprint %}
-  <a href="{{ entry.eprint }}" target="_blank" class="pure-button preprint">preprint</a>
+ {% if entry.software %}
+  <a href="{{ entry.software }}" target="_blank" class="pure-button doi">R <i class="fa fa-cubes"></i></a>
+  {% endif %}
+  {% if entry.code %}
+  <a href="{{ entry.code }}" target="_blank" class="pure-button doi">R <i class="fas fa-file-code"></i></a>
   {% endif %}
   <!-- {% if entry.html %} -->
   <!--   [<a href="{{ entry.html }}" target="_blank">HTML</a>] -->
