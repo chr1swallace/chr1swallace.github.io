@@ -1,6 +1,7 @@
 /**
  * Reset some basic elements
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 @import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -12,9 +13,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
-  background-color: #fbfbfb;
+  background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -189,7 +190,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fbfbfb;
+      background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -285,7 +286,8 @@ pre {
   font-size: 20px; }
 
 .post-list {
-  margin-left: 0;
+  text-align: right;
+  margin-left: 100;
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
@@ -295,8 +297,7 @@ pre {
   color: #828282; }
 
 .post-link {
-  display: block;
-  font-size: 24px; }
+  display: block; }
 
 /**
  * Posts
@@ -472,7 +473,9 @@ pre {
     color: #099; }
 
 .site-header, .site-footer {
-  background: #e8e8e8; }
+  background: white;
+  border-bottom: 1px solid #e8e8e8;
+  color: #1756a9; }
 
 .site-nav .page-link {
   color: #424242; }
@@ -487,11 +490,6 @@ pre {
   margin: 0 -3em -2.5ex -2em;
   padding-top: 1ex;
   text-align: right; }
-
-h2.bibliography {
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
-  text-align: center; }
 
 a.blink {
   padding: 5px 5px;
@@ -520,8 +518,8 @@ a.blink {
   zoom: 1;
   line-height: normal;
   white-space: nowrap;
-  vertical-align: baseline;
-  text-align: center;
+  vertical-align: super;
+  text-align: super;
   cursor: pointer;
   -webkit-user-drag: none;
   -webkit-user-select: none;
@@ -535,18 +533,16 @@ a.blink {
 
 .pure-button {
   font-family: inherit;
-  font-size: 100%;
-  *font-size: 90%;
+  font-size: 80%;
+  *font-size: 80%;
   *overflow: visible;
-  padding: .2em 1em;
-  color: #444;
-  color: rgba(0, 0, 0, 0.8);
-  *color: #444;
-  border: 1px solid #999;
+  padding: .1em 1em;
+  color: #1756a9;
+  *color: #1756a9;
   border: 0 rgba(0, 0, 0, 0);
-  background-color: #E6E6E6;
+  background-color: #e8e8e8;
   text-decoration: none;
-  border-radius: 2px; }
+  border-radius: 1px; }
 
 .pure-button-hover, .pure-button:hover, .pure-button:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
@@ -586,24 +582,32 @@ a.blink {
 
 a.pmc, a.slides, a.doi, a.preprint {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: text-top;
   font-weight: 500;
   text-align: center;
   text-decoration: none;
   margin-right: 1%;
   float: right; }
 
+h2.bibliography {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  color: #1756a9; }
+
 .bibliography {
   margin-bottom: 50px;
   margin-top: 20px;
-  list-style-type: circle; }
+  list-style-type: none;
+  color: #5c5c5c;
+  font-size: 15px; }
   .bibliography li {
     margin: 10px 0;
     position: relative; }
     .bibliography li span {
       display: block; }
     .bibliography li .title {
-      font-weight: bolder; }
+      font-weight: bold; }
     .bibliography li .author a {
       border-bottom: 1px dashed; }
       .bibliography li .author a:hover {
@@ -639,7 +643,7 @@ a.pmc, a.slides, a.doi, a.preprint {
       -o-transition: 0.15s ease;
       transition: all 0.15s ease; }
     .bibliography li span.abstract.hidden {
-      border: dashed 1px #fbfbfb; }
+      border: dashed 1px #fdfdfd; }
     .bibliography li span.abstract.hidden.open {
       border-color: #828282; }
   .bibliography abbr {
