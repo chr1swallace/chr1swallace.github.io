@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 ---
 
-# Chris Wallace
+# Chris Wallace {% render_orcid 0000-0001-9755-1703 %}
 
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -41,8 +41,6 @@ My aim for my group is that, by integrating detailed biological understanding wi
 - 1999-2003 :: PhD: [Genetic Susceptibility to leprosy: methodological issues in a linkage  analysis of extended pedigrees from Karonga District, Malawi](http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086),	  [LSHTM](http://www.lshtm.ac.uk), part of the	  [Karonga Prevention Study](http://www.lshtm.ac.uk/eph/ide/research/kps). 
 - 1997-1999 :: Statistical programmer, [Imperial](http://www.imperial.ac.uk).
 
-<p>{% render_orcid 0000-0001-9755-1703 %}</p>
-
 -------------------------------------------------------------------------------
 
 ## Current members ##
@@ -54,18 +52,14 @@ My aim for my group is that, by integrating detailed biological understanding wi
 </div>
 Jenn Asimit is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits. 
 
-<p>{% render_orcid 0000-0002-4857-2249 %}</p>
-
 <div style="clear:both"></div>
 
-# Oliver Burren #
+# Oliver Burren {% render_orcid 0000-0002-3388-5760 %} #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Olly_small.jpg" }})
 </div>
 [Olly Burren](http://ollyburren.github.io) is undertaking a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
-
-<p>{% render_orcid 0000-0002-3388-5760 %}</p>
 
 <div style="clear:both"></div>
 
@@ -78,14 +72,12 @@ Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit, jointly super
 
 <div style="clear:both"></div>
 
-# Nastasiya Grinberg #
+# Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/nfg_small.jpg" }})
 </div>
 Nastasiya Grinberg is a Wellcome Trust funded postdoctoral researcher. Her research interests revolve around applications of machine learning and data mining techniques to GWAS data and in bioinformatics. She also has a special interest in scientific computing.
-
-<p>{% render_orcid 0000-0002-2727-5130 %}</p>
 
 <div style="clear:both"></div>
 
@@ -132,26 +124,22 @@ James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD pr
 
 <div style="clear:both"></div>
 
-# Loes Rutten-Jacobs (2016-2018) #
+# Loes Rutten-Jacobs {% render_orcid 0000-0003-3223-885X %} (2016-2018) #
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/Loes_small.jpg" }}) -->
 <!-- </div> -->
 [Loes Rutten-Jacobs](http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406) held a British Heart Foundation Immediate Research Fellowship in the [Stroke Research Group](http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/) of the Department of Clinical Neurosciences, University of Cambridge and was a visiting member of our group during this time. She has now moved Bonn, where she continues her research on pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
 
-<p>{% render_orcid 0000-0003-3223-885X %}</p>
-
 <div style="clear:both"></div>
 
-# Chris Eijsbouts (2016-2017) #
+# Chris Eijsbouts {% render_orcid 0000-0001-5179-0653 %} (2016-2017) #
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/ChrisE.jpg" }}) -->
 <!-- </div> -->
 Chris Eijsbouts first joined the group as an MPhil student in Computational Biology for a 3 month summer project.  He stayed on afterwards as a research assistant, to continue his work on the interpretation of Capture Hi-C data. The goal of this project was to develop a method for improved identification of chromatin contacts which regulate gene expression, thereby facilitating the interpretation of GWAS studies.
 He started a PhD in Oxford in Autumn 2017.
-
-<p>{% render_orcid 0000-0001-5179-0653 %}</p>
 
 <div style="clear:both"></div>
 
@@ -167,7 +155,7 @@ He now holds a new MRC Career Development Fellowship and is based in the  [MRC B
 
 <div style="clear:both"></div>
 
-# Mary Fortune (2013-2017) #
+# Mary Fortune {% render_orcid 0000-0002-6006-4343 %} (2013-2017) #
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/mary_150.jpg" }}) -->
@@ -178,8 +166,6 @@ Thesis: [*Statistical Techniques to Fine Map the Related Genetic Aetiology of Au
 
 <!-- Statistical colocalization of genetic risk variants for related autoimmune diseases in the context of common controls. Fortune et al. /Nature Genetics/ 2015, vol. 47, no. 7, pp. 839-846.  [ [=ukpmc=](http://ukpmc.ac.uk/abstract/MED/26053495) ] [ [=doi=](http://dx.doi.org/10.1038/ng.3330) ] -->
 
-
-<p>{% render_orcid 0000-0002-6006-4343 %}</p>
 
 <div style="clear:both"></div>
 

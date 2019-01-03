@@ -1,6 +1,6 @@
-GH_PAGES_DIR = "gitweb"
+GH_PAGES_DIR = "gweb-pub"
 
-desc "Build Jekyll site and copy files to ~/gitweb"
+desc "Build Jekyll site and copy files to ~/gweb-pub"
 task :build  => '_bibliography/references.bib' do
 	  system "jekyll build"
 	    system "rm -r ../#{GH_PAGES_DIR}/*" unless Dir['../#{GH_PAGES_DIR}/*'].empty?
@@ -18,6 +18,6 @@ end
 
 desc "build and serve locally, future changes will automatically result in rebuild"
 task :default do
-  puts "to build in ~/gitweb, do `rake build`"
+  puts "to build in ~/gweb-pub, do `rake build`"
   system "jekyll serve"
 end
