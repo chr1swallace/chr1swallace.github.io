@@ -55,6 +55,7 @@ exclude: [Rakefile]
 
 # Other options
 permalink: blog/:year/:month/:title
+show_excerpts: true
 
 scholar:
   bibliography_template: altbib

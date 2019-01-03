@@ -47,7 +47,7 @@ My aim for my group is that, by integrating detailed biological understanding wi
 
 ## Current members ##
 
-# Jennifer Asimit #
+# Jennifer Asimit {% render_orcid 0000-0002-4857-2249 %} #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Jennifer_small.jpg" }})
@@ -115,9 +115,9 @@ Elena obtained her PhD in immunology at the University of Barcelona, Spain, and 
 
 # Hope Watson (2018) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/hope_small.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/hope_small.jpg" }}) -->
+<!-- </div> -->
 
 Hope Watson undertook her thesis research for her MPhil in Epidemiology. Her research involved using Bayesian credible intervals to determine coverage of credible sets in fine mapping genetic associations. She also has an interest in systems architecture and high performance computing.  ​
 
@@ -125,18 +125,18 @@ Hope Watson undertook her thesis research for her MPhil in Epidemiology. Her res
 
 # James Liley (2015-2018) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/jamesliley_small.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/jamesliley_small.jpg" }}) -->
+<!-- </div> -->
 James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He worked on analysis of GWAS and similar data across multiple diseases and in disease subtypes, and theoretical developments to the conditional False Discovery Rate.  He is now a post doc with Sylvia Richardson.
 
 <div style="clear:both"></div>
 
 # Loes Rutten-Jacobs (2016-2018) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/Loes_small.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/Loes_small.jpg" }}) -->
+<!-- </div> -->
 [Loes Rutten-Jacobs](http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406) held a British Heart Foundation Immediate Research Fellowship in the [Stroke Research Group](http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/) of the Department of Clinical Neurosciences, University of Cambridge and was a visiting member of our group during this time. She has now moved Bonn, where she continues her research on pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
 
 <p>{% render_orcid 0000-0003-3223-885X %}</p>
@@ -145,9 +145,9 @@ James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD pr
 
 # Chris Eijsbouts (2016-2017) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/ChrisE.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/ChrisE.jpg" }}) -->
+<!-- </div> -->
 Chris Eijsbouts first joined the group as an MPhil student in Computational Biology for a 3 month summer project.  He stayed on afterwards as a research assistant, to continue his work on the interpretation of Capture Hi-C data. The goal of this project was to develop a method for improved identification of chromatin contacts which regulate gene expression, thereby facilitating the interpretation of GWAS studies.
 He started a PhD in Oxford in Autumn 2017.
 
@@ -157,9 +157,9 @@ He started a PhD in Oxford in Autumn 2017.
 
 # Steven Kiddle (2014-2017) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/kiddle_small.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/kiddle_small.jpg" }}) -->
+<!-- </div> -->
 [Steven Kiddle](https://kclpure.kcl.ac.uk/portal/steven.kiddle.html) held an MRC Career Development Fellow in Biostatistics based at King’s College London, on which Chris Wallace was a statistical mentor. He visited our group in Cambridge from 2015-6, working on clustering approaches for time series and biomarkers of Alzheimer’s Disease.
 
 He now holds a new MRC Career Development Fellowship and is based in the  [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk).
@@ -169,9 +169,9 @@ He now holds a new MRC Career Development Fellowship and is based in the  [MRC B
 
 # Mary Fortune (2013-2017) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/mary_150.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/mary_150.jpg" }}) -->
+<!-- </div> -->
 [Mary Fortune](http://www.damtp.cam.ac.uk/people/mdf34/)  worked as a Wellcome Trust PhD student in the [Mathematical Genomics and Medicine](http://cato.medschl.cam.ac.uk/graduate-programmes/phd-programmes/wellcome-trust-mathematical-genomics-and-medicine-mgm/) programme on colocalisation analysis in dependent datasets and methods for fitting models of genetic causality to summary GWAS data. She stayed on in the group to complete papers arising from her PhD work and has now moved to the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk).
 
 Thesis: [*Statistical Techniques to Fine Map the Related Genetic Aetiology of Autoimmune Diseases*](https://doi.org/10.17863/CAM.10463)
@@ -186,9 +186,9 @@ Thesis: [*Statistical Techniques to Fine Map the Related Genetic Aetiology of Au
 
 # Lucia Cilloni (Summer 2015) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/LuciaCilloni.png" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/LuciaCilloni.png" }}) -->
+<!-- </div> -->
 Lucia did her BSc in Mathematics at the University of Newcastle Upon
 Tyne and her MPhil in Computational Biology at
 Cambridge University. She did her summer project in the Wallace group on
@@ -200,17 +200,17 @@ Imperial College London.
 
 # Hui Guo (2010-2014) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/hui.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/hui.jpg" }}) -->
+<!-- </div> -->
 Hui worked as a post doctoral researcher on gene expression data, and led the analysis of our study relating gene expression in PBMCs from children at risk of type 1 diabetes to autoantibody positivity.  She is now a lecturer in biostatistics at [University of Manchester](http://www.population-health.manchester.ac.uk/staff/HuiGuo/).
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 
 # Xin Yang (2011-2014)
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/xin.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/xin.jpg" }}) -->
+<!-- </div> -->
 Xin's PhD focused on analysis of all kinds of next gen sequencing data - pooled DNA, RNA
 seq, and bisulfite seq.  She had a special interest in modelling the extra binomial
 variation induced by pooling.  
@@ -225,9 +225,9 @@ She moved to KCL in 2014, and from there to the CTTV project at Sanger/GSK.
 
 # Nikolas Pontikos (2011-2014) #
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/NikoSubmitting_small.jpg" }})
-</div>
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/NikoSubmitting_small.jpg" }}) -->
+<!-- </div> -->
 During Niko's PhD he worked on automated analysis of flow cytometry data and applying
 clustering methods to call and impute genotypes in the KIR locus.  
 

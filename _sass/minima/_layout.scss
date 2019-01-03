@@ -185,7 +185,8 @@
 }
 
 .post-list {
-  margin-left: 0;
+    text-align: right;
+  margin-left: 100;
   list-style: none;
 
   > li {
@@ -200,7 +201,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  // @include relative-font-size(1.5);
 }
 
 
