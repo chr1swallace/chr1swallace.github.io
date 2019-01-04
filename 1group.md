@@ -91,6 +91,17 @@ Anna Hutchinson is a PhD student at the MRC Biostatistics Unit (iCase studentshi
 
 Her current research involves determining the true coverage of credible sets in fine mapping genetic association studies. She also has interests in using Bayesian approaches for capture Hi-C and Hi-ChIP data to better understand the 3D conformation of the genome.
 
+<div style="clear:both"></div>
+
+# Martin Kelemen #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/martin_150.png" }})
+</div>
+
+Martin is a PhD student on the Mathematical Genomics and Medicine programme, supervised by Carl Anderson at the Wellcome Trust Sanger Institute and jointly by Chris. His research focuses on developing practical machine learning methods for GWAS data, that will improve our understanding of how genetic differences influence variation in complex disease risk.
+
+<div style="clear:both"></div>
 
 # Elena Vigorito #
 
