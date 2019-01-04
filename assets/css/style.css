@@ -288,16 +288,12 @@ pre {
 .post-list {
   text-align: right;
   margin-left: 100;
+  margin-right: 100;
   list-style: none; }
-  .post-list > li {
-    margin-bottom: 30px; }
 
 .post-meta {
   font-size: 14px;
   color: #828282; }
-
-.post-link {
-  display: block; }
 
 /**
  * Posts
@@ -306,7 +302,7 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 26px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
