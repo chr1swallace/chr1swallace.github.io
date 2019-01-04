@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<div style="float:left; margin-left: 5px;    margin-right: 0px;" markdown="1">
+<div style="float:right; margin-right: 5px;    margin-left: 0px;" markdown="1">
 ![wordcloud from ORCiD data]({{ "/assets/orcid.png" }})
 </div>
 
@@ -20,7 +20,7 @@ them.
 
 <br/><br/>
 
-<div style="float:right; margin-left: 0px;    margin-right: 5px;" markdown="1">
+<div style="float:left; margin-right: 5px;    margin-left: 0px;" markdown="1">
 ![portait]({{ "/assets/pic_200.jpg" }})
 </div>
 Chris Wallace is a [Wellcome Trust](http://www.wellcome.ac.uk) Senior Research Fellow, in the
