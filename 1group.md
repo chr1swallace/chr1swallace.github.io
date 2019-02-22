@@ -72,6 +72,15 @@ Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit, jointly super
 
 <div style="clear:both"></div>
 
+# Stephen Coleman
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/stco.jpg" }})
+</div>
+[Stephen Coleman](https://stcolema.github.io/about/) is a MSc student of Bioinformatics writing his dissertation as part of the Wallace Group. Jointly supervised by Paul Kirk, he aims to define tissue specific gene sets by application of Multiple Dataset Integration, a Bayesian unsupervised clustering method.
+
+<div style="clear:both"></div>
+
 # Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -87,7 +96,7 @@ Nastasiya Grinberg is a Wellcome Trust funded postdoctoral researcher. Her resea
 ![portait]({{ "/assets/anna.jpg" }})
 </div>
 
-Anna Hutchinson is a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline). Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
+[Anna Hutchinson](https://annahutch.github.io/) is a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline). Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
 
 Her current research involves determining the true coverage of credible sets in fine mapping genetic association studies. She also has interests in using Bayesian approaches for capture Hi-C and Hi-ChIP data to better understand the 3D conformation of the genome.
 
