@@ -7,7 +7,7 @@ permalink: /people/
 # Chris Wallace {% render_orcid 0000-0001-9755-1703 %}
 
 
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
+<div style="float:left;margin:0 45px 0 0;" markdown="1">
 ![portait]({{ "/assets/pic_200.jpg" }})
 </div>
 I am a statistician who works with biological datasets to understand
@@ -20,18 +20,18 @@ treatments.
 <!-- Laboratory](http://www-gene.cimr.cam.ac.uk).   -->
 During
 the GWAS era, we, and others, identified many genetic polymorphisms
-that alter risk of human autoimmune diseases such as type 1 diabetes and
-rheumatoid arthritis.  My focus has now mostly shifted towards understanding
-the cell specific mechanism through which these variants affect risk
-of different immune mediated diseases and intermediate biological
-traits such as gene expression.
+that alter risk of human immune mediated diseases such as type 1 diabetes and
+rheumatoid arthritis.  I now follow up this research in three directions:
+1. "fine mapping" the causal variants underlying these signals
+2. identifying the cell specific mechanisms through which these variants affect disease risk
+3. jointly analysing multiple immune mediated diseases/traits to borrow information between them and understand shared and distinct components of risk 
 
 Statistically, my current work is focused on variable
 selection, Bayesian model averaging and empirical Bayes false
 discovery rates, applied to integrated analysis of multiple related genetic and genomic
 datasets.
 
-My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of autoimmune diseases.
+<!-- My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of immune mediated diseases. -->
 
 <!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  
 
