@@ -11,7 +11,7 @@ permalink: /people/
 ![portait]({{ "/assets/pic_200.jpg" }})
 </div>
 I am a statistician who works with biological datasets to understand
-the mechanisms underlying human disease and identify possible
+the mechanisms underlying human immune-mediated diseases and identify possible
 treatments.  
 <!-- Such work is only possible with close collaboration with -->
 <!-- biologists, and I maintain close collaborations with moved to the [Cambridge -->
@@ -21,19 +21,20 @@ treatments.
 During
 the GWAS era, we, and others, identified many genetic polymorphisms
 that alter risk of human immune mediated diseases such as type 1 diabetes and
-rheumatoid arthritis.  I now follow up this research in three directions:
-1. "fine mapping" the causal variants underlying these signals
+rheumatoid arthritis.  I now follow up this research in four directions:
+1. jointly analysing multiple immune-mediated diseases/traits to borrow information between them and understand shared and distinct components of risk
 2. identifying the cell specific mechanisms through which these variants affect disease risk
-3. jointly analysing multiple immune mediated diseases/traits to borrow information between them and understand shared and distinct components of risk 
+3. understanding how the immune system is dysregulated in disease, and how this may be modulated
 
 Statistically, my current work is focused on variable
 selection, Bayesian model averaging and empirical Bayes false
-discovery rates, applied to integrated analysis of multiple related genetic and genomic
+discovery rates, and matrix factorisation, applied to integrated analysis of multiple related genetic and genomic
 datasets.
 
 <!-- My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of immune mediated diseases. -->
 
-<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  
+<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme "CLUSTER", working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
+
 
 *Previously* 
 - 2009-2016 :: Wellcome Trust Career Development Fellow in the  [Diabetes and Inflammation Laboratory](http://www-gene.cimr.cam.ac.uk) (and head of the DIL stats group from 2012)
@@ -109,6 +110,15 @@ Her current research involves determining the true coverage of credible sets in 
 </div>
 
 Martin is a PhD student on the Mathematical Genomics and Medicine programme, supervised by Carl Anderson at the Wellcome Trust Sanger Institute and jointly by Chris. His research focuses on developing practical machine learning methods for GWAS data, that will improve our understanding of how genetic differences influence variation in complex disease risk.
+
+<div style="clear:both"></div>
+
+# Wei-Yu Lin {% render_orcid 0000-0002-9267-7988 %} #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/weiyu150.jpg" }})
+</div>
+Wei-Yu is a statistician with expertise in genetic association studies, who is leading the omics analysis for the CLUSTER programme in childhood arthritis.
 
 <div style="clear:both"></div>
 
