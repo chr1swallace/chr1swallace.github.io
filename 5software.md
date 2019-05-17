@@ -23,7 +23,7 @@ the statistical background and applications see:
 {% cite 2013_genepi_coloc %}
 {% cite 2014_plosgen_giambartolomei %}.
 
-New in v3.1 which is now up to date on CRAN: `finemap.abf()` offers finemapping of single traits under a single causal variant assumption.  See [vignette](https://rawgit.com/chr1swallace/coloc/master/inst/doc/vignette.html) for details.
+New in v3.1 which is now up to date on CRAN: `finemap.abf()` offers finemapping of single traits under a single causal variant assumption.  See [vignette](http://chr1swallace.github.io/coloc/articles/vignette.html) for details.
 
 # GUESSFM
 [package website](/GUESSFM) // 
