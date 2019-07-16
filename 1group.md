@@ -21,7 +21,7 @@ treatments.
 During
 the GWAS era, we, and others, identified many genetic polymorphisms
 that alter risk of human immune mediated diseases such as type 1 diabetes and
-rheumatoid arthritis.  I now follow up this research in four directions:
+rheumatoid arthritis.  I now follow up this research in three directions:
 1. jointly analysing multiple immune-mediated diseases/traits to borrow information between them and understand shared and distinct components of risk
 2. identifying the cell specific mechanisms through which these variants affect disease risk
 3. understanding how the immune system is dysregulated in disease, and how this may be modulated
