@@ -33,7 +33,7 @@ datasets.
 
 <!-- My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of immune mediated diseases. -->
 
-<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme "CLUSTER", working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
+<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme [CLUSTER](https://www.clusterconsortium.org.uk/), working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
 
 
 *Previously* 
