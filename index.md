@@ -23,7 +23,7 @@ them.
 <div style="float:left; margin-right: 5px;    margin-left: 0px;" markdown="1">
 ![portait]({{ "/assets/pic_200.jpg" }})
 </div>
-Chris Wallace is a [Wellcome Trust](http://www.wellcome.ac.uk) Senior Research Fellow and Principal Investigator in the
+Chris Wallace is a [Wellcome Trust](http://www.wellcome.ac.uk) Senior Research Fellow, Director of Research and Principal Investigator in the
 [Department of Medicine](http://www.med.cam.ac.uk/) and a Programme Leader in the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/) at the
 [University of Cambridge](http://www.cam.ac.uk).  These pages exist to store information about the research we do, the people who do it, and the datasets and code we use.  The aim is to make
 this information accessible, which is not always possible in the
