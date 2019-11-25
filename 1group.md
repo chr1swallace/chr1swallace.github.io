@@ -55,15 +55,6 @@ Jenn Asimit is a senior investigator statistician with an interest in statistica
 
 <div style="clear:both"></div>
 
-# Oliver Burren {% render_orcid 0000-0002-3388-5760 %} #
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/Olly_small.jpg" }})
-</div>
-[Olly Burren](http://ollyburren.github.io) is undertaking a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
-
-<div style="clear:both"></div>
-
 # Alessandra Cabassi #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -78,8 +69,7 @@ Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit, jointly super
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/stco.jpg" }})
 </div>
-[Stephen Coleman](https://stcolema.github.io/about/) is a MSc student of Bioinformatics writing his dissertation as part of the Wallace Group. Jointly supervised by Paul Kirk, he aims to define tissue specific gene sets by application of Multiple Dataset Integration, a Bayesian unsupervised clustering method.
-
+[Stephen Coleman](https://stcolema.github.io/) is undertaking a MRC-funded PhD in the field of integrative clustering methods. He hopes to contribute to the understanding of human health and disease through the application of these methods to 'omics data relevant to immune mediated diseases.
 <div style="clear:both"></div>
 
 # Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} #
@@ -122,6 +112,16 @@ Wei-Yu is a statistician with expertise in genetic association studies, who is l
 
 <div style="clear:both"></div>
 
+# Kath Nicholls #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/Kath_150.jpg" }})
+</div>
+
+Kath is a PhD student jointly supervised by [Ken Smith](http://www.med.cam.ac.uk/smith/). Kath has a background in mathematics and software engineering and is interested in applying these skills to large biological datasets to learn about the immune system. She has a particular interest in graphs, and is currently working on methods to learn gene regulatory networks in the immune system.
+
+<div style="clear:both"></div>
+
 # Elena Vigorito #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -134,6 +134,16 @@ Elena obtained her PhD in immunology at the University of Barcelona, Spain, and 
 -------------------------------------------------------------------------------
 
 ## Alumni ##
+
+# Oliver Burren {% render_orcid 0000-0002-3388-5760 %} (2017-2019) #
+
+<!--- <div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/Olly_small.jpg" }})
+</div> --->
+
+[Olly Burren](http://ollyburren.github.io) is undertaking a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
+
+<div style="clear:both"></div>
 
 # Hope Watson (2018) #
 
