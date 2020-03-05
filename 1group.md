@@ -122,6 +122,15 @@ Kath is a PhD student jointly supervised by [Ken Smith](http://www.med.cam.ac.uk
 
 <div style="clear:both"></div>
 
+# Guillermo Reales {% render_orcid 0000-0001-9993-3916 %} #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/guille.jpg" }})
+</div>
+Guillermo is a Postdoctoral Associate with a background in Molecular Biology and Population Genetics. He's particularly interested in Evolution and using computers to answer biological questions. His current work includes building a databank of GWAS summary statistics from immune-mediated diseases to help improve our knowledge about their mechanisms and their genetic relationships.
+
+<div style="clear:both"></div>
+
 # Elena Vigorito #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
