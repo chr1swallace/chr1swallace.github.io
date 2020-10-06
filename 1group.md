@@ -46,6 +46,16 @@ datasets.
 
 ## Current members ##
 
+# Tobi Alegbe #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/tobi.jpeg" }})
+</div>
+
+Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome Sanger institute. He is jointly supervised by [Carl Anderson](http://andersonlab.info/) and Chris. Tobi 's main interest lies in the overlap of complex disease and single-cell genomics. His PhD project involves using whole genome sequencing and single-cell RNA sequencing of large cohorts to better understand the variants, pathways and cell-types involved in inflammatory bowel disease.
+
+<div style="clear:both"></div>
+
 # Jennifer Asimit {% render_orcid 0000-0002-4857-2249 %} #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -160,7 +170,7 @@ Tom is a PhD student at the MRC Biostatistics Unit. He comes from a background i
 ![portait]({{ "/assets/Olly_small.jpg" }})
 </div> --->
 
-[Olly Burren](http://ollyburren.github.io) is undertaking a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
+[Olly Burren](http://ollyburren.github.io) undertook a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
 
 <div style="clear:both"></div>
 
