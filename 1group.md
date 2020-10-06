@@ -33,7 +33,7 @@ datasets.
 
 <!-- My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of immune mediated diseases. -->
 
-<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme [CLUSTER](https://www.clusterconsortium.org.uk/), working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
+<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Director of Research and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme [CLUSTER](https://www.clusterconsortium.org.uk/), working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
 
 
 *Previously* 
@@ -137,6 +137,16 @@ Guillermo is a Postdoctoral Associate with a background in Molecular Biology and
 ![portait]({{ "/assets/elena.jpg" }})
 </div>
 Elena obtained her PhD in immunology at the University of Barcelona, Spain, and worked for several years on gene regulation on the immune system at the Babraham Institute, UK. She then trained in epidemiology and now works on developing statistical and computational methods for modelling genetic regulation through transcriptomic datasets.
+
+<div style="clear:both"></div>
+
+# Tom Willis #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/tom.jpg" }})
+</div>
+
+Tom is a PhD student at the MRC Biostatistics Unit. He comes from a background in computer science and statistics. His research concerns the use of conditional false discovery rates in high-dimensional 'omics datasets.
 
 <div style="clear:both"></div>
 

@@ -12,7 +12,7 @@ task :bib => '_bibliography/references.bib' do
   puts "built input bib from ~/Dropbox/Words/cv/me.bib"
 end
 
-file '_bibliography/references.bib' => '/home/chris/Dropbox/Words/cv/me.bib' do
+file '_bibliography/references.bib' => '/home/chrisw/Dropbox/Words/cv/me.bib' do
   system "./makebib.sh"
 end
 

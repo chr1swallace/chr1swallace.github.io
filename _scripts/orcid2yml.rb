@@ -34,6 +34,7 @@ def bold_authors i
   i.sub!("Wallace C","*Wallace C*")
   i.sub!("Liley J","*Liley J*")
   i.sub!("Burren O","*Burren O*")
+  i.sub!("Hutchinson A","*Hutchinson A")
   i.sub!("Guo H","*Guo H*")
   i.sub!("Fortune MD","*Fortune MD*")
   i.sub!("Yang X","*Yang X*")
