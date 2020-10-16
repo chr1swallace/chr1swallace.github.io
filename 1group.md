@@ -61,7 +61,7 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Jennifer_small.jpg" }})
 </div>
-Jenn Asimit is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits. 
+[Jenn Asimit](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/jennifer-asimit/) is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits. She is now an MRC career development fellow at the BSU.
 
 <div style="clear:both"></div>
 
