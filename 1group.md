@@ -189,7 +189,7 @@ Hope Watson undertook her thesis research for her MPhil in Epidemiology. Her res
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/jamesliley_small.jpg" }}) -->
 <!-- </div> -->
-James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He worked on analysis of GWAS and similar data across multiple diseases and in disease subtypes, and theoretical developments to the conditional False Discovery Rate.  He is now a post doc with Sylvia Richardson.
+James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD programme in Mathematical Genomics and Medicine. He worked on analysis of GWAS and similar data across multiple diseases and in disease subtypes, and theoretical developments to the conditional False Discovery Rate.  He is now a working at Edinburgh University.
 
 <div style="clear:both"></div>
 
@@ -198,7 +198,7 @@ James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD pr
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/Loes_small.jpg" }}) -->
 <!-- </div> -->
-[Loes Rutten-Jacobs](http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406) held a British Heart Foundation Immediate Research Fellowship in the [Stroke Research Group](http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/) of the Department of Clinical Neurosciences, University of Cambridge and was a visiting member of our group during this time. She has now moved Bonn, where she continues her research on pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
+[Loes Rutten-Jacobs](http://www.neuroscience.cam.ac.uk/directory/profile.php?lr406) held a British Heart Foundation Immediate Research Fellowship in the [Stroke Research Group](http://www.neurology.cam.ac.uk/neurology-unit-research-groups/stroke-research-group/) of the Department of Clinical Neurosciences, University of Cambridge and was a visiting member of our group during this time. She has now moved to Bonn, where she continues her research on pathophysiological mechanisms underlying cerebral small vessel disease, using genetic and epidemiologic approaches.	
 
 <div style="clear:both"></div>
 
