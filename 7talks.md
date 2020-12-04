@@ -4,10 +4,17 @@ title: Presentations
 permalink: /talks/
 ---
 
+## 2020
+- *Cross-trait genetics in immune-mediated diseases* Chris Wallace // MRC Weatherall Institute of Molecular Medicine, Oxford <a href="https://doi.org/10.6084/m9.figshare.12320390.v1" class="pure-button">slides</a>
+<!-- - *shaPRS: leveraging shared genetics effects to improve genetic risk prediction for related diseases* Martin Keleman // ASHG -->
+
+## 2019
+- *Assessing colocalisation of causal variants for complex and molecular traits* Chris Wallace // International Mendelian Randomization Conference <a href="https://doi.org/10.6084/m9.figshare.8953160" class="pure-button">slides</a>
+- *Fine mapping of association signals: not-so-credible credible sets* Anna Hutchinson // MASAMB, SEGEG, Quantitative Genomics <a href="https://annahutchinson.com/presentations/" class="pure-button">slides</a>
+
 ## 2018
 
-- *Needles, haystacks and genetic causes of disease* Chris Wallace // MRC Biostatistics Unit 
-16th Armitage Workshop <a href=" https://figshare.com/articles/Needles_haystacks_and_genetic_causes_of_disease/7415546" class="pure-button">slides</a>
+- *Needles, haystacks and genetic causes of disease* Chris Wallace // MRC Biostatistics Unit 16th Armitage Workshop <a href="https://figshare.com/articles/Needles_haystacks_and_genetic_causes_of_disease/7415546" class="pure-button">slides</a>
 - *Germline genetics in immune-mediated disease* Chris Wallace // EMBL-EBI Industry Programme Workshop on Computational Immuno-Oncology <a href="https://figshare.com/articles/Germline_genetics_in_immune-mediated_disease/6340418" class="pure-button">slides</a>
 - *A Bayesian joint fine mapping approach for related diseases* Jenn Asimit // European Mathematical Genetics Meeting <a href="https://figshare.com/articles/Asimit_Jenn-EMGM2018_pdf/6323228" class="pure-button">slides</a>
 - *Colocalisation and Mendelian randomization* Chris Wallace // Mendelian randomization symposium <a href="https://doi.org/10.6084/m9.figshare.6047072" class="pure-button">slides</a>

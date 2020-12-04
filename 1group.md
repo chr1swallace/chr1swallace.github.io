@@ -65,15 +65,6 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 
 <div style="clear:both"></div>
 
-# Alessandra Cabassi #
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/alessandra_150.jpg" }})
-</div>
-Alessandra Cabassi is a PhD student at the MRC Biostatistics Unit, jointly supervised by [Paul Kirk](http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/h-to-m/paul-kirk/). She is working on Bayesian nonparametric approaches for integrative modelling of genomic "big data".
-
-<div style="clear:both"></div>
-
 # Stephen Coleman
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">

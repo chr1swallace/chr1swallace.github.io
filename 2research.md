@@ -67,12 +67,15 @@ variants in relative proximity, makes disentangling the specific
 causal variants difficult. Statistical approaches to this fine mapping
 problem have traditionally taken a stepwise search approach, beginning
 with the most associated variant in a region, then iteratively
-attempting to find additional associated variants. We adapted a
+attempting to find additional associated variants. 
+We adapted a
 stochastic search approach that avoids this stepwise process and is
 explicitly designed for dealing with highly correlated predictors to
 the fine mapping problem. We showed in simulated data that it
 outperforms its stepwise counterpart and other variable selection
 strategies such as the lasso.
+
+Fine mapping results are often used to generate credible sets of SNPs, which are supposed to contain the true causal variant with a specified probability.  We have shown that frequentist coverage of these sets is often higher than expected, because this procedure is generally performed conditional on a small p value being seen.  Anna Hutchinson has presented this work in various forums, with slides [here](https://annahutchinson.com/presentations/).
 
 In more recent work, we exploited the established relationships between immune mediated diseases, borrowing information from any other available diseases to increase the resolution of fine mapping results.  We highlighted in particular the potential for *joint tagging* where a single variant, in LD with two causal variants, can be mis-identified by stepwise methods, and showed how stochastic search, and multi-disease fine mapping, can avoid this.
 
