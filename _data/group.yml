@@ -4,6 +4,9 @@ Asimit:
 Burren:
   from: 2016
   to: 2019
+Coleman:
+  from: 2019
+  to: 2022
 Eijsbouts:
   from: 2016
   to: 2017
@@ -19,9 +22,15 @@ Grinberg:
 Hutchinson:
   from: 2018
   to: 2021
+Kelemen:
+  from: 2018
+  to: 2021
 Keleman:
   from: 2018
   to: 2021
+Nicholls:
+  from: 2019
+  to: 2022
 Reales:
   from: 2019
   to: 2021
@@ -31,4 +40,3 @@ Vigorito:
 Wallace:
   from: 1990
   to: 2050
-  
