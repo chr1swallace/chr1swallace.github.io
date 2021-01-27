@@ -73,15 +73,6 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 [Stephen Coleman](https://stcolema.github.io/) is undertaking a MRC-funded PhD in the field of integrative clustering methods. He hopes to contribute to the understanding of human health and disease through the application of these methods to 'omics data relevant to immune mediated diseases.
 <div style="clear:both"></div>
 
-# Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} #
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/nfg_small.jpg" }})
-</div>
-Nastasiya Grinberg is a Wellcome Trust funded postdoctoral researcher. Her research interests revolve around applications of machine learning and data mining techniques to GWAS data and in bioinformatics. She also has a special interest in scientific computing.
-
-<div style="clear:both"></div>
-
 # Anna Hutchinson #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -155,13 +146,27 @@ Tom is a PhD student at the MRC Biostatistics Unit. He comes from a background i
 
 ## Alumni ##
 
+# Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} (2017-2021) #
+
+<!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/nfg_small.jpg" }}) -->
+<!-- </div> -->
+Nastasiya Grinberg's research interests revolve around applications of machine learning and data mining techniques to genetic data and in bioinformatics. She also has a special interest in scientific computing.  She worked on colocalisation and TWAS and now holds a Senior Specialist position at NIAB, Cambridge. 
+
+<div style="clear:both"></div>
+
 # Oliver Burren {% render_orcid 0000-0002-3388-5760 %} (2017-2019) #
 
 <!--- <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Olly_small.jpg" }})
 </div> --->
 
-[Olly Burren](http://ollyburren.github.io) undertook a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. He was previously head of Genome Informatics in the [Diabetes and Inflammation Laboratory](https://www-gene.cimr.cam.ac.uk/) where he was responsible for the creation and smooth running of the [ImmunoBase](http://www.immunobase.org),  [T1DBase](http://www.t1dbase.org) and [CHiCP](http://www.chicp.org) web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets.
+[Olly Burren](http://ollyburren.github.io) undertook a PhD, researching methods to integrate genomic and genetic datasets to better understand autoimmune disease mechanisms. 
+
+Thesis: [*Integrative statistical methods for the genomic analysis of immune-mediated disease*](https://www.repository.cam.ac.uk/handle/1810/301259). 
+
+He was previously head of Genome Informatics in the Diabetes and Inflammation Laboratory where he was responsible for the creation and smooth running of the ImmunoBase, T1DBase and CHiCP web resources which collate data and summary information from genomic, GWAS and ImmunoChip analyses of autoimmune diseases.  He now works at Astra Zeneca.
+<!-- He continues to maintain  [CHiCP](http://www.chicp.org) as a means of visualizing Capture Hi-C datasets. -->
 
 <div style="clear:both"></div>
 
