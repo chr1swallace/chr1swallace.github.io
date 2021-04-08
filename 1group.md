@@ -104,6 +104,16 @@ Wei-Yu is a statistician with expertise in genetic association studies, who is l
 
 <div style="clear:both"></div>
 
+# Ichcha Manipur #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/ichcha_150.jpg" }})
+</div>
+
+Ichcha is a Postdoctoral Research Associate with a background in Medicine and Computational Biology. Currently, she is working towards the development of statistical methods for PheWAS data and is interested in the study of shared genetic variants among multiple phenotypic traits. 
+
+<div style="clear:both"></div>
+
 # Kath Nicholls #
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
