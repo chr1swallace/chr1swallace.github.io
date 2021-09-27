@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -30,6 +30,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-twitter-plugin
 collections:
   group:
     output: true
@@ -80,3 +81,6 @@ titlecase: true
 post_template: post
 page_template: page
 draft_template: draft
+
+# https://github.com/rob-murray/jekyll-twitter-plugin 
+# plugins: ['jekyll-twitter-plugin']

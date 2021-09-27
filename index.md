@@ -3,6 +3,9 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+tweets:
+  - https://twitter.com/MRC_BSU/status/1440587688113967107
+  - https://twitter.com/mikhailspivakov/status/1424765252810465282
 ---
 
 <div style="float:right; margin-right: 5px;    margin-left: 0px;" markdown="1">
