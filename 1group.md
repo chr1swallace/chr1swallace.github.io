@@ -152,6 +152,16 @@ Tom is a PhD student at the MRC Biostatistics Unit. He comes from a background i
 
 <div style="clear:both"></div>
 
+# Alan O'Callaghan #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/alan.jpg" }})
+</div>
+
+Alan is a research associate at the MRC Biostatistics Unit. He comes from a background in biomedical data science. His research centres on the development and use of Bayesian models for RNA sequencing data.
+
+<div style="clear:both"></div>
+
 -------------------------------------------------------------------------------
 
 ## Alumni ##
