@@ -79,7 +79,7 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 ![portait]({{ "/assets/anna.jpg" }})
 </div>
 
-[Anna](https://annahutchinson.com/) is a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline). Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
+[Anna](https://annahutchinson.com/) was a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline) and now a post-doc researcher. Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
 
 Her current research involves determining the true coverage of credible sets in fine mapping genetic association studies. She also has interests in using Bayesian approaches for capture Hi-C and Hi-ChIP data to better understand the 3D conformation of the genome.
 
@@ -121,6 +121,16 @@ Ichcha is a Postdoctoral Research Associate with a background in Medicine and Co
 </div>
 
 [Kath](https://nichollskc.github.io/) is a PhD student jointly supervised by [Ken Smith](http://www.med.cam.ac.uk/smith/). Kath has a background in mathematics and software engineering and is interested in applying these skills to large biological datasets to learn about the immune system. She has a particular interest in graphs, and is currently working on methods to learn gene regulatory networks in the immune system.
+
+<div style="clear:both"></div>
+
+# Alan O'Callaghan #
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/alan.jpg" }})
+</div>
+
+Alan is a research associate at the MRC Biostatistics Unit. He comes from a background in biomedical data science. His research centres on the development and use of Bayesian models for RNA sequencing data.
 
 <div style="clear:both"></div>
 
