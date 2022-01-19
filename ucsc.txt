@@ -1,0 +1,9 @@
+browser position chr14:102502245-102999342
+track name=coords description="truncating TRAF3 variants" color=0,0,255,
+#chrom chromStart chromEnd
+chr14   102875678 102875679
+track name=coords description="regulatory TRAF3 variants" color=0,100,0,
+#chrom chromStart chromEnd
+chr14   102764421 102764422
+chr14   102777952 102777953
+
