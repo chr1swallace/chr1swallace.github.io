@@ -4,6 +4,11 @@ title: Presentations
 permalink: /talks/
 ---
 
+## 2022
+- *Genetic feature engineering using blood cell traits to assess the differential genetic architecture of immune-mediated diseses* Guillermo Reales // European Mathematical Genetics Meeting <a href="https://www.youtube.com/watch?v=-AHGTnjajlY&t=1297s" class="pure-button">video</a>
+- *CoPheScan: A Bayesian approach to PheWAS* Ichcha Manipur // European Mathematical Genetics Meeting <a href="https://www.youtube.com/watch?v=4XSIlfGX6r0" class="pure-button">video</a>
+- *Optimising eQTL discovery with BaseQTL using a screening approach* Alan O'Callaghan // European Mathematical Genetics Meeting <a href="https://www.youtube.com/watch?v=XIHhX0Tcmec&t=1178s" class="pure-button">video</a>
+
 ## 2020
 - *Cross-trait genetics in immune-mediated diseases* Chris Wallace // MRC Weatherall Institute of Molecular Medicine, Oxford <a href="https://doi.org/10.6084/m9.figshare.12320390.v1" class="pure-button">slides</a>
 <!-- - *shaPRS: leveraging shared genetics effects to improve genetic risk prediction for related diseases* Martin Keleman // ASHG -->

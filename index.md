@@ -12,6 +12,7 @@ tweets:
 ![wordcloud from ORCiD data]({{ "/assets/orcid.png" }})
 </div>
 
+<div style=".intro-header">
 Our immune system protects us against infectious disease, but
 sometimes attacks our own cells, causing disease.  My group
 develop and apply statistical genomic methods to understand
@@ -20,6 +21,7 @@ diseases such as type 1 diabetes and the relationships between
 different immune-mediated diseases.  Our goal is to further the
 understanding of these diseases in order to help prevent and treat
 them.
+</div>
 
 <br/><br/>
 

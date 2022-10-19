@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 ---
 
-# Chris Wallace {% render_orcid 0000-0001-9755-1703 %}
+## Chris Wallace {% render_orcid 0000-0001-9755-1703 %} ##
 
 
 <div style="float:left;margin:0 45px 0 0;" markdown="1">
@@ -26,27 +26,27 @@ rheumatoid arthritis.  I now follow up this research in three directions:
 2. identifying the cell specific mechanisms through which these variants affect disease risk
 3. understanding how the immune system is dysregulated in disease, and how this may be modulated
 
-Statistically, my current work is focused on variable
-selection, Bayesian model averaging and empirical Bayes false
-discovery rates, and matrix factorisation, applied to integrated analysis of multiple related genetic and genomic
-datasets.
+Statistically, my current work is focused on variable selection, horizontal integration, clustering, Bayesian model averaging and empirical Bayes false discovery rates, and matrix factorisation, applied to integrated analysis of multiple related genetic and genomic datasets. How we do research is also important, and I am focused on valuing the people who do research and developing better open science practices.
 
 <!-- My aim for my group is that, by integrating detailed biological understanding with principled statistical inference we will make a meaningful contribution to the understanding of immune mediated diseases. -->
 
-<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Director of Research and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold an honorary Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme [CLUSTER](https://www.clusterconsortium.org.uk/), working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
+<!-- In Feburary 2016 I moved to  as a PI with the aim of establishing new collaborations. --> I am funded by the [Wellcome Trust](http://www.wellcome.ac.uk/) as a Senior Research Fellow, Director of Research and PI in the  [Department of Medicine](http://www.med.cam.ac.uk/) (University of Cambridge) and hold a Programme Leader  position  at the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/).  I am a member of the MRC funded stratified medicine programme [CLUSTER](https://www.clusterconsortium.org.uk/), working with partners at GOSH, QMUL, Manchester, and Liverpool on childhood arthritis.
 
+Since 2022, I have also held a part time position in GSK, which allows me to learn how genomics research can be used to impact decisions in target discovery, and perhaps make some of that impact myself.
 
-*Previously* 
-- 2009-2016 :: Wellcome Trust Career Development Fellow in the  [Diabetes and Inflammation Laboratory](http://www-gene.cimr.cam.ac.uk) (and head of the DIL stats group from 2012)
-- 2003-2008 :: Research Fellow working with	  the [BRIGHT](http://www.brightstudy.ac.uk/) study into	  the genetics of hypertension.
-- 1999-2003 :: PhD: [Genetic Susceptibility to leprosy: methodological issues in a linkage  analysis of extended pedigrees from Karonga District, Malawi](http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086),	  [LSHTM](http://www.lshtm.ac.uk), part of the	  [Karonga Prevention Study](http://www.lshtm.ac.uk/eph/ide/research/kps). 
-- 1997-1999 :: Statistical programmer, [Imperial](http://www.imperial.ac.uk).
+<!-- *Previously*  -->
+<!-- - 2009-2016 :: Wellcome Trust Career Development Fellow in the Diabetes and Inflammation Laboratory, and head of the DIL stats group from 2012 -->
+<!-- - 2003-2008 :: Research Fellow working with	  the [BRIGHT](http://www.brightstudy.ac.uk/) study into	  the genetics of hypertension. -->
+<!-- - 1999-2003 :: PhD: [Genetic Susceptibility to leprosy: methodological issues in a linkage  analysis of extended pedigrees from Karonga District, Malawi](http://figshare.com/articles/Human_genetic_susceptibility_to_leprosy_methodological_issues_in_a_linkage_analysis_of_extended_pedigrees_from_Karonga_district_Malawi/963086),	  [LSHTM](http://www.lshtm.ac.uk), part of the	  [Karonga Prevention Study](http://www.lshtm.ac.uk/eph/ide/research/kps).  -->
+<!-- - 1997-1999 :: Statistical programmer, [Imperial](http://www.imperial.ac.uk). -->
 
+<p>&nbsp;</p>
 -------------------------------------------------------------------------------
+<p>&nbsp;</p>
 
 ## Current members ##
 
-# Tobi Alegbe #
+### Tobi Alegbe ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/tobi.jpeg" }})
@@ -56,7 +56,7 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 
 <div style="clear:both"></div>
 
-# Jennifer Asimit {% render_orcid 0000-0002-4857-2249 %} #
+### Jennifer Asimit {% render_orcid 0000-0002-4857-2249 %} ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Jennifer_small.jpg" }})
@@ -65,37 +65,14 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 
 <div style="clear:both"></div>
 
-# Stephen Coleman
+### Stephen Coleman
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/stco.jpg" }})
 </div>
 [Stephen Coleman](https://stcolema.github.io/) is undertaking a MRC-funded PhD in the field of integrative clustering methods. He hopes to contribute to the understanding of human health and disease through the application of these methods to 'omics data relevant to immune mediated diseases.
 <div style="clear:both"></div>
-
-# Anna Hutchinson #
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/anna.jpg" }})
-</div>
-
-[Anna](https://annahutchinson.com/) was a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline) and now a post-doc researcher. Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
-
-Her current research involves determining the true coverage of credible sets in fine mapping genetic association studies. She also has interests in using Bayesian approaches for capture Hi-C and Hi-ChIP data to better understand the 3D conformation of the genome.
-
-<div style="clear:both"></div>
-
-# Martin Kelemen #
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/martin_150.png" }})
-</div>
-
-Martin is a PhD student on the Mathematical Genomics and Medicine programme, supervised by Carl Anderson at the Wellcome Trust Sanger Institute and jointly by Chris. His research focuses on developing practical machine learning methods for GWAS data, that will improve our understanding of how genetic differences influence variation in complex disease risk.
-
-<div style="clear:both"></div>
-
-# Wei-Yu Lin {% render_orcid 0000-0002-9267-7988 %} #
+### Wei-Yu Lin {% render_orcid 0000-0002-9267-7988 %} ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/weiyu150.jpg" }})
@@ -104,7 +81,7 @@ Wei-Yu is a statistician with expertise in genetic association studies, who is l
 
 <div style="clear:both"></div>
 
-# Ichcha Manipur #
+### Ichcha Manipur ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/ichcha_150.jpg" }})
@@ -114,7 +91,7 @@ Ichcha is a Postdoctoral Research Associate with a background in Medicine and Co
 
 <div style="clear:both"></div>
 
-# Kath Nicholls #
+### Kath Nicholls ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Kath_150.jpg" }})
@@ -124,7 +101,7 @@ Ichcha is a Postdoctoral Research Associate with a background in Medicine and Co
 
 <div style="clear:both"></div>
 
-# Alan O'Callaghan #
+### Alan O'Callaghan ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/alan.jpg" }})
@@ -134,7 +111,7 @@ Alan is a research associate at the MRC Biostatistics Unit. He comes from a back
 
 <div style="clear:both"></div>
 
-# Guillermo Reales {% render_orcid 0000-0001-9993-3916 %} #
+### Guillermo Reales {% render_orcid 0000-0001-9993-3916 %} ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/guille.jpg" }})
@@ -143,7 +120,7 @@ Guillermo is a Postdoctoral Associate with a background in Molecular Biology and
 
 <div style="clear:both"></div>
 
-# Elena Vigorito #
+### Elena Vigorito ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/elena.jpg" }})
@@ -152,7 +129,7 @@ Elena obtained her PhD in immunology at the University of Barcelona, Spain, and 
 
 <div style="clear:both"></div>
 
-# Tom Willis #
+### Tom Willis ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/tom.jpg" }})
@@ -162,11 +139,42 @@ Tom is a PhD student at the MRC Biostatistics Unit. He comes from a background i
 
 <div style="clear:both"></div>
 
+<p>&nbsp;</p>
 -------------------------------------------------------------------------------
+<p>&nbsp;</p>
 
 ## Alumni ##
 
-# Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} (2017-2021) #
+### Qing Qing Zhou (2022) ###
+
+Qing joined the group as an MPhil student in Computational Biology at Cambridge. Previously, she was trained as a biochemist and cell biologist in HKUST, where she developed a particular interest in investigating genetic traits that have pathological implications. She worked on engineering genetic features to capture risk factors associated with immune-mediated diseases.
+
+<div style="clear:both"></div>
+
+### Anna Hutchinson (2018-2022) ###
+
+[Anna](https://annahutchinson.com/) was a PhD student at the MRC Biostatistics Unit (iCase studentship in collaboration with GlaxoSmithKline) and stayed on as a post-doc researcher. Coming from a Natural Sciences background, she is interested in using Bayesian techniques to answer biological questions.
+
+Her research involved determining the true coverage of credible sets in fine mapping genetic association studies. She also has interests in using Bayesian approaches for capture Hi-C and Hi-ChIP data to better understand the 3D conformation of the genome.
+
+She is now working at GSK.
+
+<div style="clear:both"></div>
+
+### Martin Kelemen (2018-2021) ###
+
+Martin was a PhD student on the Mathematical Genomics and Medicine programme, supervised by Carl Anderson at the Wellcome Trust Sanger Institute and jointly by Chris. His research focused on developing practical machine learning methods for GWAS data, that will improve our understanding of how genetic differences influence variation in complex disease risk.
+
+<div style="clear:both"></div>
+
+
+### Martje Bos (2022) ###
+
+Martje, as an MPhil student in Population Health Sciences and joined the group to undertake research for her thesis on condition-specific eQTLs in rheumatoid arthritis. For this, she was supervised by Elena Vigorito and Wei-Yu Lin. She obtained her BSc. in Health and Life Sciences from the University of Groningen and hopes to study for a PhD in Genetic Epidemiology after completing her MPhil.
+
+<div style="clear:both"></div>
+
+### Nastasiya Grinberg {% render_orcid 0000-0002-2727-5130 %} (2017-2021) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/nfg_small.jpg" }}) -->
@@ -175,7 +183,7 @@ Nastasiya Grinberg's research interests revolve around applications of machine l
 
 <div style="clear:both"></div>
 
-# Oliver Burren {% render_orcid 0000-0002-3388-5760 %} (2017-2019) #
+### Oliver Burren {% render_orcid 0000-0002-3388-5760 %} (2017-2019) ###
 
 <!--- <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Olly_small.jpg" }})
@@ -190,7 +198,7 @@ He was previously head of Genome Informatics in the Diabetes and Inflammation La
 
 <div style="clear:both"></div>
 
-# Hope Watson (2018) #
+### Hope Watson (2018) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/hope_small.jpg" }}) -->
@@ -200,7 +208,7 @@ Hope Watson undertook her thesis research for her MPhil in Epidemiology. Her res
 
 <div style="clear:both"></div>
 
-# James Liley (2015-2018) #
+### James Liley (2015-2018) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/jamesliley_small.jpg" }}) -->
@@ -209,7 +217,7 @@ James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD pr
 
 <div style="clear:both"></div>
 
-# Loes Rutten-Jacobs {% render_orcid 0000-0003-3223-885X %} (2016-2018) #
+### Loes Rutten-Jacobs {% render_orcid 0000-0003-3223-885X %} (2016-2018) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/Loes_small.jpg" }}) -->
@@ -218,7 +226,7 @@ James Liley was a NIHR/BRC funded student on the Wellcome Trust four-year PhD pr
 
 <div style="clear:both"></div>
 
-# Chris Eijsbouts {% render_orcid 0000-0001-5179-0653 %} (2016-2017) #
+### Chris Eijsbouts {% render_orcid 0000-0001-5179-0653 %} (2016-2017) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/ChrisE.jpg" }}) -->
@@ -228,7 +236,7 @@ He started a PhD in Oxford in Autumn 2017.
 
 <div style="clear:both"></div>
 
-# Steven Kiddle (2014-2017) #
+### Steven Kiddle (2014-2017) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/kiddle_small.jpg" }}) -->
@@ -240,7 +248,7 @@ He now holds a new MRC Career Development Fellowship and is based in the  [MRC B
 
 <div style="clear:both"></div>
 
-# Mary Fortune {% render_orcid 0000-0002-6006-4343 %} (2013-2017) #
+### Mary Fortune {% render_orcid 0000-0002-6006-4343 %} (2013-2017) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/mary_150.jpg" }}) -->
@@ -255,7 +263,7 @@ Thesis: [*Statistical Techniques to Fine Map the Related Genetic Aetiology of Au
 <div style="clear:both"></div>
 
 
-# Lucia Cilloni (Summer 2015) #
+### Lucia Cilloni (Summer 2015) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/LuciaCilloni.png" }}) -->
@@ -269,7 +277,7 @@ Imperial College London.
 
 <div style="clear:both"></div>
 
-# Hui Guo (2010-2014) #
+### Hui Guo (2010-2014) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/hui.jpg" }}) -->
@@ -278,7 +286,7 @@ Hui worked as a post doctoral researcher on gene expression data, and led the an
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 
-# Xin Yang (2011-2014)
+### Xin Yang (2011-2014)
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/xin.jpg" }}) -->
 <!-- </div> -->
@@ -294,7 +302,7 @@ She moved to KCL in 2014, and from there to the CTTV project at Sanger/GSK.
 
 <div style="clear:both"></div>
 
-# Nikolas Pontikos (2011-2014) #
+### Nikolas Pontikos (2011-2014) ###
 
 <!-- <div style="float:left;margin:0 5px 0 0;" markdown="1"> -->
 <!-- ![portait]({{ "/assets/NikoSubmitting_small.jpg" }}) -->

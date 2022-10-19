@@ -27,10 +27,13 @@ orcid_id: 0000-0001-9755-1703
 # Build settings
 markdown: kramdown
 #theme: starving-artist-jekyll-theme
-theme: minima
+#theme: minima
+theme: jekyll-theme-basically-basic
+#remote_theme: daattali/beautiful-jekyll@5.0.0 
 plugins:
   - jekyll-feed
   - jekyll-twitter-plugin
+    #- jekyll-remote-theme
 collections:
   group:
     output: true
@@ -44,9 +47,10 @@ sass:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude: [Rakefile]
+exclude:
+  - Rakefile
 #   - Gemfile
-#   - Gemfile.lock
+  - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
@@ -84,3 +88,15 @@ draft_template: draft
 
 # https://github.com/rob-murray/jekyll-twitter-plugin 
 # plugins: ['jekyll-twitter-plugin']
+
+
+# --- Footer social media links --- #
+
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "cew54@cam.ac.uk"
+  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  github: chr1swallace
+  twitter: chr1swallace
+  ORCID: "0000-0001-9755-1703"
