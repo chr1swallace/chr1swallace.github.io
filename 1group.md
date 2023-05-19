@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 ---
 
-## Chris Wallace {% render_orcid 0000-0001-9755-1703 %} ##
+## Chris Wallace {% render_orcid 0000-0001-9755-1703 %} {% render_github chr1swallace %} ##
 
 
 <div style="float:left;margin:0 45px 0 0;" markdown="1">
@@ -61,17 +61,18 @@ Tobi is a Mathematical Genomics and Medicine PhD student based at the Wellcome S
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
 ![portait]({{ "/assets/Jennifer_small.jpg" }})
 </div>
-[Jenn Asimit](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/jennifer-asimit/) is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits. She is now an MRC career development fellow at the BSU.
+[Jenn Asimit](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/jennifer-asimit/) is a senior investigator statistician with an interest in statistical methodology development for the analysis of multiple traits, as well as fine-mapping and rare variant association approaches. She recently held a MRC Methodology Research fellowship at the Sanger institute and has developed several methods and software for rare variant association analyses and the overlap analysis of traits. She now holds an MRC career development fellowship at the BSU where she is building her own group.
 
 <div style="clear:both"></div>
 
-### Stephen Coleman
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/stco.jpg" }})
+### Émeline Favreau {% render_orcid 0000-0002-0713-500X %} ###
+<div style="float:left;margin:0 5px 0 0;">
+  <p><img src="/assets/emeline150.jpg" alt="portait of smiling ginger woman with pink top" /></p>
 </div>
-[Stephen Coleman](https://stcolema.github.io/) is undertaking a MRC-funded PhD in the field of integrative clustering methods. He hopes to contribute to the understanding of human health and disease through the application of these methods to 'omics data relevant to immune mediated diseases.
+[Émeline](https://github.com/EmelineFavreau) is a Bioinformatician working on the [INTREPID project](https://www.intrepidproject.info/), providing pipelines and data handling from the lab to the cluster, as well as reports to clinicians. Her previous research focused on evolutionary biology, comparing genomes and transcriptomes of social insects.
+
 <div style="clear:both"></div>
+
 ### Wei-Yu Lin {% render_orcid 0000-0002-9267-7988 %} ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -91,26 +92,6 @@ Ichcha is a Postdoctoral Research Associate with a background in Medicine and Co
 
 <div style="clear:both"></div>
 
-### Kath Nicholls ###
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/Kath_150.jpg" }})
-</div>
-
-[Kath](https://nichollskc.github.io/) is a PhD student jointly supervised by [Ken Smith](http://www.med.cam.ac.uk/smith/). Kath has a background in mathematics and software engineering and is interested in applying these skills to large biological datasets to learn about the immune system. She has a particular interest in graphs, and is currently working on methods to learn gene regulatory networks in the immune system.
-
-<div style="clear:both"></div>
-
-### Alan O'Callaghan ###
-
-<div style="float:left;margin:0 5px 0 0;" markdown="1">
-![portait]({{ "/assets/alan.jpg" }})
-</div>
-
-Alan is a research associate at the MRC Biostatistics Unit. He comes from a background in biomedical data science. His research centres on the development and use of Bayesian models for RNA sequencing data.
-
-<div style="clear:both"></div>
-
 ### Guillermo Reales {% render_orcid 0000-0001-9993-3916 %} ###
 
 <div style="float:left;margin:0 5px 0 0;" markdown="1">
@@ -119,6 +100,13 @@ Alan is a research associate at the MRC Biostatistics Unit. He comes from a back
 Guillermo is a Postdoctoral Associate with a background in Molecular Biology and Population Genetics. He's particularly interested in Evolution and using computers to answer biological questions. His current work includes building a databank of GWAS summary statistics from immune-mediated diseases to help improve our knowledge about their mechanisms and their genetic relationships.
 
 <div style="clear:both"></div>
+
+### Luis A. Vargas-Mieles ###
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/luis_150.png" }})
+</div>
+[Luis Vargas](https://luisvargasmieles.github.io/) is a research associate with experience in statistical computing, particularly in the development and use of Markov chain Monte Carlo methods applied to very high-dimensional problems, such as imaging inverse problems. In 2018, he got an MSc with merits in Computational Applied Mathematics and in 2022 he obtained a PhD in Applied & Computational mathematics, both from the University of Edinburgh. He is now working on computational methods for biclustering & dimension reduction techniques in transcriptomic datasets related to immune-mediated disease.
 
 ### Elena Vigorito ###
 
@@ -144,6 +132,34 @@ Tom is a PhD student at the MRC Biostatistics Unit. He comes from a background i
 <p>&nbsp;</p>
 
 ## Alumni ##
+
+
+### Alan O'Callaghan ###
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/alan.jpg" }})
+</div>
+
+Alan worked as a research associate at the MRC Biostatistics Unit. He comes from a background in biomedical data science. His research centred on the development and use of Bayesian models for RNA sequencing data, and he has now moved to a position in Edinburgh.
+
+<div style="clear:both"></div>
+### Kath Nicholls ###
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/Kath_150.jpg" }})
+</div>
+
+[Kath](https://nichollskc.github.io/) is a PhD student jointly supervised by [Ken Smith](http://www.med.cam.ac.uk/smith/). Kath has a background in mathematics and software engineering and is interested in applying these skills to large biological datasets to learn about the immune system. She has a particular interest in graphs, and is currently working on methods to learn gene regulatory networks in the immune system.
+
+<div style="clear:both"></div>
+
+### Stephen Coleman
+
+<div style="float:left;margin:0 5px 0 0;" markdown="1">
+![portait]({{ "/assets/stco.jpg" }})
+</div>
+[Stephen Coleman](https://stcolema.github.io/) is undertaking a MRC-funded PhD in the field of integrative clustering methods. He hopes to contribute to the understanding of human health and disease through the application of these methods to 'omics data relevant to immune mediated diseases.
+<div style="clear:both"></div>
 
 ### Qing Qing Zhou (2022) ###
 

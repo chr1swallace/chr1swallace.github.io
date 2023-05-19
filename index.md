@@ -8,8 +8,13 @@ tweets:
   - https://twitter.com/mikhailspivakov/status/1424765252810465282
 ---
 
+<div style="float:center; margin-right: 5px;    margin-left: 5px;" markdown="1">
+![group photo taken in the sunshine - yellow flowers behind us and lots of squinting eyes in front]({{ "/assets/group_may23.jpg" }})
+</div>
+
 <div style="float:right; margin-right: 5px;    margin-left: 0px;" markdown="1">
-![wordcloud from ORCiD data]({{ "/assets/orcid.png" }})
+<!-- ![wordcloud from ORCiD data]({{ "/assets/orcid.png" }}) -->
+![wordcloud from current bibliography]({{ "/assets/wordcloud23.png" }})
 </div>
 
 <div style=".intro-header">
@@ -21,17 +26,18 @@ diseases such as type 1 diabetes and the relationships between
 different immune-mediated diseases.  Our goal is to further the
 understanding of these diseases in order to help prevent and treat
 them.
-</div>
-
 <br/><br/>
 
-<div style="float:left; margin-right: 5px;    margin-left: 0px;" markdown="1">
-![portait]({{ "/assets/pic_200.jpg" }})
-</div>
-Chris Wallace is a [Wellcome Trust](http://www.wellcome.ac.uk) Senior Research Fellow, Director of Research and Principal Investigator in the
-[Department of Medicine](http://www.med.cam.ac.uk/) and a Programme Leader in the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/) at the
-[University of Cambridge](http://www.cam.ac.uk).  These pages exist to store information about the research we do, the people who do it, and the datasets and code we use.  The aim is to make
+<!-- <div style="float:left; margin-right: 5px;    margin-left: 0px;" markdown="1"> -->
+<!-- ![portait]({{ "/assets/pic_200.jpg" }}) -->
+<!-- </div> -->
+<!-- Chris Wallace is a [Wellcome Trust](http://www.wellcome.ac.uk) Senior Research Fellow, Director of Research and Principal Investigator in the -->
+<!-- [Department of Medicine](http://www.med.cam.ac.uk/) and a Programme Leader in the [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/) at the -->
+<!-- [University of Cambridge](http://www.cam.ac.uk).  --> These pages exist to store information about the research we do, the people who do it, and the datasets and code we use.  The aim is to make
 this information accessible, which is not always straightforward in the
 published papers.
+
+
+</div>
 
 
