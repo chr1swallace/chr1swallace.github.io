@@ -118,4 +118,9 @@ var store = [{
         "excerpt":"The 50th European Mathematical Genetics Meeting  was held in Cambridge and three group members, Guillermo Reales, Ichcha Manipur, and Alan O’Callaghan gave talks. See the talks here. ","categories": [],
         "tags": [],
         "url": "http://chr1swallace.github.io/blog/2022/05/emgm-talks"
+      },{
+        "title": "We welcome Émeline Favreau to our group, working as a bioinformatician on the INTREPID study of primary immunodeficiency",
+        "excerpt":"*Job update*I started working as #Bioinformatician in the Department of Medecine of University of Cambridge, working with PIs Chris Wallace and Ken Smith on the INTREPID project. We are exploring molecular data from Primary Immuno Deficient patients (https://t.co/NWtgxcj8vE). &mdash; Emeline Favreau (@EmelineFavreau) May 16, 2023","categories": [],
+        "tags": [],
+        "url": "http://chr1swallace.github.io/blog/2023/05/we-welcome-%C3%A9meline-favreau-to-our-group-working-as-a-bioinformatician-on-the-intrepid-study-of-primary-immunodeficiency"
       },]
